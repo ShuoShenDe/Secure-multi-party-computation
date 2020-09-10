@@ -1,0 +1,151 @@
+[12:26:52.777] [29852] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[12:26:52.778] [29852] [INFO ] [init:111]	JniNativeCallback init ok. 
+[12:26:52.778] [29852] [INFO ] [init:136]	to init engine, user: test002, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[12:26:52.778] [29852] [WARN ] [init:158]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[12:26:52.778] [29852] [WARN ] [init:178]	Cannot find the --Mpc.Circuits=xxxxx config item ! not preload circuits !! 
+[12:26:52.778] [29852] [INFO ] [init:188]	preload circuits ok ! 
+[12:26:52.778] [29852] [INFO ] [init:212]	Not start node server ! use proxy forward ! 
+[12:26:52.778] [29852] [INFO ] [MpcTaskDispatcher:39]	construct task dispatcher, with 8 processor, load balence is: 16384 
+[12:26:52.778] [29852] [INFO ] [init:63]	INIT the processor: 0, type: 0 ok 
+[12:26:52.778] [29852] [INFO ] [init:63]	INIT the processor: 1, type: 0 ok 
+[12:26:52.778] [29852] [INFO ] [init:63]	INIT the processor: 2, type: 0 ok 
+[12:26:52.778] [29852] [INFO ] [init:63]	INIT the processor: 3, type: 0 ok 
+[12:26:52.778] [29852] [INFO ] [init:63]	INIT the processor: 4, type: 1 ok 
+[12:26:52.778] [29852] [INFO ] [init:63]	INIT the processor: 5, type: 1 ok 
+[12:26:52.778] [29852] [INFO ] [init:63]	INIT the processor: 6, type: 1 ok 
+[12:26:52.778] [29852] [INFO ] [init:63]	INIT the processor: 7, type: 1 ok 
+[12:26:52.778] [29852] [INFO ] [init:234]	INIT task dispatcher done ! 
+[12:26:52.779] [29852] [INFO ] [init:64]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[12:26:52.780] [29877] [INFO ] [operator():54]	task processor: 5 is running... 
+[12:26:52.780] [29877] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[12:26:52.780] [29873] [INFO ] [operator():54]	task processor: 1 is running... 
+[12:26:52.780] [29873] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[12:26:52.780] [29878] [INFO ] [operator():54]	task processor: 6 is running... 
+[12:26:52.780] [29878] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[12:26:52.780] [29874] [INFO ] [operator():54]	task processor: 2 is running... 
+[12:26:52.780] [29874] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[12:26:52.780] [29879] [INFO ] [operator():54]	task processor: 7 is running... 
+[12:26:52.780] [29879] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[12:26:52.781] [29875] [INFO ] [operator():54]	task processor: 3 is running... 
+[12:26:52.782] [29875] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[12:26:52.781] [29876] [INFO ] [operator():54]	task processor: 4 is running... 
+[12:26:52.784] [29876] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[12:26:52.781] [29872] [INFO ] [operator():54]	task processor: 0 is running... 
+[12:26:52.785] [29872] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[12:26:52.791] [29885] [INFO ] [connected:34]	to get session... 
+[12:26:52.791] [29885] [INFO ] [connected:38]	to get create busi node callback... 
+[12:26:52.791] [29885] [INFO ] [connected:46]	to set node callback, public endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000, user: test002 ... 
+[12:26:52.793] [29885] [WARN ] [connected:55]	the busi session create success. 
+[12:26:53.287] [29852] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[12:26:53.287] [29852] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[12:26:53.287] [29852] [INFO ] [init:86]	INIT busi node client success. user: test002, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[12:26:53.287] [29852] [INFO ] [init:244]	INIT busi node client done ! 
+[12:26:53.287] [29852] [INFO ] [init:48]	input ready process init ok. 
+[12:26:53.287] [29852] [INFO ] [init:253]	INIT input ready processor done ! 
+[12:26:53.288] [29852] [INFO ] [init:48]	ready process init ok. max request queue size: 4 
+[12:26:53.288] [29852] [INFO ] [init:263]	INIT ready processor done ! 
+[12:26:53.288] [29852] [INFO ] [init:269]	Mpc engine init success. 
+[12:26:53.288] [29852] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[12:26:53.292] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.298] [29883] [WARN ] [allReady:100]	the task not exists (wait invite callback) !!! task: 364887af-565b-4e7f-b9e6-ce6ed8b15a71, try wait 10ms... 
+[12:26:53.351] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.358] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.366] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.371] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.381] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.385] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.390] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.394] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.398] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.402] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.409] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.418] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.423] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.431] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.436] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.443] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.450] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.454] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.458] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.461] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.464] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.471] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.474] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.477] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.480] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.483] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.486] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.489] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.492] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.497] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.500] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.503] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.508] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.525] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.534] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.538] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.542] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.545] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.549] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.553] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.557] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.563] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.571] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.574] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.577] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.581] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.584] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.587] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.590] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.595] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.598] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.601] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.605] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.609] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.614] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.618] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.621] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.624] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.627] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.631] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.635] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.638] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.642] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.647] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.651] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.654] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.657] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.661] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.664] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.667] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.669] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.672] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.677] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.684] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.687] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.690] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.693] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.697] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.700] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.704] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.707] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.710] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.713] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.718] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.724] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.727] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.730] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.733] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.735] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.738] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.741] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.744] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.747] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.750] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.753] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.756] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.759] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.762] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:53.765] [29852] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:26:55.921] [29884] [WARN ] [MpcMemPool:42]	the mempool construction, size: 134217728, mem: 0x7fc2affff010 
+[12:32:54.760] [29109] [WARN ] [~MpcMemPool:48]	the mempool is freed! 

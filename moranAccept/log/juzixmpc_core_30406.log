@@ -1,0 +1,68 @@
+[15:03:00.394] [30406] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[15:03:00.395] [30406] [INFO ] [init:111]	JniNativeCallback init ok. 
+[15:03:00.395] [30406] [INFO ] [init:108]	to init engine, user: test001, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[15:03:00.395] [30406] [WARN ] [init:130]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[15:03:00.395] [30406] [INFO ] [init:156]	Not start node server ! use proxy forward ! 
+[15:03:00.395] [30406] [INFO ] [MpcTaskDispatcher:43]	construct task dispatcher, with 3 processor, load balence is: 6000 
+[15:03:00.396] [30406] [INFO ] [init:60]	INIT the processor: 0 ok 
+[15:03:00.396] [30407] [INFO ] [operator():51]	task processor: 0 is running... 
+[15:03:00.396] [30406] [INFO ] [init:60]	INIT the processor: 1 ok 
+[15:03:00.396] [30407] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[15:03:00.396] [30408] [INFO ] [operator():51]	task processor: 1 is running... 
+[15:03:00.396] [30406] [INFO ] [init:60]	INIT the processor: 2 ok 
+[15:03:00.396] [30406] [INFO ] [init:177]	INIT task dispatcher done ! 
+[15:03:00.396] [30409] [INFO ] [operator():51]	task processor: 2 is running... 
+[15:03:00.396] [30406] [INFO ] [init:40]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[15:03:00.396] [30408] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[15:03:00.396] [30409] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[15:03:00.410] [30414] [INFO ] [connected:34]	to get session... 
+[15:03:00.410] [30414] [INFO ] [connected:38]	to get create busi node callback... 
+[15:03:00.410] [30414] [INFO ] [connected:45]	to set node callback... 
+[15:03:00.412] [30414] [WARN ] [connected:54]	the busi session create success. 
+[15:03:00.903] [30406] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[15:03:00.903] [30406] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[15:03:00.903] [30406] [INFO ] [init:86]	INIT busi node client success. user: test001, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[15:03:00.903] [30406] [INFO ] [init:187]	INIT busi node client done ! 
+[15:03:00.904] [30406] [INFO ] [init:48]	ready process init ok. max request queue size: 3 
+[15:03:00.904] [30406] [INFO ] [init:202]	Mpc engine init success. 
+[15:03:00.904] [30461] [DEBUG] [popCommitTask:110]	to POP a commit task, task size: 0  ... 
+[15:03:00.904] [30406] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[15:03:59.971] [30413] [WARN ] [allReady:153]	busi allReady callback done,  task: 908007e8-a282-4bb3-9c3b-3b1417e19f3c, user: test001, ready: 1 !  
+[15:04:35.161] [30413] [WARN ] [allReady:153]	busi allReady callback done,  task: 50400e81-ee0a-483b-9e51-cef60ae4611a, user: test001, ready: 1 !  
+[15:04:45.070] [30412] [ERROR] [error:161]	got error busi back: 908007e8-a282-4bb3-9c3b-3b1417e19f3c, code: 1007 
+[15:04:45.077] [30413] [ERROR] [error:161]	got error busi back: a926fc2b-504d-4761-b0bf-47e08060e938, code: 1007 
+[15:04:45.077] [30413] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: a926fc2b-504d-4761-b0bf-47e08060e938 !  [THE user: test001] 
+[15:04:45.078] [30412] [ERROR] [error:161]	got error busi back: f1fac291-a6bb-46a7-8374-ba9371e64352, code: 1007 
+[15:04:45.078] [30412] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: f1fac291-a6bb-46a7-8374-ba9371e64352 !  [THE user: test001] 
+[15:04:45.079] [30413] [ERROR] [error:161]	got error busi back: a758fb68-87dd-4ba8-aa73-28af56157c1e, code: 1007 
+[15:04:45.079] [30413] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: a758fb68-87dd-4ba8-aa73-28af56157c1e !  [THE user: test001] 
+[15:04:45.080] [30412] [ERROR] [error:161]	got error busi back: 47e65463-a686-401c-8faf-a2ee65631864, code: 1007 
+[15:04:45.080] [30412] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 47e65463-a686-401c-8faf-a2ee65631864 !  [THE user: test001] 
+[15:04:45.081] [30413] [ERROR] [error:161]	got error busi back: 60031659-e9ce-4092-8d4b-945df6385041, code: 1007 
+[15:04:45.081] [30413] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 60031659-e9ce-4092-8d4b-945df6385041 !  [THE user: test001] 
+[15:04:45.082] [30412] [ERROR] [error:161]	got error busi back: 10ab5684-74dc-4597-aa14-edb1912fff66, code: 1007 
+[15:04:45.082] [30412] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 10ab5684-74dc-4597-aa14-edb1912fff66 !  [THE user: test001] 
+[15:04:45.083] [30413] [ERROR] [error:161]	got error busi back: 5a52949b-4c9e-4d4f-9371-195de7f401af, code: 1007 
+[15:04:45.083] [30413] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 5a52949b-4c9e-4d4f-9371-195de7f401af !  [THE user: test001] 
+[15:04:45.083] [30412] [ERROR] [error:161]	got error busi back: 3a6998e3-4d83-4b64-88a9-5863046b5ede, code: 1007 
+[15:04:45.084] [30412] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 3a6998e3-4d83-4b64-88a9-5863046b5ede !  [THE user: test001] 
+[15:04:45.084] [30413] [ERROR] [error:161]	got error busi back: aef17056-e04f-475d-8cc0-35f5e5e0a38a, code: 1007 
+[15:04:45.084] [30413] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: aef17056-e04f-475d-8cc0-35f5e5e0a38a !  [THE user: test001] 
+[15:04:45.085] [30412] [ERROR] [error:161]	got error busi back: 091b0d01-ffb3-485f-9b51-9c41da6cd70c, code: 1007 
+[15:04:45.085] [30412] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 091b0d01-ffb3-485f-9b51-9c41da6cd70c !  [THE user: test001] 
+[15:04:45.086] [30413] [ERROR] [error:161]	got error busi back: 5c033499-96fe-4184-908e-c4c3ccddb7f2, code: 1007 
+[15:04:45.086] [30413] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 5c033499-96fe-4184-908e-c4c3ccddb7f2 !  [THE user: test001] 
+[15:04:45.087] [30412] [ERROR] [error:161]	got error busi back: 7ec9f453-86d0-4c08-9ef8-db504c3250ed, code: 1007 
+[15:04:45.087] [30412] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 7ec9f453-86d0-4c08-9ef8-db504c3250ed !  [THE user: test001] 
+[15:04:45.087] [30413] [ERROR] [error:161]	got error busi back: 5edb3deb-5679-45c4-af8e-7a766763231d, code: 1007 
+[15:04:45.087] [30413] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 5edb3deb-5679-45c4-af8e-7a766763231d !  [THE user: test001] 
+[15:04:45.088] [30412] [ERROR] [error:161]	got error busi back: df02463e-efd5-4d64-99aa-e09ff4662ef5, code: 1007 
+[15:04:45.088] [30412] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: df02463e-efd5-4d64-99aa-e09ff4662ef5 !  [THE user: test001] 
+[15:04:45.089] [30413] [ERROR] [error:161]	got error busi back: f48fbbca-b644-459e-b952-112a092e15b5, code: 1007 
+[15:04:45.089] [30413] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: f48fbbca-b644-459e-b952-112a092e15b5 !  [THE user: test001] 
+[15:04:45.090] [30413] [ERROR] [error:161]	got error busi back: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83, code: 1007 
+[15:04:45.090] [30413] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83 !  [THE user: test001] 
+[15:04:45.091] [30413] [ERROR] [error:161]	got error busi back: cf3f91b7-dd8d-4024-8737-52689f2aa5f8, code: 1007 
+[15:04:45.091] [30413] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: cf3f91b7-dd8d-4024-8737-52689f2aa5f8 !  [THE user: test001] 
+[15:04:45.092] [30413] [ERROR] [error:161]	got error busi back: 16ae256b-7d7b-436e-bf61-7184e8b47fa5, code: 1007 
+[15:04:45.092] [30413] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 16ae256b-7d7b-436e-bf61-7184e8b47fa5 !  [THE user: test001] 

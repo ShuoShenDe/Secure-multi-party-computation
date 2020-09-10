@@ -1,0 +1,36 @@
+[21:14:50.376] [29697] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[21:14:50.377] [29697] [INFO ] [init:111]	JniNativeCallback init ok. 
+[21:14:50.377] [29697] [INFO ] [init:108]	to init engine, user: test002, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:14:50.377] [29697] [WARN ] [init:130]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[21:14:50.377] [29697] [INFO ] [init:156]	Not start node server ! use proxy forward ! 
+[21:14:50.377] [29697] [INFO ] [MpcTaskDispatcher:43]	construct task dispatcher, with 3 processor, load balence is: 6000 
+[21:14:50.377] [29697] [INFO ] [init:60]	INIT the processor: 0 ok 
+[21:14:50.377] [29698] [INFO ] [operator():51]	task processor: 0 is running... 
+[21:14:50.377] [29697] [INFO ] [init:60]	INIT the processor: 1 ok 
+[21:14:50.377] [29698] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[21:14:50.377] [29697] [INFO ] [init:60]	INIT the processor: 2 ok 
+[21:14:50.377] [29697] [INFO ] [init:177]	INIT task dispatcher done ! 
+[21:14:50.377] [29697] [INFO ] [init:40]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:14:50.378] [29699] [INFO ] [operator():51]	task processor: 1 is running... 
+[21:14:50.378] [29699] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[21:14:50.379] [29700] [INFO ] [operator():51]	task processor: 2 is running... 
+[21:14:50.379] [29700] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[21:14:50.388] [29705] [INFO ] [connected:34]	to get session... 
+[21:14:50.388] [29705] [INFO ] [connected:38]	to get create busi node callback... 
+[21:14:50.388] [29705] [INFO ] [connected:45]	to set node callback... 
+[21:14:50.390] [29705] [WARN ] [connected:54]	the busi session create success. 
+[21:14:50.884] [29697] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[21:14:50.884] [29697] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[21:14:50.884] [29697] [INFO ] [init:86]	INIT busi node client success. user: test002, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:14:50.884] [29697] [INFO ] [init:187]	INIT busi node client done ! 
+[21:14:50.884] [29697] [INFO ] [init:48]	ready process init ok. max request queue size: 3 
+[21:14:50.884] [29697] [INFO ] [init:202]	Mpc engine init success. 
+[21:14:50.884] [29745] [DEBUG] [popCommitTask:110]	to POP a commit task, task size: 0  ... 
+[21:14:50.885] [29697] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[21:14:50.888] [29697] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:14:50.896] [29703] [WARN ] [allReady:92]	the task not exists !!! task: eba4f43d-8c8e-4545-bcbf-a715cd252ef1, try wait 10ms... 
+[21:14:50.994] [29697] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:14:51.018] [29759] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:14:56.649] [29758] [WARN ] [allReady:153]	busi allReady callback done,  task: e234999b-691b-4ccc-8f54-ba8faf199c5c, user: test002, ready: 2 !  
+[21:14:56.649] [29760] [WARN ] [allReady:153]	busi allReady callback done,  task: 1fcbde0c-5b7a-4e05-9d6e-6573c55e4e8a, user: test002, ready: 2 !  
+[21:14:56.649] [29703] [WARN ] [allReady:153]	busi allReady callback done,  task: eba4f43d-8c8e-4545-bcbf-a715cd252ef1, user: test002, ready: 2 !  

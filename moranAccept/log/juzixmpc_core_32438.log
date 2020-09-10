@@ -1,0 +1,1374 @@
+[12:08:38.176] [32438] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[12:08:38.177] [32438] [INFO ] [init:111]	JniNativeCallback init ok. 
+[12:08:38.177] [32438] [INFO ] [init:136]	to init engine, user: test001, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[12:08:38.177] [32438] [WARN ] [init:158]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[12:08:38.177] [32438] [WARN ] [init:178]	Cannot find the --Mpc.Circuits=xxxxx config item ! not preload circuits !! 
+[12:08:38.177] [32438] [INFO ] [init:188]	preload circuits ok ! 
+[12:08:38.177] [32438] [INFO ] [init:212]	Not start node server ! use proxy forward ! 
+[12:08:38.177] [32438] [INFO ] [MpcTaskDispatcher:39]	construct task dispatcher, with 8 processor, load balence is: 16384 
+[12:08:38.177] [32438] [INFO ] [init:63]	INIT the processor: 0, type: 0 ok 
+[12:08:38.177] [32438] [INFO ] [init:63]	INIT the processor: 1, type: 0 ok 
+[12:08:38.177] [32438] [INFO ] [init:63]	INIT the processor: 2, type: 0 ok 
+[12:08:38.177] [32438] [INFO ] [init:63]	INIT the processor: 3, type: 0 ok 
+[12:08:38.177] [32438] [INFO ] [init:63]	INIT the processor: 4, type: 1 ok 
+[12:08:38.177] [32438] [INFO ] [init:63]	INIT the processor: 5, type: 1 ok 
+[12:08:38.177] [32438] [INFO ] [init:63]	INIT the processor: 6, type: 1 ok 
+[12:08:38.177] [32438] [INFO ] [init:63]	INIT the processor: 7, type: 1 ok 
+[12:08:38.177] [32438] [INFO ] [init:234]	INIT task dispatcher done ! 
+[12:08:38.178] [32438] [INFO ] [init:64]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[12:08:38.183] [32447] [INFO ] [operator():54]	task processor: 5 is running... 
+[12:08:38.183] [32447] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[12:08:38.183] [32444] [INFO ] [operator():54]	task processor: 2 is running... 
+[12:08:38.183] [32449] [INFO ] [operator():54]	task processor: 7 is running... 
+[12:08:38.183] [32449] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[12:08:38.183] [32444] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[12:08:38.184] [32446] [INFO ] [operator():54]	task processor: 4 is running... 
+[12:08:38.184] [32446] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[12:08:38.184] [32443] [INFO ] [operator():54]	task processor: 1 is running... 
+[12:08:38.184] [32443] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[12:08:38.185] [32448] [INFO ] [operator():54]	task processor: 6 is running... 
+[12:08:38.185] [32448] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[12:08:38.185] [32445] [INFO ] [operator():54]	task processor: 3 is running... 
+[12:08:38.185] [32445] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[12:08:38.186] [32442] [INFO ] [operator():54]	task processor: 0 is running... 
+[12:08:38.186] [32442] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[12:08:38.189] [32454] [INFO ] [connected:34]	to get session... 
+[12:08:38.189] [32454] [INFO ] [connected:38]	to get create busi node callback... 
+[12:08:38.189] [32454] [INFO ] [connected:46]	to set node callback, public endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000, user: test001 ... 
+[12:08:38.191] [32454] [WARN ] [connected:55]	the busi session create success. 
+[12:08:38.684] [32438] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[12:08:38.684] [32438] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[12:08:38.684] [32438] [INFO ] [init:86]	INIT busi node client success. user: test001, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[12:08:38.684] [32438] [INFO ] [init:244]	INIT busi node client done ! 
+[12:08:38.684] [32438] [INFO ] [init:48]	input ready process init ok. 
+[12:08:38.684] [32438] [INFO ] [init:253]	INIT input ready processor done ! 
+[12:08:38.684] [32438] [INFO ] [init:48]	ready process init ok. max request queue size: 4 
+[12:08:38.684] [32438] [INFO ] [init:263]	INIT ready processor done ! 
+[12:08:38.684] [32502] [INFO ] [popCommitTask:127]	to POP a commit task, task size: 0  ... 
+[12:08:38.684] [32438] [INFO ] [init:269]	Mpc engine init success. 
+[12:08:38.685] [32438] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[12:09:23.616] [32453] [WARN ] [MpcMemPool:42]	the mempool construction, size: 134217728, mem: 0x7f5c2d5ba010 
+[12:09:24.854] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:24.854] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:24.856] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:24.857] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:30.273] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:30.305] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:30.316] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:30.342] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:34.395] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:34.507] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:34.534] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:34.536] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:38.267] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:38.607] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:38.655] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:38.658] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:42.217] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:42.651] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:42.690] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:42.763] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:46.436] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:46.824] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:46.938] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:47.037] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:50.322] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:50.639] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:50.000] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:51.049] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:54.348] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:54.576] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:55.077] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:55.208] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:58.348] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:58.369] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:59.111] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:09:59.210] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:02.325] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:02.416] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:03.133] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:03.276] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:06.218] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:06.410] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:07.156] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:07.181] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:10.043] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:10.090] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:11.115] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:11.168] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:13.893] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:14.050] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:14.956] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:15.104] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:17.847] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:17.867] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:18.926] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:18.969] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:21.534] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:21.655] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:22.810] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:22.859] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:25.295] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:25.406] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:26.503] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:26.832] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:29.340] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:29.578] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:30.587] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:30.941] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:33.440] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:33.597] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:34.584] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:35.131] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:37.133] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:37.423] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:38.505] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:38.939] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:40.995] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:41.265] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:42.422] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:42.873] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:44.935] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:45.211] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:46.167] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:46.886] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:48.862] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:49.223] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:49.972] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:50.799] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:52.946] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:53.137] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:53.626] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:54.536] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:56.928] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:57.037] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:57.473] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:10:58.290] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:11:00.753] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:11:01.069] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:11:01.432] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:11:02.070] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:14:48.939] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:14:48.943] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:14:48.955] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:14:48.965] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:14:53.117] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:14:53.127] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:14:53.142] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:14:53.274] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:14:57.302] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:14:57.349] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:14:57.402] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:14:57.440] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:01.066] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:01.193] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:01.231] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:01.434] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:04.867] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:05.151] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:05.203] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:05.316] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:08.693] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:09.073] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:09.145] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:09.231] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:12.641] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:13.014] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:13.060] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:13.260] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:16.531] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:17.013] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:17.024] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:17.220] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:20.376] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:20.838] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:20.938] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:21.181] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:24.324] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:24.701] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:24.884] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:25.054] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:28.111] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:28.492] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:28.641] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:29.032] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:32.025] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:32.510] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:32.607] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:32.873] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:35.806] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:36.521] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:36.526] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:36.839] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:39.396] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:40.310] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:40.324] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:40.808] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:43.083] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:44.178] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:44.363] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:44.575] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:46.951] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:48.026] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:48.294] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:48.423] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:50.749] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:51.763] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:52.097] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:52.308] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:54.503] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:55.688] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:55.879] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:56.223] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:58.125] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:59.517] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:15:59.791] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:00.088] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:01.756] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:03.286] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:03.622] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:04.066] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:05.599] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:07.224] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:07.497] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:07.975] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:09.327] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:10.935] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:11.261] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:11.692] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:12.931] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:14.603] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:14.997] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:15.543] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:16.625] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:18.376] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:18.888] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:19.402] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:20.385] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:22.112] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:22.692] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:16:23.196] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[12:30:44.971] [32453] [ERROR] [error:157]	got error busi back: a758fb68-87dd-4ba8-aa73-28af56157c1e, code: 1007 
+[12:30:44.971] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a758fb68-87dd-4ba8-aa73-28af56157c1e !  [THE user: test001] 
+[12:30:44.972] [3650 ] [ERROR] [error:157]	got error busi back: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3, code: 1007 
+[12:30:44.972] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3 !  [THE user: test001] 
+[12:30:44.973] [32453] [ERROR] [error:157]	got error busi back: 10ab5684-74dc-4597-aa14-edb1912fff66, code: 1007 
+[12:30:44.973] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 10ab5684-74dc-4597-aa14-edb1912fff66 !  [THE user: test001] 
+[12:30:44.973] [3650 ] [ERROR] [error:157]	got error busi back: bdec3121-4da9-4f8b-bf2f-29c83c50f20f, code: 1007 
+[12:30:44.974] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bdec3121-4da9-4f8b-bf2f-29c83c50f20f !  [THE user: test001] 
+[12:30:44.974] [32453] [ERROR] [error:157]	got error busi back: 599f2e9a-460e-4745-a431-63f1a9318e75, code: 1007 
+[12:30:44.974] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 599f2e9a-460e-4745-a431-63f1a9318e75 !  [THE user: test001] 
+[12:30:44.975] [3650 ] [ERROR] [error:157]	got error busi back: 3a6998e3-4d83-4b64-88a9-5863046b5ede, code: 1007 
+[12:30:44.975] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 3a6998e3-4d83-4b64-88a9-5863046b5ede !  [THE user: test001] 
+[12:30:44.975] [32453] [ERROR] [error:157]	got error busi back: b5564c12-1b7b-46a3-a977-fa0a1d942301, code: 1007 
+[12:30:44.975] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: b5564c12-1b7b-46a3-a977-fa0a1d942301 !  [THE user: test001] 
+[12:30:44.976] [3650 ] [ERROR] [error:157]	got error busi back: 5c033499-96fe-4184-908e-c4c3ccddb7f2, code: 1007 
+[12:30:44.976] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 5c033499-96fe-4184-908e-c4c3ccddb7f2 !  [THE user: test001] 
+[12:30:44.976] [32453] [ERROR] [error:157]	got error busi back: 2ba25aa1-fc9d-4103-91ad-feb705a9e698, code: 1007 
+[12:30:44.976] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 2ba25aa1-fc9d-4103-91ad-feb705a9e698 !  [THE user: test001] 
+[12:30:44.977] [3650 ] [ERROR] [error:157]	got error busi back: a40d7f45-6ee2-4516-a9c4-4cc4396a6f23, code: 1007 
+[12:30:44.977] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a40d7f45-6ee2-4516-a9c4-4cc4396a6f23 !  [THE user: test001] 
+[12:30:44.977] [32453] [ERROR] [error:157]	got error busi back: 5edb3deb-5679-45c4-af8e-7a766763231d, code: 1007 
+[12:30:44.977] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 5edb3deb-5679-45c4-af8e-7a766763231d !  [THE user: test001] 
+[12:30:44.978] [3650 ] [ERROR] [error:157]	got error busi back: 27aa2967-ea70-4656-99cd-3f8858454c9d, code: 1007 
+[12:30:44.978] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 27aa2967-ea70-4656-99cd-3f8858454c9d !  [THE user: test001] 
+[12:30:44.978] [32453] [ERROR] [error:157]	got error busi back: 59578f7d-4e37-453a-b744-da9c7955eee9, code: 1007 
+[12:30:44.978] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 59578f7d-4e37-453a-b744-da9c7955eee9 !  [THE user: test001] 
+[12:30:44.979] [3650 ] [ERROR] [error:157]	got error busi back: cf3f91b7-dd8d-4024-8737-52689f2aa5f8, code: 1007 
+[12:30:44.979] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: cf3f91b7-dd8d-4024-8737-52689f2aa5f8 !  [THE user: test001] 
+[12:30:44.979] [32453] [ERROR] [error:157]	got error busi back: 908007e8-a282-4bb3-9c3b-3b1417e19f3c, code: 1007 
+[12:30:44.979] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 908007e8-a282-4bb3-9c3b-3b1417e19f3c !  [THE user: test001] 
+[12:30:44.980] [3650 ] [ERROR] [error:157]	got error busi back: a926fc2b-504d-4761-b0bf-47e08060e938, code: 1007 
+[12:30:44.980] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a926fc2b-504d-4761-b0bf-47e08060e938 !  [THE user: test001] 
+[12:30:44.980] [32453] [ERROR] [error:157]	got error busi back: e7e1f08b-4ba6-4215-a894-25a0aeeb7396, code: 1007 
+[12:30:44.980] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: e7e1f08b-4ba6-4215-a894-25a0aeeb7396 !  [THE user: test001] 
+[12:30:44.981] [3650 ] [ERROR] [error:157]	got error busi back: f1fac291-a6bb-46a7-8374-ba9371e64352, code: 1007 
+[12:30:44.981] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: f1fac291-a6bb-46a7-8374-ba9371e64352 !  [THE user: test001] 
+[12:30:44.981] [32453] [ERROR] [error:157]	got error busi back: e5bdd831-07e3-4a30-82ec-7c96609d8869, code: 1007 
+[12:30:44.981] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: e5bdd831-07e3-4a30-82ec-7c96609d8869 !  [THE user: test001] 
+[12:30:44.982] [3650 ] [ERROR] [error:157]	got error busi back: b736587d-9a3f-46a5-b380-5d2001483bf7, code: 1007 
+[12:30:44.982] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: b736587d-9a3f-46a5-b380-5d2001483bf7 !  [THE user: test001] 
+[12:30:44.982] [32453] [ERROR] [error:157]	got error busi back: 5a52949b-4c9e-4d4f-9371-195de7f401af, code: 1007 
+[12:30:44.982] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 5a52949b-4c9e-4d4f-9371-195de7f401af !  [THE user: test001] 
+[12:30:44.983] [3650 ] [ERROR] [error:157]	got error busi back: ba5cfd98-b4b1-4718-9a90-258209a9c66a, code: 1007 
+[12:30:44.983] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: ba5cfd98-b4b1-4718-9a90-258209a9c66a !  [THE user: test001] 
+[12:30:44.983] [32453] [ERROR] [error:157]	got error busi back: 091b0d01-ffb3-485f-9b51-9c41da6cd70c, code: 1007 
+[12:30:44.983] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 091b0d01-ffb3-485f-9b51-9c41da6cd70c !  [THE user: test001] 
+[12:30:44.984] [3650 ] [ERROR] [error:157]	got error busi back: 0250274b-8c5c-4187-b4c7-7accdb6ef9b5, code: 1007 
+[12:30:44.984] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 0250274b-8c5c-4187-b4c7-7accdb6ef9b5 !  [THE user: test001] 
+[12:30:44.984] [32453] [ERROR] [error:157]	got error busi back: 18891c90-06df-4a9c-89ae-92b665d10bb8, code: 1007 
+[12:30:44.984] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 18891c90-06df-4a9c-89ae-92b665d10bb8 !  [THE user: test001] 
+[12:30:44.985] [3650 ] [ERROR] [error:157]	got error busi back: 8875d4e6-9d9d-4163-a7be-366519e67036, code: 1007 
+[12:30:44.985] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 8875d4e6-9d9d-4163-a7be-366519e67036 !  [THE user: test001] 
+[12:30:44.985] [32453] [ERROR] [error:157]	got error busi back: 6ec76a0d-40f4-406b-9a8e-843646dc031b, code: 1007 
+[12:30:44.985] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6ec76a0d-40f4-406b-9a8e-843646dc031b !  [THE user: test001] 
+[12:30:44.986] [3650 ] [ERROR] [error:157]	got error busi back: 08cc42f0-636a-467c-b05a-8286e1653dc4, code: 1007 
+[12:30:44.986] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 08cc42f0-636a-467c-b05a-8286e1653dc4 !  [THE user: test001] 
+[12:30:44.986] [32453] [ERROR] [error:157]	got error busi back: 07deee8a-db89-4d09-ad34-7397c7e1645a, code: 1007 
+[12:30:44.986] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 07deee8a-db89-4d09-ad34-7397c7e1645a !  [THE user: test001] 
+[12:30:44.987] [3650 ] [ERROR] [error:157]	got error busi back: 22514f07-4ef7-4313-ba2c-53d6acf47333, code: 1007 
+[12:30:44.987] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 22514f07-4ef7-4313-ba2c-53d6acf47333 !  [THE user: test001] 
+[12:30:44.987] [32453] [ERROR] [error:157]	got error busi back: c0366b40-c2a9-48b8-a033-09f63005f952, code: 1007 
+[12:30:44.988] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: c0366b40-c2a9-48b8-a033-09f63005f952 !  [THE user: test001] 
+[12:30:44.989] [3650 ] [ERROR] [error:157]	got error busi back: 47e65463-a686-401c-8faf-a2ee65631864, code: 1007 
+[12:30:44.989] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 47e65463-a686-401c-8faf-a2ee65631864 !  [THE user: test001] 
+[12:30:44.989] [32453] [ERROR] [error:157]	got error busi back: 33648fc1-05bc-462b-9e61-2d6ee7263dba, code: 1007 
+[12:30:44.989] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 33648fc1-05bc-462b-9e61-2d6ee7263dba !  [THE user: test001] 
+[12:30:44.990] [3650 ] [ERROR] [error:157]	got error busi back: 244ef96d-8541-41e1-b5a3-028c73dad48a, code: 1007 
+[12:30:44.990] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 244ef96d-8541-41e1-b5a3-028c73dad48a !  [THE user: test001] 
+[12:30:44.990] [32453] [ERROR] [error:157]	got error busi back: f75aa62d-36f6-4864-bf77-dcb7f47f271a, code: 1007 
+[12:30:44.990] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: f75aa62d-36f6-4864-bf77-dcb7f47f271a !  [THE user: test001] 
+[12:30:44.991] [3650 ] [ERROR] [error:157]	got error busi back: aef17056-e04f-475d-8cc0-35f5e5e0a38a, code: 1007 
+[12:30:44.991] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: aef17056-e04f-475d-8cc0-35f5e5e0a38a !  [THE user: test001] 
+[12:30:44.991] [32453] [ERROR] [error:157]	got error busi back: 308037b6-4eff-4249-a707-abbabcabb8a8, code: 1007 
+[12:30:44.991] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 308037b6-4eff-4249-a707-abbabcabb8a8 !  [THE user: test001] 
+[12:30:44.992] [3650 ] [ERROR] [error:157]	got error busi back: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e, code: 1007 
+[12:30:44.992] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e !  [THE user: test001] 
+[12:30:44.992] [32453] [ERROR] [error:157]	got error busi back: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d, code: 1007 
+[12:30:44.992] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d !  [THE user: test001] 
+[12:30:44.993] [3650 ] [ERROR] [error:157]	got error busi back: 716b0af4-1a76-4894-ab39-01a006955946, code: 1007 
+[12:30:44.993] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 716b0af4-1a76-4894-ab39-01a006955946 !  [THE user: test001] 
+[12:30:44.993] [32453] [ERROR] [error:157]	got error busi back: 7515218e-bb61-49e7-8df8-b1691aa8782a, code: 1007 
+[12:30:44.993] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 7515218e-bb61-49e7-8df8-b1691aa8782a !  [THE user: test001] 
+[12:30:44.994] [3650 ] [ERROR] [error:157]	got error busi back: df02463e-efd5-4d64-99aa-e09ff4662ef5, code: 1007 
+[12:30:44.994] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: df02463e-efd5-4d64-99aa-e09ff4662ef5 !  [THE user: test001] 
+[12:30:44.994] [32453] [ERROR] [error:157]	got error busi back: f48fbbca-b644-459e-b952-112a092e15b5, code: 1007 
+[12:30:44.994] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: f48fbbca-b644-459e-b952-112a092e15b5 !  [THE user: test001] 
+[12:30:44.995] [3650 ] [ERROR] [error:157]	got error busi back: 74d4c184-06af-40af-86b0-87b89c1ef06a, code: 1007 
+[12:30:44.995] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 74d4c184-06af-40af-86b0-87b89c1ef06a !  [THE user: test001] 
+[12:30:44.995] [32453] [ERROR] [error:157]	got error busi back: d72d3e2d-e106-488d-9300-843d0ba09797, code: 1007 
+[12:30:44.995] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: d72d3e2d-e106-488d-9300-843d0ba09797 !  [THE user: test001] 
+[12:30:44.996] [3650 ] [ERROR] [error:157]	got error busi back: 0ba474d0-cdff-4704-be89-de8bfa6d0660, code: 1007 
+[12:30:44.996] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 0ba474d0-cdff-4704-be89-de8bfa6d0660 !  [THE user: test001] 
+[12:30:44.996] [32453] [ERROR] [error:157]	got error busi back: e234999b-691b-4ccc-8f54-ba8faf199c5c, code: 1007 
+[12:30:44.996] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: e234999b-691b-4ccc-8f54-ba8faf199c5c !  [THE user: test001] 
+[12:30:44.997] [3650 ] [ERROR] [error:157]	got error busi back: bba82edb-cbbf-4f51-8d74-0017f5470cec, code: 1007 
+[12:30:44.997] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bba82edb-cbbf-4f51-8d74-0017f5470cec !  [THE user: test001] 
+[12:30:44.997] [32453] [ERROR] [error:157]	got error busi back: 086228cf-a771-4300-97ec-8376681ea113, code: 1007 
+[12:30:44.997] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 086228cf-a771-4300-97ec-8376681ea113 !  [THE user: test001] 
+[12:30:44.998] [3650 ] [ERROR] [error:157]	got error busi back: 8fc10e0b-2d75-46c9-aaf7-d557b68d5f38, code: 1007 
+[12:30:44.998] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 8fc10e0b-2d75-46c9-aaf7-d557b68d5f38 !  [THE user: test001] 
+[12:30:44.998] [32453] [ERROR] [error:157]	got error busi back: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a, code: 1007 
+[12:30:44.998] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a !  [THE user: test001] 
+[12:30:44.999] [3650 ] [ERROR] [error:157]	got error busi back: beb4f556-e2b2-473b-ad4e-7cb90d19264e, code: 1007 
+[12:30:44.999] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: beb4f556-e2b2-473b-ad4e-7cb90d19264e !  [THE user: test001] 
+[12:30:44.999] [32453] [ERROR] [error:157]	got error busi back: 3c02e17f-a864-4caa-a13e-ee06ac0e15dd, code: 1007 
+[12:30:44.999] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 3c02e17f-a864-4caa-a13e-ee06ac0e15dd !  [THE user: test001] 
+[12:30:44.000] [3650 ] [ERROR] [error:157]	got error busi back: 60031659-e9ce-4092-8d4b-945df6385041, code: 1007 
+[12:30:44.000] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 60031659-e9ce-4092-8d4b-945df6385041 !  [THE user: test001] 
+[12:30:45.000] [32453] [ERROR] [error:157]	got error busi back: 014f8a36-3cfa-4605-b133-9ea0c8471e3c, code: 1007 
+[12:30:45.001] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 014f8a36-3cfa-4605-b133-9ea0c8471e3c !  [THE user: test001] 
+[12:30:45.001] [3650 ] [ERROR] [error:157]	got error busi back: 4452d012-3425-499d-9f1f-fea0f036972f, code: 1007 
+[12:30:45.001] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 4452d012-3425-499d-9f1f-fea0f036972f !  [THE user: test001] 
+[12:30:45.002] [32453] [ERROR] [error:157]	got error busi back: 18fbf605-2c8f-41f6-ac8d-a849d006aee1, code: 1007 
+[12:30:45.002] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 18fbf605-2c8f-41f6-ac8d-a849d006aee1 !  [THE user: test001] 
+[12:30:45.002] [32453] [ERROR] [error:157]	got error busi back: 7ec9f453-86d0-4c08-9ef8-db504c3250ed, code: 1007 
+[12:30:45.002] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 7ec9f453-86d0-4c08-9ef8-db504c3250ed !  [THE user: test001] 
+[12:30:45.003] [3650 ] [ERROR] [error:157]	got error busi back: 958ac688-65c7-4e25-8b28-0d5635e0b5c9, code: 1007 
+[12:30:45.003] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 958ac688-65c7-4e25-8b28-0d5635e0b5c9 !  [THE user: test001] 
+[12:30:45.003] [32453] [ERROR] [error:157]	got error busi back: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83, code: 1007 
+[12:30:45.003] [32453] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83 !  [THE user: test001] 
+[12:30:45.004] [3650 ] [ERROR] [error:157]	got error busi back: 16ae256b-7d7b-436e-bf61-7184e8b47fa5, code: 1007 
+[12:30:45.004] [3650 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 16ae256b-7d7b-436e-bf61-7184e8b47fa5 !  [THE user: test001] 
+[14:55:27.041] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:27.046] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:27.052] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:27.054] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:32.367] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:32.432] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:32.477] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:32.519] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:36.553] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:36.567] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:36.567] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:36.725] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:40.703] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:40.839] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:40.871] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:41.072] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:44.687] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:44.881] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:44.949] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:45.042] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:48.641] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:48.869] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:49.018] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:49.069] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:52.719] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:52.952] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:53.065] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:53.147] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:56.665] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:56.964] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:57.039] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:55:57.200] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:00.895] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:00.932] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:01.063] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:01.250] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:04.947] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:04.959] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:05.082] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:05.320] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:08.726] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:08.928] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:08.992] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:09.342] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:12.761] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:12.968] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:12.993] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:13.320] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:16.843] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:16.998] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:17.007] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:17.361] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:20.784] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:21.001] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:21.045] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:21.338] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:24.722] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:24.979] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:25.117] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:25.374] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:28.749] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:28.903] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:29.154] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:29.352] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:32.932] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:32.987] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:33.223] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:33.451] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:36.868] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:37.022] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:37.197] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:37.460] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:40.887] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:41.090] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:41.218] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:41.461] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:44.654] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:45.257] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:45.273] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:45.611] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:48.668] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:49.224] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:49.308] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:49.497] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:52.535] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:53.197] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:53.212] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:53.434] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:56.621] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:57.245] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:57.329] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:56:57.414] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:57:00.533] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:57:01.169] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:57:01.684] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:57:01.694] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:57:04.593] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:57:05.165] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:57:05.726] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:57:05.771] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:02:19.489] [19100] [ERROR] [error:157]	got error busi back: a758fb68-87dd-4ba8-aa73-28af56157c1e, code: 1007 
+[15:02:19.489] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a758fb68-87dd-4ba8-aa73-28af56157c1e !  [THE user: test001] 
+[15:02:19.490] [16147] [ERROR] [error:157]	got error busi back: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3, code: 1007 
+[15:02:19.490] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3 !  [THE user: test001] 
+[15:02:19.491] [19100] [ERROR] [error:157]	got error busi back: bdec3121-4da9-4f8b-bf2f-29c83c50f20f, code: 1007 
+[15:02:19.491] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bdec3121-4da9-4f8b-bf2f-29c83c50f20f !  [THE user: test001] 
+[15:02:19.492] [16147] [ERROR] [error:157]	got error busi back: 10ab5684-74dc-4597-aa14-edb1912fff66, code: 1007 
+[15:02:19.492] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 10ab5684-74dc-4597-aa14-edb1912fff66 !  [THE user: test001] 
+[15:02:19.492] [19100] [ERROR] [error:157]	got error busi back: b5564c12-1b7b-46a3-a977-fa0a1d942301, code: 1007 
+[15:02:19.492] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: b5564c12-1b7b-46a3-a977-fa0a1d942301 !  [THE user: test001] 
+[15:02:19.493] [16147] [ERROR] [error:157]	got error busi back: 599f2e9a-460e-4745-a431-63f1a9318e75, code: 1007 
+[15:02:19.493] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 599f2e9a-460e-4745-a431-63f1a9318e75 !  [THE user: test001] 
+[15:02:19.494] [19100] [ERROR] [error:157]	got error busi back: 3a6998e3-4d83-4b64-88a9-5863046b5ede, code: 1007 
+[15:02:19.494] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 3a6998e3-4d83-4b64-88a9-5863046b5ede !  [THE user: test001] 
+[15:02:19.494] [16147] [ERROR] [error:157]	got error busi back: 2ba25aa1-fc9d-4103-91ad-feb705a9e698, code: 1007 
+[15:02:19.494] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 2ba25aa1-fc9d-4103-91ad-feb705a9e698 !  [THE user: test001] 
+[15:02:19.495] [19100] [ERROR] [error:157]	got error busi back: 5c033499-96fe-4184-908e-c4c3ccddb7f2, code: 1007 
+[15:02:19.495] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 5c033499-96fe-4184-908e-c4c3ccddb7f2 !  [THE user: test001] 
+[15:02:19.495] [16147] [ERROR] [error:157]	got error busi back: a40d7f45-6ee2-4516-a9c4-4cc4396a6f23, code: 1007 
+[15:02:19.495] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a40d7f45-6ee2-4516-a9c4-4cc4396a6f23 !  [THE user: test001] 
+[15:02:19.496] [19100] [ERROR] [error:157]	got error busi back: 5edb3deb-5679-45c4-af8e-7a766763231d, code: 1007 
+[15:02:19.496] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 5edb3deb-5679-45c4-af8e-7a766763231d !  [THE user: test001] 
+[15:02:19.496] [16147] [ERROR] [error:157]	got error busi back: 27aa2967-ea70-4656-99cd-3f8858454c9d, code: 1007 
+[15:02:19.496] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 27aa2967-ea70-4656-99cd-3f8858454c9d !  [THE user: test001] 
+[15:02:19.497] [19100] [ERROR] [error:157]	got error busi back: 59578f7d-4e37-453a-b744-da9c7955eee9, code: 1007 
+[15:02:19.497] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 59578f7d-4e37-453a-b744-da9c7955eee9 !  [THE user: test001] 
+[15:02:19.498] [19100] [ERROR] [error:157]	got error busi back: cf3f91b7-dd8d-4024-8737-52689f2aa5f8, code: 1007 
+[15:02:19.498] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: cf3f91b7-dd8d-4024-8737-52689f2aa5f8 !  [THE user: test001] 
+[15:02:19.499] [19100] [ERROR] [error:157]	got error busi back: 908007e8-a282-4bb3-9c3b-3b1417e19f3c, code: 1007 
+[15:02:19.499] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 908007e8-a282-4bb3-9c3b-3b1417e19f3c !  [THE user: test001] 
+[15:02:19.499] [19100] [ERROR] [error:157]	got error busi back: a926fc2b-504d-4761-b0bf-47e08060e938, code: 1007 
+[15:02:19.499] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a926fc2b-504d-4761-b0bf-47e08060e938 !  [THE user: test001] 
+[15:02:19.500] [16147] [ERROR] [error:157]	got error busi back: e7e1f08b-4ba6-4215-a894-25a0aeeb7396, code: 1007 
+[15:02:19.500] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: e7e1f08b-4ba6-4215-a894-25a0aeeb7396 !  [THE user: test001] 
+[15:02:19.501] [19100] [ERROR] [error:157]	got error busi back: f1fac291-a6bb-46a7-8374-ba9371e64352, code: 1007 
+[15:02:19.501] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: f1fac291-a6bb-46a7-8374-ba9371e64352 !  [THE user: test001] 
+[15:02:19.501] [16147] [ERROR] [error:157]	got error busi back: e5bdd831-07e3-4a30-82ec-7c96609d8869, code: 1007 
+[15:02:19.501] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: e5bdd831-07e3-4a30-82ec-7c96609d8869 !  [THE user: test001] 
+[15:02:19.502] [19100] [ERROR] [error:157]	got error busi back: b736587d-9a3f-46a5-b380-5d2001483bf7, code: 1007 
+[15:02:19.502] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: b736587d-9a3f-46a5-b380-5d2001483bf7 !  [THE user: test001] 
+[15:02:19.503] [16147] [ERROR] [error:157]	got error busi back: 5a52949b-4c9e-4d4f-9371-195de7f401af, code: 1007 
+[15:02:19.503] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 5a52949b-4c9e-4d4f-9371-195de7f401af !  [THE user: test001] 
+[15:02:19.503] [19100] [ERROR] [error:157]	got error busi back: ba5cfd98-b4b1-4718-9a90-258209a9c66a, code: 1007 
+[15:02:19.503] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: ba5cfd98-b4b1-4718-9a90-258209a9c66a !  [THE user: test001] 
+[15:02:19.504] [16147] [ERROR] [error:157]	got error busi back: 091b0d01-ffb3-485f-9b51-9c41da6cd70c, code: 1007 
+[15:02:19.504] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 091b0d01-ffb3-485f-9b51-9c41da6cd70c !  [THE user: test001] 
+[15:02:19.505] [19100] [ERROR] [error:157]	got error busi back: 0250274b-8c5c-4187-b4c7-7accdb6ef9b5, code: 1007 
+[15:02:19.505] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 0250274b-8c5c-4187-b4c7-7accdb6ef9b5 !  [THE user: test001] 
+[15:02:19.505] [16147] [ERROR] [error:157]	got error busi back: 18891c90-06df-4a9c-89ae-92b665d10bb8, code: 1007 
+[15:02:19.505] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 18891c90-06df-4a9c-89ae-92b665d10bb8 !  [THE user: test001] 
+[15:02:19.506] [19100] [ERROR] [error:157]	got error busi back: 8875d4e6-9d9d-4163-a7be-366519e67036, code: 1007 
+[15:02:19.506] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 8875d4e6-9d9d-4163-a7be-366519e67036 !  [THE user: test001] 
+[15:02:19.506] [16147] [ERROR] [error:157]	got error busi back: 6ec76a0d-40f4-406b-9a8e-843646dc031b, code: 1007 
+[15:02:19.506] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6ec76a0d-40f4-406b-9a8e-843646dc031b !  [THE user: test001] 
+[15:02:19.507] [16147] [ERROR] [error:157]	got error busi back: 08cc42f0-636a-467c-b05a-8286e1653dc4, code: 1007 
+[15:02:19.507] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 08cc42f0-636a-467c-b05a-8286e1653dc4 !  [THE user: test001] 
+[15:02:19.507] [19100] [ERROR] [error:157]	got error busi back: 07deee8a-db89-4d09-ad34-7397c7e1645a, code: 1007 
+[15:02:19.507] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 07deee8a-db89-4d09-ad34-7397c7e1645a !  [THE user: test001] 
+[15:02:19.508] [16147] [ERROR] [error:157]	got error busi back: 22514f07-4ef7-4313-ba2c-53d6acf47333, code: 1007 
+[15:02:19.508] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 22514f07-4ef7-4313-ba2c-53d6acf47333 !  [THE user: test001] 
+[15:02:19.509] [19100] [ERROR] [error:157]	got error busi back: c0366b40-c2a9-48b8-a033-09f63005f952, code: 1007 
+[15:02:19.509] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: c0366b40-c2a9-48b8-a033-09f63005f952 !  [THE user: test001] 
+[15:02:19.509] [16147] [ERROR] [error:157]	got error busi back: 47e65463-a686-401c-8faf-a2ee65631864, code: 1007 
+[15:02:19.509] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 47e65463-a686-401c-8faf-a2ee65631864 !  [THE user: test001] 
+[15:02:19.510] [19100] [ERROR] [error:157]	got error busi back: 33648fc1-05bc-462b-9e61-2d6ee7263dba, code: 1007 
+[15:02:19.510] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 33648fc1-05bc-462b-9e61-2d6ee7263dba !  [THE user: test001] 
+[15:02:19.511] [16147] [ERROR] [error:157]	got error busi back: 244ef96d-8541-41e1-b5a3-028c73dad48a, code: 1007 
+[15:02:19.511] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 244ef96d-8541-41e1-b5a3-028c73dad48a !  [THE user: test001] 
+[15:02:19.511] [19100] [ERROR] [error:157]	got error busi back: f75aa62d-36f6-4864-bf77-dcb7f47f271a, code: 1007 
+[15:02:19.511] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: f75aa62d-36f6-4864-bf77-dcb7f47f271a !  [THE user: test001] 
+[15:02:19.512] [16147] [ERROR] [error:157]	got error busi back: 308037b6-4eff-4249-a707-abbabcabb8a8, code: 1007 
+[15:02:19.512] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 308037b6-4eff-4249-a707-abbabcabb8a8 !  [THE user: test001] 
+[15:02:19.512] [19100] [ERROR] [error:157]	got error busi back: aef17056-e04f-475d-8cc0-35f5e5e0a38a, code: 1007 
+[15:02:19.512] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: aef17056-e04f-475d-8cc0-35f5e5e0a38a !  [THE user: test001] 
+[15:02:19.513] [16147] [ERROR] [error:157]	got error busi back: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d, code: 1007 
+[15:02:19.513] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d !  [THE user: test001] 
+[15:02:19.513] [19100] [ERROR] [error:157]	got error busi back: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e, code: 1007 
+[15:02:19.513] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e !  [THE user: test001] 
+[15:02:19.514] [16147] [ERROR] [error:157]	got error busi back: 716b0af4-1a76-4894-ab39-01a006955946, code: 1007 
+[15:02:19.514] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 716b0af4-1a76-4894-ab39-01a006955946 !  [THE user: test001] 
+[15:02:19.514] [19100] [ERROR] [error:157]	got error busi back: 7515218e-bb61-49e7-8df8-b1691aa8782a, code: 1007 
+[15:02:19.514] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 7515218e-bb61-49e7-8df8-b1691aa8782a !  [THE user: test001] 
+[15:02:19.515] [16147] [ERROR] [error:157]	got error busi back: df02463e-efd5-4d64-99aa-e09ff4662ef5, code: 1007 
+[15:02:19.515] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: df02463e-efd5-4d64-99aa-e09ff4662ef5 !  [THE user: test001] 
+[15:02:19.515] [19100] [ERROR] [error:157]	got error busi back: f48fbbca-b644-459e-b952-112a092e15b5, code: 1007 
+[15:02:19.515] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: f48fbbca-b644-459e-b952-112a092e15b5 !  [THE user: test001] 
+[15:02:19.516] [16147] [ERROR] [error:157]	got error busi back: 74d4c184-06af-40af-86b0-87b89c1ef06a, code: 1007 
+[15:02:19.516] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 74d4c184-06af-40af-86b0-87b89c1ef06a !  [THE user: test001] 
+[15:02:19.516] [19100] [ERROR] [error:157]	got error busi back: d72d3e2d-e106-488d-9300-843d0ba09797, code: 1007 
+[15:02:19.516] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: d72d3e2d-e106-488d-9300-843d0ba09797 !  [THE user: test001] 
+[15:02:19.517] [16147] [ERROR] [error:157]	got error busi back: 0ba474d0-cdff-4704-be89-de8bfa6d0660, code: 1007 
+[15:02:19.517] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 0ba474d0-cdff-4704-be89-de8bfa6d0660 !  [THE user: test001] 
+[15:02:19.517] [19100] [ERROR] [error:157]	got error busi back: e234999b-691b-4ccc-8f54-ba8faf199c5c, code: 1007 
+[15:02:19.517] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: e234999b-691b-4ccc-8f54-ba8faf199c5c !  [THE user: test001] 
+[15:02:19.518] [16147] [ERROR] [error:157]	got error busi back: bba82edb-cbbf-4f51-8d74-0017f5470cec, code: 1007 
+[15:02:19.518] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bba82edb-cbbf-4f51-8d74-0017f5470cec !  [THE user: test001] 
+[15:02:19.518] [19100] [ERROR] [error:157]	got error busi back: 086228cf-a771-4300-97ec-8376681ea113, code: 1007 
+[15:02:19.518] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 086228cf-a771-4300-97ec-8376681ea113 !  [THE user: test001] 
+[15:02:19.519] [16147] [ERROR] [error:157]	got error busi back: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a, code: 1007 
+[15:02:19.519] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a !  [THE user: test001] 
+[15:02:19.519] [19100] [ERROR] [error:157]	got error busi back: beb4f556-e2b2-473b-ad4e-7cb90d19264e, code: 1007 
+[15:02:19.519] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: beb4f556-e2b2-473b-ad4e-7cb90d19264e !  [THE user: test001] 
+[15:02:19.520] [16147] [ERROR] [error:157]	got error busi back: 8fc10e0b-2d75-46c9-aaf7-d557b68d5f38, code: 1007 
+[15:02:19.520] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 8fc10e0b-2d75-46c9-aaf7-d557b68d5f38 !  [THE user: test001] 
+[15:02:19.520] [19100] [ERROR] [error:157]	got error busi back: 60031659-e9ce-4092-8d4b-945df6385041, code: 1007 
+[15:02:19.520] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 60031659-e9ce-4092-8d4b-945df6385041 !  [THE user: test001] 
+[15:02:19.521] [16147] [ERROR] [error:157]	got error busi back: 3c02e17f-a864-4caa-a13e-ee06ac0e15dd, code: 1007 
+[15:02:19.521] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 3c02e17f-a864-4caa-a13e-ee06ac0e15dd !  [THE user: test001] 
+[15:02:19.522] [19100] [ERROR] [error:157]	got error busi back: 014f8a36-3cfa-4605-b133-9ea0c8471e3c, code: 1007 
+[15:02:19.522] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 014f8a36-3cfa-4605-b133-9ea0c8471e3c !  [THE user: test001] 
+[15:02:19.522] [16147] [ERROR] [error:157]	got error busi back: 4452d012-3425-499d-9f1f-fea0f036972f, code: 1007 
+[15:02:19.522] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 4452d012-3425-499d-9f1f-fea0f036972f !  [THE user: test001] 
+[15:02:19.523] [19100] [ERROR] [error:157]	got error busi back: 18fbf605-2c8f-41f6-ac8d-a849d006aee1, code: 1007 
+[15:02:19.523] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 18fbf605-2c8f-41f6-ac8d-a849d006aee1 !  [THE user: test001] 
+[15:02:19.523] [16147] [ERROR] [error:157]	got error busi back: 7ec9f453-86d0-4c08-9ef8-db504c3250ed, code: 1007 
+[15:02:19.523] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 7ec9f453-86d0-4c08-9ef8-db504c3250ed !  [THE user: test001] 
+[15:02:19.524] [19100] [ERROR] [error:157]	got error busi back: 958ac688-65c7-4e25-8b28-0d5635e0b5c9, code: 1007 
+[15:02:19.524] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 958ac688-65c7-4e25-8b28-0d5635e0b5c9 !  [THE user: test001] 
+[15:02:19.524] [16147] [ERROR] [error:157]	got error busi back: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83, code: 1007 
+[15:02:19.524] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83 !  [THE user: test001] 
+[15:02:19.525] [19100] [ERROR] [error:157]	got error busi back: 16ae256b-7d7b-436e-bf61-7184e8b47fa5, code: 1007 
+[15:02:19.525] [19100] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 16ae256b-7d7b-436e-bf61-7184e8b47fa5 !  [THE user: test001] 
+[15:03:03.172] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:03.178] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:03.178] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:03.181] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:08.040] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:08.075] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:08.161] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:08.211] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:11.971] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:12.028] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:12.213] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:12.305] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:15.910] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:15.986] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:16.206] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:16.322] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:19.997] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:20.027] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:20.261] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:20.363] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:24.010] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:24.075] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:24.276] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:24.430] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:27.860] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:28.022] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:28.268] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:28.305] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:31.962] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:31.966] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:32.331] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:32.394] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:35.724] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:35.826] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:36.187] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:36.283] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:39.560] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:39.720] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:40.048] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:40.196] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:43.333] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:43.594] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:43.936] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:44.074] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:47.257] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:47.647] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:47.785] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:48.019] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:51.190] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:51.596] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:51.707] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:52.035] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:55.035] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:55.411] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:55.600] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:55.976] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:58.836] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:59.272] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:59.534] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:03:59.890] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:02.644] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:03.158] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:03.347] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:03.788] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:06.647] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:06.978] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:07.380] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:07.705] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:10.488] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:10.894] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:11.353] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:11.555] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:14.334] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:14.674] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:15.195] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:15.417] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:18.081] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:18.597] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:19.237] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:19.312] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:21.918] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:22.367] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:23.051] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:23.348] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:25.663] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:26.183] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:26.920] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:27.083] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:29.565] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:30.058] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:30.940] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:30.993] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:33.372] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:33.876] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:34.755] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:34.779] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:37.101] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:37.583] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:38.595] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:04:38.696] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:19.095] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:19.100] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:19.105] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:19.110] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:23.283] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:23.352] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:23.366] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:23.450] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:27.599] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:27.707] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:27.757] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:27.801] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:31.640] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:31.795] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:31.862] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:31.974] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:35.551] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:35.782] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:35.837] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:35.967] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:39.550] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:39.775] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:39.917] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:40.058] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:43.589] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:43.821] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:44.049] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:44.071] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:47.651] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:47.848] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:48.107] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:48.187] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:51.579] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:51.869] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:52.257] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:52.271] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:55.672] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:55.879] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:56.225] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:56.390] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:59.520] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:16:59.868] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:00.113] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:00.217] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:03.496] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:03.797] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:04.196] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:04.299] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:07.372] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:07.752] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:08.138] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:08.189] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:11.310] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:11.661] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:12.051] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:12.121] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:15.053] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:15.570] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:15.956] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:16.142] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:18.810] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:19.425] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:19.972] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:20.098] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:22.572] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:23.354] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:23.948] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:23.997] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:26.264] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:27.262] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:27.889] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:27.953] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:30.228] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:30.988] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:31.794] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:31.953] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:34.116] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:34.725] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:35.600] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:35.952] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:38.113] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:38.607] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:39.426] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:39.908] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:41.917] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:42.501] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:43.199] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:43.775] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:45.777] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:46.297] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:46.917] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:47.776] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:49.670] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:50.243] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:50.826] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:51.619] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:53.432] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:54.156] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:54.626] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:17:55.430] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:25:53.658] [16147] [ERROR] [error:157]	got error busi back: a758fb68-87dd-4ba8-aa73-28af56157c1e, code: 1007 
+[15:25:53.658] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a758fb68-87dd-4ba8-aa73-28af56157c1e !  [THE user: test001] 
+[15:25:53.659] [23567] [ERROR] [error:157]	got error busi back: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3, code: 1007 
+[15:25:53.660] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3 !  [THE user: test001] 
+[15:25:53.660] [16147] [ERROR] [error:157]	got error busi back: 10ab5684-74dc-4597-aa14-edb1912fff66, code: 1007 
+[15:25:53.660] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 10ab5684-74dc-4597-aa14-edb1912fff66 !  [THE user: test001] 
+[15:25:53.661] [23567] [ERROR] [error:157]	got error busi back: bdec3121-4da9-4f8b-bf2f-29c83c50f20f, code: 1007 
+[15:25:53.661] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bdec3121-4da9-4f8b-bf2f-29c83c50f20f !  [THE user: test001] 
+[15:25:53.662] [16147] [ERROR] [error:157]	got error busi back: b5564c12-1b7b-46a3-a977-fa0a1d942301, code: 1007 
+[15:25:53.662] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: b5564c12-1b7b-46a3-a977-fa0a1d942301 !  [THE user: test001] 
+[15:25:53.662] [16147] [ERROR] [error:157]	got error busi back: 3a6998e3-4d83-4b64-88a9-5863046b5ede, code: 1007 
+[15:25:53.662] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 3a6998e3-4d83-4b64-88a9-5863046b5ede !  [THE user: test001] 
+[15:25:53.663] [23567] [ERROR] [error:157]	got error busi back: 599f2e9a-460e-4745-a431-63f1a9318e75, code: 1007 
+[15:25:53.663] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 599f2e9a-460e-4745-a431-63f1a9318e75 !  [THE user: test001] 
+[15:25:53.663] [16147] [ERROR] [error:157]	got error busi back: 5c033499-96fe-4184-908e-c4c3ccddb7f2, code: 1007 
+[15:25:53.663] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 5c033499-96fe-4184-908e-c4c3ccddb7f2 !  [THE user: test001] 
+[15:25:53.664] [23567] [ERROR] [error:157]	got error busi back: 2ba25aa1-fc9d-4103-91ad-feb705a9e698, code: 1007 
+[15:25:53.664] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 2ba25aa1-fc9d-4103-91ad-feb705a9e698 !  [THE user: test001] 
+[15:25:53.664] [16147] [ERROR] [error:157]	got error busi back: a40d7f45-6ee2-4516-a9c4-4cc4396a6f23, code: 1007 
+[15:25:53.664] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a40d7f45-6ee2-4516-a9c4-4cc4396a6f23 !  [THE user: test001] 
+[15:25:53.665] [23567] [ERROR] [error:157]	got error busi back: 5edb3deb-5679-45c4-af8e-7a766763231d, code: 1007 
+[15:25:53.665] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 5edb3deb-5679-45c4-af8e-7a766763231d !  [THE user: test001] 
+[15:25:53.665] [16147] [ERROR] [error:157]	got error busi back: 27aa2967-ea70-4656-99cd-3f8858454c9d, code: 1007 
+[15:25:53.666] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 27aa2967-ea70-4656-99cd-3f8858454c9d !  [THE user: test001] 
+[15:25:53.666] [23567] [ERROR] [error:157]	got error busi back: 59578f7d-4e37-453a-b744-da9c7955eee9, code: 1007 
+[15:25:53.666] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 59578f7d-4e37-453a-b744-da9c7955eee9 !  [THE user: test001] 
+[15:25:53.667] [16147] [ERROR] [error:157]	got error busi back: cf3f91b7-dd8d-4024-8737-52689f2aa5f8, code: 1007 
+[15:25:53.667] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: cf3f91b7-dd8d-4024-8737-52689f2aa5f8 !  [THE user: test001] 
+[15:25:53.667] [23567] [ERROR] [error:157]	got error busi back: 908007e8-a282-4bb3-9c3b-3b1417e19f3c, code: 1007 
+[15:25:53.667] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 908007e8-a282-4bb3-9c3b-3b1417e19f3c !  [THE user: test001] 
+[15:25:53.668] [16147] [ERROR] [error:157]	got error busi back: a926fc2b-504d-4761-b0bf-47e08060e938, code: 1007 
+[15:25:53.668] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a926fc2b-504d-4761-b0bf-47e08060e938 !  [THE user: test001] 
+[15:25:53.669] [23567] [ERROR] [error:157]	got error busi back: e7e1f08b-4ba6-4215-a894-25a0aeeb7396, code: 1007 
+[15:25:53.669] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: e7e1f08b-4ba6-4215-a894-25a0aeeb7396 !  [THE user: test001] 
+[15:25:53.669] [16147] [ERROR] [error:157]	got error busi back: f1fac291-a6bb-46a7-8374-ba9371e64352, code: 1007 
+[15:25:53.669] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: f1fac291-a6bb-46a7-8374-ba9371e64352 !  [THE user: test001] 
+[15:25:53.670] [23567] [ERROR] [error:157]	got error busi back: e5bdd831-07e3-4a30-82ec-7c96609d8869, code: 1007 
+[15:25:53.670] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: e5bdd831-07e3-4a30-82ec-7c96609d8869 !  [THE user: test001] 
+[15:25:53.670] [16147] [ERROR] [error:157]	got error busi back: b736587d-9a3f-46a5-b380-5d2001483bf7, code: 1007 
+[15:25:53.670] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: b736587d-9a3f-46a5-b380-5d2001483bf7 !  [THE user: test001] 
+[15:25:53.671] [23567] [ERROR] [error:157]	got error busi back: 5a52949b-4c9e-4d4f-9371-195de7f401af, code: 1007 
+[15:25:53.671] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 5a52949b-4c9e-4d4f-9371-195de7f401af !  [THE user: test001] 
+[15:25:53.671] [16147] [ERROR] [error:157]	got error busi back: ba5cfd98-b4b1-4718-9a90-258209a9c66a, code: 1007 
+[15:25:53.671] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: ba5cfd98-b4b1-4718-9a90-258209a9c66a !  [THE user: test001] 
+[15:25:53.672] [23567] [ERROR] [error:157]	got error busi back: 091b0d01-ffb3-485f-9b51-9c41da6cd70c, code: 1007 
+[15:25:53.672] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 091b0d01-ffb3-485f-9b51-9c41da6cd70c !  [THE user: test001] 
+[15:25:53.673] [16147] [ERROR] [error:157]	got error busi back: 0250274b-8c5c-4187-b4c7-7accdb6ef9b5, code: 1007 
+[15:25:53.673] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 0250274b-8c5c-4187-b4c7-7accdb6ef9b5 !  [THE user: test001] 
+[15:25:53.673] [23567] [ERROR] [error:157]	got error busi back: 18891c90-06df-4a9c-89ae-92b665d10bb8, code: 1007 
+[15:25:53.673] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 18891c90-06df-4a9c-89ae-92b665d10bb8 !  [THE user: test001] 
+[15:25:53.674] [16147] [ERROR] [error:157]	got error busi back: 8875d4e6-9d9d-4163-a7be-366519e67036, code: 1007 
+[15:25:53.674] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 8875d4e6-9d9d-4163-a7be-366519e67036 !  [THE user: test001] 
+[15:25:53.674] [23567] [ERROR] [error:157]	got error busi back: 6ec76a0d-40f4-406b-9a8e-843646dc031b, code: 1007 
+[15:25:53.674] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6ec76a0d-40f4-406b-9a8e-843646dc031b !  [THE user: test001] 
+[15:25:53.675] [16147] [ERROR] [error:157]	got error busi back: 08cc42f0-636a-467c-b05a-8286e1653dc4, code: 1007 
+[15:25:53.675] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 08cc42f0-636a-467c-b05a-8286e1653dc4 !  [THE user: test001] 
+[15:25:53.675] [23567] [ERROR] [error:157]	got error busi back: 07deee8a-db89-4d09-ad34-7397c7e1645a, code: 1007 
+[15:25:53.675] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 07deee8a-db89-4d09-ad34-7397c7e1645a !  [THE user: test001] 
+[15:25:53.676] [16147] [ERROR] [error:157]	got error busi back: 22514f07-4ef7-4313-ba2c-53d6acf47333, code: 1007 
+[15:25:53.676] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 22514f07-4ef7-4313-ba2c-53d6acf47333 !  [THE user: test001] 
+[15:25:53.676] [23567] [ERROR] [error:157]	got error busi back: c0366b40-c2a9-48b8-a033-09f63005f952, code: 1007 
+[15:25:53.676] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: c0366b40-c2a9-48b8-a033-09f63005f952 !  [THE user: test001] 
+[15:25:53.677] [16147] [ERROR] [error:157]	got error busi back: 47e65463-a686-401c-8faf-a2ee65631864, code: 1007 
+[15:25:53.677] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 47e65463-a686-401c-8faf-a2ee65631864 !  [THE user: test001] 
+[15:25:53.678] [23567] [ERROR] [error:157]	got error busi back: 33648fc1-05bc-462b-9e61-2d6ee7263dba, code: 1007 
+[15:25:53.678] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 33648fc1-05bc-462b-9e61-2d6ee7263dba !  [THE user: test001] 
+[15:25:53.678] [16147] [ERROR] [error:157]	got error busi back: 244ef96d-8541-41e1-b5a3-028c73dad48a, code: 1007 
+[15:25:53.678] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 244ef96d-8541-41e1-b5a3-028c73dad48a !  [THE user: test001] 
+[15:25:53.679] [23567] [ERROR] [error:157]	got error busi back: f75aa62d-36f6-4864-bf77-dcb7f47f271a, code: 1007 
+[15:25:53.679] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: f75aa62d-36f6-4864-bf77-dcb7f47f271a !  [THE user: test001] 
+[15:25:53.679] [16147] [ERROR] [error:157]	got error busi back: 308037b6-4eff-4249-a707-abbabcabb8a8, code: 1007 
+[15:25:53.679] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 308037b6-4eff-4249-a707-abbabcabb8a8 !  [THE user: test001] 
+[15:25:53.680] [23567] [ERROR] [error:157]	got error busi back: aef17056-e04f-475d-8cc0-35f5e5e0a38a, code: 1007 
+[15:25:53.680] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: aef17056-e04f-475d-8cc0-35f5e5e0a38a !  [THE user: test001] 
+[15:25:53.681] [16147] [ERROR] [error:157]	got error busi back: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e, code: 1007 
+[15:25:53.681] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e !  [THE user: test001] 
+[15:25:53.681] [23567] [ERROR] [error:157]	got error busi back: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d, code: 1007 
+[15:25:53.681] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d !  [THE user: test001] 
+[15:25:53.682] [16147] [ERROR] [error:157]	got error busi back: 716b0af4-1a76-4894-ab39-01a006955946, code: 1007 
+[15:25:53.682] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 716b0af4-1a76-4894-ab39-01a006955946 !  [THE user: test001] 
+[15:25:53.683] [23567] [ERROR] [error:157]	got error busi back: 7515218e-bb61-49e7-8df8-b1691aa8782a, code: 1007 
+[15:25:53.683] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 7515218e-bb61-49e7-8df8-b1691aa8782a !  [THE user: test001] 
+[15:25:53.683] [16147] [ERROR] [error:157]	got error busi back: df02463e-efd5-4d64-99aa-e09ff4662ef5, code: 1007 
+[15:25:53.683] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: df02463e-efd5-4d64-99aa-e09ff4662ef5 !  [THE user: test001] 
+[15:25:53.684] [23567] [ERROR] [error:157]	got error busi back: f48fbbca-b644-459e-b952-112a092e15b5, code: 1007 
+[15:25:53.684] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: f48fbbca-b644-459e-b952-112a092e15b5 !  [THE user: test001] 
+[15:25:53.684] [16147] [ERROR] [error:157]	got error busi back: 74d4c184-06af-40af-86b0-87b89c1ef06a, code: 1007 
+[15:25:53.684] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 74d4c184-06af-40af-86b0-87b89c1ef06a !  [THE user: test001] 
+[15:25:53.685] [23567] [ERROR] [error:157]	got error busi back: d72d3e2d-e106-488d-9300-843d0ba09797, code: 1007 
+[15:25:53.685] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: d72d3e2d-e106-488d-9300-843d0ba09797 !  [THE user: test001] 
+[15:25:53.687] [16147] [ERROR] [error:157]	got error busi back: 0ba474d0-cdff-4704-be89-de8bfa6d0660, code: 1007 
+[15:25:53.687] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 0ba474d0-cdff-4704-be89-de8bfa6d0660 !  [THE user: test001] 
+[15:25:53.690] [23567] [ERROR] [error:157]	got error busi back: e234999b-691b-4ccc-8f54-ba8faf199c5c, code: 1007 
+[15:25:53.690] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: e234999b-691b-4ccc-8f54-ba8faf199c5c !  [THE user: test001] 
+[15:25:53.691] [16147] [ERROR] [error:157]	got error busi back: bba82edb-cbbf-4f51-8d74-0017f5470cec, code: 1007 
+[15:25:53.691] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bba82edb-cbbf-4f51-8d74-0017f5470cec !  [THE user: test001] 
+[15:25:53.692] [23567] [ERROR] [error:157]	got error busi back: 086228cf-a771-4300-97ec-8376681ea113, code: 1007 
+[15:25:53.692] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 086228cf-a771-4300-97ec-8376681ea113 !  [THE user: test001] 
+[15:25:53.692] [16147] [ERROR] [error:157]	got error busi back: beb4f556-e2b2-473b-ad4e-7cb90d19264e, code: 1007 
+[15:25:53.692] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: beb4f556-e2b2-473b-ad4e-7cb90d19264e !  [THE user: test001] 
+[15:25:53.693] [23567] [ERROR] [error:157]	got error busi back: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a, code: 1007 
+[15:25:53.693] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a !  [THE user: test001] 
+[15:25:53.693] [16147] [ERROR] [error:157]	got error busi back: 8fc10e0b-2d75-46c9-aaf7-d557b68d5f38, code: 1007 
+[15:25:53.693] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 8fc10e0b-2d75-46c9-aaf7-d557b68d5f38 !  [THE user: test001] 
+[15:25:53.694] [23567] [ERROR] [error:157]	got error busi back: 60031659-e9ce-4092-8d4b-945df6385041, code: 1007 
+[15:25:53.694] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 60031659-e9ce-4092-8d4b-945df6385041 !  [THE user: test001] 
+[15:25:53.694] [16147] [ERROR] [error:157]	got error busi back: 3c02e17f-a864-4caa-a13e-ee06ac0e15dd, code: 1007 
+[15:25:53.694] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 3c02e17f-a864-4caa-a13e-ee06ac0e15dd !  [THE user: test001] 
+[15:25:53.695] [23567] [ERROR] [error:157]	got error busi back: 014f8a36-3cfa-4605-b133-9ea0c8471e3c, code: 1007 
+[15:25:53.695] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 014f8a36-3cfa-4605-b133-9ea0c8471e3c !  [THE user: test001] 
+[15:25:53.695] [16147] [ERROR] [error:157]	got error busi back: 4452d012-3425-499d-9f1f-fea0f036972f, code: 1007 
+[15:25:53.695] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 4452d012-3425-499d-9f1f-fea0f036972f !  [THE user: test001] 
+[15:25:53.696] [23567] [ERROR] [error:157]	got error busi back: 18fbf605-2c8f-41f6-ac8d-a849d006aee1, code: 1007 
+[15:25:53.696] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 18fbf605-2c8f-41f6-ac8d-a849d006aee1 !  [THE user: test001] 
+[15:25:53.696] [16147] [ERROR] [error:157]	got error busi back: 7ec9f453-86d0-4c08-9ef8-db504c3250ed, code: 1007 
+[15:25:53.696] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 7ec9f453-86d0-4c08-9ef8-db504c3250ed !  [THE user: test001] 
+[15:25:53.697] [23567] [ERROR] [error:157]	got error busi back: 958ac688-65c7-4e25-8b28-0d5635e0b5c9, code: 1007 
+[15:25:53.697] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 958ac688-65c7-4e25-8b28-0d5635e0b5c9 !  [THE user: test001] 
+[15:25:53.697] [16147] [ERROR] [error:157]	got error busi back: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83, code: 1007 
+[15:25:53.697] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83 !  [THE user: test001] 
+[15:25:53.698] [23567] [ERROR] [error:157]	got error busi back: 16ae256b-7d7b-436e-bf61-7184e8b47fa5, code: 1007 
+[15:25:53.698] [23567] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 16ae256b-7d7b-436e-bf61-7184e8b47fa5 !  [THE user: test001] 
+[15:28:08.721] [32448] [WARN ] [run:156]	no data for input !!!! 
+[15:28:08.721] [32448] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: a85ab7d2-497a-42f2-874e-4dabf040d5ce  
+[15:28:08.723] [32449] [WARN ] [run:156]	no data for input !!!! 
+[15:28:08.723] [32449] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 9e764202-0ea6-401b-9c27-f42f731621e9  
+[15:28:08.723] [32446] [WARN ] [run:156]	no data for input !!!! 
+[15:28:08.723] [32446] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 24474e88-9792-4a5c-90a6-6d8dc56e39c4  
+[15:28:08.724] [32447] [WARN ] [run:156]	no data for input !!!! 
+[15:28:08.724] [32447] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: c7e0fd8e-b143-4251-b491-612b82e8f5aa  
+[15:28:10.730] [32448] [WARN ] [processTask:148]	processor a MPC task: a85ab7d2-497a-42f2-874e-4dabf040d5ce Failed ! 
+[15:28:10.732] [32446] [WARN ] [processTask:148]	processor a MPC task: 24474e88-9792-4a5c-90a6-6d8dc56e39c4 Failed ! 
+[15:28:10.732] [32447] [WARN ] [processTask:148]	processor a MPC task: c7e0fd8e-b143-4251-b491-612b82e8f5aa Failed ! 
+[15:28:10.732] [32449] [WARN ] [processTask:148]	processor a MPC task: 9e764202-0ea6-401b-9c27-f42f731621e9 Failed ! 
+[15:50:22.515] [15583] [ERROR] [error:157]	got error busi back: a758fb68-87dd-4ba8-aa73-28af56157c1e, code: 1007 
+[15:50:22.515] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a758fb68-87dd-4ba8-aa73-28af56157c1e !  [THE user: test001] 
+[15:50:22.516] [16147] [ERROR] [error:157]	got error busi back: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3, code: 1007 
+[15:50:22.516] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3 !  [THE user: test001] 
+[15:50:22.516] [15583] [ERROR] [error:157]	got error busi back: bdec3121-4da9-4f8b-bf2f-29c83c50f20f, code: 1007 
+[15:50:22.516] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bdec3121-4da9-4f8b-bf2f-29c83c50f20f !  [THE user: test001] 
+[15:50:22.517] [16147] [ERROR] [error:157]	got error busi back: 10ab5684-74dc-4597-aa14-edb1912fff66, code: 1007 
+[15:50:22.517] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 10ab5684-74dc-4597-aa14-edb1912fff66 !  [THE user: test001] 
+[15:50:22.518] [15583] [ERROR] [error:157]	got error busi back: 599f2e9a-460e-4745-a431-63f1a9318e75, code: 1007 
+[15:50:22.518] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 599f2e9a-460e-4745-a431-63f1a9318e75 !  [THE user: test001] 
+[15:50:22.519] [16147] [ERROR] [error:157]	got error busi back: b5564c12-1b7b-46a3-a977-fa0a1d942301, code: 1007 
+[15:50:22.519] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: b5564c12-1b7b-46a3-a977-fa0a1d942301 !  [THE user: test001] 
+[15:50:22.520] [16147] [ERROR] [error:157]	got error busi back: 3a6998e3-4d83-4b64-88a9-5863046b5ede, code: 1007 
+[15:50:22.520] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 3a6998e3-4d83-4b64-88a9-5863046b5ede !  [THE user: test001] 
+[15:50:22.521] [16147] [ERROR] [error:157]	got error busi back: 5c033499-96fe-4184-908e-c4c3ccddb7f2, code: 1007 
+[15:50:22.521] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 5c033499-96fe-4184-908e-c4c3ccddb7f2 !  [THE user: test001] 
+[15:50:22.521] [16147] [ERROR] [error:157]	got error busi back: 2ba25aa1-fc9d-4103-91ad-feb705a9e698, code: 1007 
+[15:50:22.521] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 2ba25aa1-fc9d-4103-91ad-feb705a9e698 !  [THE user: test001] 
+[15:50:22.522] [16147] [ERROR] [error:157]	got error busi back: a40d7f45-6ee2-4516-a9c4-4cc4396a6f23, code: 1007 
+[15:50:22.522] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a40d7f45-6ee2-4516-a9c4-4cc4396a6f23 !  [THE user: test001] 
+[15:50:22.522] [16147] [ERROR] [error:157]	got error busi back: 5edb3deb-5679-45c4-af8e-7a766763231d, code: 1007 
+[15:50:22.522] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 5edb3deb-5679-45c4-af8e-7a766763231d !  [THE user: test001] 
+[15:50:22.523] [16147] [ERROR] [error:157]	got error busi back: 27aa2967-ea70-4656-99cd-3f8858454c9d, code: 1007 
+[15:50:22.523] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 27aa2967-ea70-4656-99cd-3f8858454c9d !  [THE user: test001] 
+[15:50:22.523] [16147] [ERROR] [error:157]	got error busi back: 59578f7d-4e37-453a-b744-da9c7955eee9, code: 1007 
+[15:50:22.523] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 59578f7d-4e37-453a-b744-da9c7955eee9 !  [THE user: test001] 
+[15:50:22.524] [16147] [ERROR] [error:157]	got error busi back: cf3f91b7-dd8d-4024-8737-52689f2aa5f8, code: 1007 
+[15:50:22.524] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: cf3f91b7-dd8d-4024-8737-52689f2aa5f8 !  [THE user: test001] 
+[15:50:22.524] [16147] [ERROR] [error:157]	got error busi back: 908007e8-a282-4bb3-9c3b-3b1417e19f3c, code: 1007 
+[15:50:22.525] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 908007e8-a282-4bb3-9c3b-3b1417e19f3c !  [THE user: test001] 
+[15:50:22.525] [16147] [ERROR] [error:157]	got error busi back: a926fc2b-504d-4761-b0bf-47e08060e938, code: 1007 
+[15:50:22.525] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a926fc2b-504d-4761-b0bf-47e08060e938 !  [THE user: test001] 
+[15:50:22.526] [16147] [ERROR] [error:157]	got error busi back: e7e1f08b-4ba6-4215-a894-25a0aeeb7396, code: 1007 
+[15:50:22.526] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: e7e1f08b-4ba6-4215-a894-25a0aeeb7396 !  [THE user: test001] 
+[15:50:22.526] [16147] [ERROR] [error:157]	got error busi back: f1fac291-a6bb-46a7-8374-ba9371e64352, code: 1007 
+[15:50:22.526] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: f1fac291-a6bb-46a7-8374-ba9371e64352 !  [THE user: test001] 
+[15:50:22.527] [15583] [ERROR] [error:157]	got error busi back: e5bdd831-07e3-4a30-82ec-7c96609d8869, code: 1007 
+[15:50:22.527] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: e5bdd831-07e3-4a30-82ec-7c96609d8869 !  [THE user: test001] 
+[15:50:22.528] [16147] [ERROR] [error:157]	got error busi back: b736587d-9a3f-46a5-b380-5d2001483bf7, code: 1007 
+[15:50:22.528] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: b736587d-9a3f-46a5-b380-5d2001483bf7 !  [THE user: test001] 
+[15:50:22.528] [15583] [ERROR] [error:157]	got error busi back: 5a52949b-4c9e-4d4f-9371-195de7f401af, code: 1007 
+[15:50:22.528] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 5a52949b-4c9e-4d4f-9371-195de7f401af !  [THE user: test001] 
+[15:50:22.529] [16147] [ERROR] [error:157]	got error busi back: ba5cfd98-b4b1-4718-9a90-258209a9c66a, code: 1007 
+[15:50:22.529] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: ba5cfd98-b4b1-4718-9a90-258209a9c66a !  [THE user: test001] 
+[15:50:22.529] [15583] [ERROR] [error:157]	got error busi back: 091b0d01-ffb3-485f-9b51-9c41da6cd70c, code: 1007 
+[15:50:22.529] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 091b0d01-ffb3-485f-9b51-9c41da6cd70c !  [THE user: test001] 
+[15:50:22.530] [16147] [ERROR] [error:157]	got error busi back: 0250274b-8c5c-4187-b4c7-7accdb6ef9b5, code: 1007 
+[15:50:22.530] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 0250274b-8c5c-4187-b4c7-7accdb6ef9b5 !  [THE user: test001] 
+[15:50:22.530] [15583] [ERROR] [error:157]	got error busi back: 18891c90-06df-4a9c-89ae-92b665d10bb8, code: 1007 
+[15:50:22.530] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 18891c90-06df-4a9c-89ae-92b665d10bb8 !  [THE user: test001] 
+[15:50:22.531] [16147] [ERROR] [error:157]	got error busi back: 8875d4e6-9d9d-4163-a7be-366519e67036, code: 1007 
+[15:50:22.531] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 8875d4e6-9d9d-4163-a7be-366519e67036 !  [THE user: test001] 
+[15:50:22.532] [15583] [ERROR] [error:157]	got error busi back: 6ec76a0d-40f4-406b-9a8e-843646dc031b, code: 1007 
+[15:50:22.532] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6ec76a0d-40f4-406b-9a8e-843646dc031b !  [THE user: test001] 
+[15:50:22.532] [16147] [ERROR] [error:157]	got error busi back: 08cc42f0-636a-467c-b05a-8286e1653dc4, code: 1007 
+[15:50:22.532] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 08cc42f0-636a-467c-b05a-8286e1653dc4 !  [THE user: test001] 
+[15:50:22.533] [15583] [ERROR] [error:157]	got error busi back: 07deee8a-db89-4d09-ad34-7397c7e1645a, code: 1007 
+[15:50:22.533] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 07deee8a-db89-4d09-ad34-7397c7e1645a !  [THE user: test001] 
+[15:50:22.533] [16147] [ERROR] [error:157]	got error busi back: 22514f07-4ef7-4313-ba2c-53d6acf47333, code: 1007 
+[15:50:22.533] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 22514f07-4ef7-4313-ba2c-53d6acf47333 !  [THE user: test001] 
+[15:50:22.534] [15583] [ERROR] [error:157]	got error busi back: c0366b40-c2a9-48b8-a033-09f63005f952, code: 1007 
+[15:50:22.534] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: c0366b40-c2a9-48b8-a033-09f63005f952 !  [THE user: test001] 
+[15:50:22.534] [16147] [ERROR] [error:157]	got error busi back: 47e65463-a686-401c-8faf-a2ee65631864, code: 1007 
+[15:50:22.534] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 47e65463-a686-401c-8faf-a2ee65631864 !  [THE user: test001] 
+[15:50:22.535] [15583] [ERROR] [error:157]	got error busi back: 33648fc1-05bc-462b-9e61-2d6ee7263dba, code: 1007 
+[15:50:22.535] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 33648fc1-05bc-462b-9e61-2d6ee7263dba !  [THE user: test001] 
+[15:50:22.536] [16147] [ERROR] [error:157]	got error busi back: 244ef96d-8541-41e1-b5a3-028c73dad48a, code: 1007 
+[15:50:22.536] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 244ef96d-8541-41e1-b5a3-028c73dad48a !  [THE user: test001] 
+[15:50:22.536] [15583] [ERROR] [error:157]	got error busi back: f75aa62d-36f6-4864-bf77-dcb7f47f271a, code: 1007 
+[15:50:22.536] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: f75aa62d-36f6-4864-bf77-dcb7f47f271a !  [THE user: test001] 
+[15:50:22.537] [16147] [ERROR] [error:157]	got error busi back: 308037b6-4eff-4249-a707-abbabcabb8a8, code: 1007 
+[15:50:22.537] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 308037b6-4eff-4249-a707-abbabcabb8a8 !  [THE user: test001] 
+[15:50:22.537] [15583] [ERROR] [error:157]	got error busi back: aef17056-e04f-475d-8cc0-35f5e5e0a38a, code: 1007 
+[15:50:22.537] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: aef17056-e04f-475d-8cc0-35f5e5e0a38a !  [THE user: test001] 
+[15:50:22.538] [16147] [ERROR] [error:157]	got error busi back: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d, code: 1007 
+[15:50:22.538] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d !  [THE user: test001] 
+[15:50:22.538] [15583] [ERROR] [error:157]	got error busi back: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e, code: 1007 
+[15:50:22.538] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e !  [THE user: test001] 
+[15:50:22.539] [16147] [ERROR] [error:157]	got error busi back: 716b0af4-1a76-4894-ab39-01a006955946, code: 1007 
+[15:50:22.539] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 716b0af4-1a76-4894-ab39-01a006955946 !  [THE user: test001] 
+[15:50:22.539] [15583] [ERROR] [error:157]	got error busi back: 7515218e-bb61-49e7-8df8-b1691aa8782a, code: 1007 
+[15:50:22.539] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 7515218e-bb61-49e7-8df8-b1691aa8782a !  [THE user: test001] 
+[15:50:22.540] [16147] [ERROR] [error:157]	got error busi back: df02463e-efd5-4d64-99aa-e09ff4662ef5, code: 1007 
+[15:50:22.540] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: df02463e-efd5-4d64-99aa-e09ff4662ef5 !  [THE user: test001] 
+[15:50:22.540] [15583] [ERROR] [error:157]	got error busi back: f48fbbca-b644-459e-b952-112a092e15b5, code: 1007 
+[15:50:22.540] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: f48fbbca-b644-459e-b952-112a092e15b5 !  [THE user: test001] 
+[15:50:22.541] [16147] [ERROR] [error:157]	got error busi back: 74d4c184-06af-40af-86b0-87b89c1ef06a, code: 1007 
+[15:50:22.541] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 74d4c184-06af-40af-86b0-87b89c1ef06a !  [THE user: test001] 
+[15:50:22.541] [15583] [ERROR] [error:157]	got error busi back: d72d3e2d-e106-488d-9300-843d0ba09797, code: 1007 
+[15:50:22.541] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: d72d3e2d-e106-488d-9300-843d0ba09797 !  [THE user: test001] 
+[15:50:22.542] [16147] [ERROR] [error:157]	got error busi back: 0ba474d0-cdff-4704-be89-de8bfa6d0660, code: 1007 
+[15:50:22.542] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 0ba474d0-cdff-4704-be89-de8bfa6d0660 !  [THE user: test001] 
+[15:50:22.542] [15583] [ERROR] [error:157]	got error busi back: e234999b-691b-4ccc-8f54-ba8faf199c5c, code: 1007 
+[15:50:22.542] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: e234999b-691b-4ccc-8f54-ba8faf199c5c !  [THE user: test001] 
+[15:50:22.543] [16147] [ERROR] [error:157]	got error busi back: bba82edb-cbbf-4f51-8d74-0017f5470cec, code: 1007 
+[15:50:22.543] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bba82edb-cbbf-4f51-8d74-0017f5470cec !  [THE user: test001] 
+[15:50:22.544] [15583] [ERROR] [error:157]	got error busi back: 086228cf-a771-4300-97ec-8376681ea113, code: 1007 
+[15:50:22.544] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 086228cf-a771-4300-97ec-8376681ea113 !  [THE user: test001] 
+[15:50:22.544] [16147] [ERROR] [error:157]	got error busi back: 8fc10e0b-2d75-46c9-aaf7-d557b68d5f38, code: 1007 
+[15:50:22.544] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 8fc10e0b-2d75-46c9-aaf7-d557b68d5f38 !  [THE user: test001] 
+[15:50:22.545] [15583] [ERROR] [error:157]	got error busi back: beb4f556-e2b2-473b-ad4e-7cb90d19264e, code: 1007 
+[15:50:22.545] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: beb4f556-e2b2-473b-ad4e-7cb90d19264e !  [THE user: test001] 
+[15:50:22.545] [16147] [ERROR] [error:157]	got error busi back: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a, code: 1007 
+[15:50:22.545] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a !  [THE user: test001] 
+[15:50:22.546] [15583] [ERROR] [error:157]	got error busi back: 3c02e17f-a864-4caa-a13e-ee06ac0e15dd, code: 1007 
+[15:50:22.546] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 3c02e17f-a864-4caa-a13e-ee06ac0e15dd !  [THE user: test001] 
+[15:50:22.546] [16147] [ERROR] [error:157]	got error busi back: 60031659-e9ce-4092-8d4b-945df6385041, code: 1007 
+[15:50:22.546] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 60031659-e9ce-4092-8d4b-945df6385041 !  [THE user: test001] 
+[15:50:22.547] [15583] [ERROR] [error:157]	got error busi back: 014f8a36-3cfa-4605-b133-9ea0c8471e3c, code: 1007 
+[15:50:22.547] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 014f8a36-3cfa-4605-b133-9ea0c8471e3c !  [THE user: test001] 
+[15:50:22.547] [16147] [ERROR] [error:157]	got error busi back: 4452d012-3425-499d-9f1f-fea0f036972f, code: 1007 
+[15:50:22.547] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 4452d012-3425-499d-9f1f-fea0f036972f !  [THE user: test001] 
+[15:50:22.548] [15583] [ERROR] [error:157]	got error busi back: 18fbf605-2c8f-41f6-ac8d-a849d006aee1, code: 1007 
+[15:50:22.548] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 18fbf605-2c8f-41f6-ac8d-a849d006aee1 !  [THE user: test001] 
+[15:50:22.548] [16147] [ERROR] [error:157]	got error busi back: ea9a7deb-b277-4fed-9e87-ec5384a67225, code: 1007 
+[15:50:22.552] [15583] [ERROR] [error:157]	got error busi back: 7ec9f453-86d0-4c08-9ef8-db504c3250ed, code: 1007 
+[15:50:22.552] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 7ec9f453-86d0-4c08-9ef8-db504c3250ed !  [THE user: test001] 
+[15:50:22.553] [16147] [ERROR] [error:157]	got error busi back: 958ac688-65c7-4e25-8b28-0d5635e0b5c9, code: 1007 
+[15:50:22.553] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 958ac688-65c7-4e25-8b28-0d5635e0b5c9 !  [THE user: test001] 
+[15:50:22.553] [15583] [ERROR] [error:157]	got error busi back: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83, code: 1007 
+[15:50:22.553] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83 !  [THE user: test001] 
+[15:50:22.554] [16147] [ERROR] [error:157]	got error busi back: 16ae256b-7d7b-436e-bf61-7184e8b47fa5, code: 1007 
+[15:50:22.554] [16147] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 16ae256b-7d7b-436e-bf61-7184e8b47fa5 !  [THE user: test001] 
+[15:57:26.919] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:26.922] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:26.922] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:26.922] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:31.939] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:32.042] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:32.135] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:32.150] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:35.966] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:36.069] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:36.209] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:36.233] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:39.899] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:40.011] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:40.180] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:40.291] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:43.712] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:43.847] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:43.001] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:44.201] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:47.661] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:47.678] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:47.853] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:48.084] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:51.657] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:51.665] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:51.809] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:52.065] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:55.502] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:55.594] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:55.780] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:56.012] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:59.276] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:59.808] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:57:59.817] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:00.131] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:03.114] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:03.667] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:03.751] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:04.175] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:06.933] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:07.602] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:07.708] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:08.092] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:10.658] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:11.542] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:11.542] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:12.010] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:14.391] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:15.356] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:15.496] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:15.726] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:18.159] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:19.161] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:19.380] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:19.526] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:22.138] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:22.952] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:23.359] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:23.368] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:25.822] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:26.707] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:27.102] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:27.341] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:29.537] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:30.588] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:30.916] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:31.222] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:33.308] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:34.440] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:34.988] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:35.148] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:36.875] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:38.147] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:38.852] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:39.027] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:40.567] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:41.790] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:42.523] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:42.973] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:44.268] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:45.688] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:46.322] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:46.768] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:48.019] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:49.437] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:50.100] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:50.586] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:51.686] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:53.208] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:53.914] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:54.454] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:55.384] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:57.013] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:57.812] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:58.271] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:58:59.102] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:59:00.777] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:59:01.652] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[15:59:02.048] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:32.398] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:32.400] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:32.407] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:32.408] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:35.411] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:36.366] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:36.454] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:36.559] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:39.170] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:40.255] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:40.456] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:40.589] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:42.998] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:44.151] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:44.390] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:44.476] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:47.050] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:47.952] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:48.327] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:48.439] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:50.755] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:51.611] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:52.247] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:52.304] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:54.561] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:55.456] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:56.073] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:56.190] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:58.229] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:59.151] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:59.983] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:01:59.985] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:01.989] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:02.823] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:03.712] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:03.778] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:05.515] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:06.514] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:07.513] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:07.625] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:09.231] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:10.384] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:11.355] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:11.438] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:12.960] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:14.016] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:15.126] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:15.237] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:16.593] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:17.881] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:18.978] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:19.113] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:20.205] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:21.658] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:22.901] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:22.990] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:23.979] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:25.642] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:26.744] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:26.795] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:27.650] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:29.332] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:30.560] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:30.602] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:31.383] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:33.268] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:34.443] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:34.584] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:35.111] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:37.027] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:38.363] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:38.498] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:38.934] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:40.737] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:42.104] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:42.315] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:42.663] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:44.449] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:45.958] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:46.225] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:46.531] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:48.243] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:49.654] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:50.105] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:50.368] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:52.080] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:53.555] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:53.891] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:54.191] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:55.930] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:57.366] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:57.697] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:57.878] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:02:59.776] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:03:01.163] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:03:01.671] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:03:01.782] [32446] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:03:03.749] [32447] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:03:04.992] [32449] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:03:05.459] [32448] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:06:30.325] [15583] [ERROR] [error:157]	got error busi back: a758fb68-87dd-4ba8-aa73-28af56157c1e, code: 1007 
+[16:06:30.325] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a758fb68-87dd-4ba8-aa73-28af56157c1e !  [THE user: test001] 
+[16:06:30.326] [22386] [ERROR] [error:157]	got error busi back: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3, code: 1007 
+[16:06:30.326] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3 !  [THE user: test001] 
+[16:06:30.327] [15583] [ERROR] [error:157]	got error busi back: 10ab5684-74dc-4597-aa14-edb1912fff66, code: 1007 
+[16:06:30.327] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 10ab5684-74dc-4597-aa14-edb1912fff66 !  [THE user: test001] 
+[16:06:30.328] [22386] [ERROR] [error:157]	got error busi back: bdec3121-4da9-4f8b-bf2f-29c83c50f20f, code: 1007 
+[16:06:30.328] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bdec3121-4da9-4f8b-bf2f-29c83c50f20f !  [THE user: test001] 
+[16:06:30.328] [15583] [ERROR] [error:157]	got error busi back: 599f2e9a-460e-4745-a431-63f1a9318e75, code: 1007 
+[16:06:30.328] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 599f2e9a-460e-4745-a431-63f1a9318e75 !  [THE user: test001] 
+[16:06:30.329] [22386] [ERROR] [error:157]	got error busi back: 3a6998e3-4d83-4b64-88a9-5863046b5ede, code: 1007 
+[16:06:30.329] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 3a6998e3-4d83-4b64-88a9-5863046b5ede !  [THE user: test001] 
+[16:06:30.329] [15583] [ERROR] [error:157]	got error busi back: b5564c12-1b7b-46a3-a977-fa0a1d942301, code: 1007 
+[16:06:30.329] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: b5564c12-1b7b-46a3-a977-fa0a1d942301 !  [THE user: test001] 
+[16:06:30.330] [22386] [ERROR] [error:157]	got error busi back: 2ba25aa1-fc9d-4103-91ad-feb705a9e698, code: 1007 
+[16:06:30.330] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 2ba25aa1-fc9d-4103-91ad-feb705a9e698 !  [THE user: test001] 
+[16:06:30.330] [15583] [ERROR] [error:157]	got error busi back: 5c033499-96fe-4184-908e-c4c3ccddb7f2, code: 1007 
+[16:06:30.330] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 5c033499-96fe-4184-908e-c4c3ccddb7f2 !  [THE user: test001] 
+[16:06:30.331] [22386] [ERROR] [error:157]	got error busi back: a40d7f45-6ee2-4516-a9c4-4cc4396a6f23, code: 1007 
+[16:06:30.331] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a40d7f45-6ee2-4516-a9c4-4cc4396a6f23 !  [THE user: test001] 
+[16:06:30.331] [15583] [ERROR] [error:157]	got error busi back: 5edb3deb-5679-45c4-af8e-7a766763231d, code: 1007 
+[16:06:30.331] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 5edb3deb-5679-45c4-af8e-7a766763231d !  [THE user: test001] 
+[16:06:30.332] [22386] [ERROR] [error:157]	got error busi back: 27aa2967-ea70-4656-99cd-3f8858454c9d, code: 1007 
+[16:06:30.332] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 27aa2967-ea70-4656-99cd-3f8858454c9d !  [THE user: test001] 
+[16:06:30.332] [15583] [ERROR] [error:157]	got error busi back: 59578f7d-4e37-453a-b744-da9c7955eee9, code: 1007 
+[16:06:30.332] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 59578f7d-4e37-453a-b744-da9c7955eee9 !  [THE user: test001] 
+[16:06:30.333] [22386] [ERROR] [error:157]	got error busi back: cf3f91b7-dd8d-4024-8737-52689f2aa5f8, code: 1007 
+[16:06:30.333] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: cf3f91b7-dd8d-4024-8737-52689f2aa5f8 !  [THE user: test001] 
+[16:06:30.334] [15583] [ERROR] [error:157]	got error busi back: 908007e8-a282-4bb3-9c3b-3b1417e19f3c, code: 1007 
+[16:06:30.334] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 908007e8-a282-4bb3-9c3b-3b1417e19f3c !  [THE user: test001] 
+[16:06:30.335] [15583] [ERROR] [error:157]	got error busi back: a926fc2b-504d-4761-b0bf-47e08060e938, code: 1007 
+[16:06:30.335] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a926fc2b-504d-4761-b0bf-47e08060e938 !  [THE user: test001] 
+[16:06:30.335] [15583] [ERROR] [error:157]	got error busi back: e7e1f08b-4ba6-4215-a894-25a0aeeb7396, code: 1007 
+[16:06:30.335] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: e7e1f08b-4ba6-4215-a894-25a0aeeb7396 !  [THE user: test001] 
+[16:06:30.336] [15583] [ERROR] [error:157]	got error busi back: e5bdd831-07e3-4a30-82ec-7c96609d8869, code: 1007 
+[16:06:30.336] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: e5bdd831-07e3-4a30-82ec-7c96609d8869 !  [THE user: test001] 
+[16:06:30.336] [15583] [ERROR] [error:157]	got error busi back: f1fac291-a6bb-46a7-8374-ba9371e64352, code: 1007 
+[16:06:30.336] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: f1fac291-a6bb-46a7-8374-ba9371e64352 !  [THE user: test001] 
+[16:06:30.337] [15583] [ERROR] [error:157]	got error busi back: b736587d-9a3f-46a5-b380-5d2001483bf7, code: 1007 
+[16:06:30.337] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: b736587d-9a3f-46a5-b380-5d2001483bf7 !  [THE user: test001] 
+[16:06:30.337] [15583] [ERROR] [error:157]	got error busi back: 5a52949b-4c9e-4d4f-9371-195de7f401af, code: 1007 
+[16:06:30.337] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 5a52949b-4c9e-4d4f-9371-195de7f401af !  [THE user: test001] 
+[16:06:30.338] [15583] [ERROR] [error:157]	got error busi back: ba5cfd98-b4b1-4718-9a90-258209a9c66a, code: 1007 
+[16:06:30.338] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: ba5cfd98-b4b1-4718-9a90-258209a9c66a !  [THE user: test001] 
+[16:06:30.339] [15583] [ERROR] [error:157]	got error busi back: 091b0d01-ffb3-485f-9b51-9c41da6cd70c, code: 1007 
+[16:06:30.339] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 091b0d01-ffb3-485f-9b51-9c41da6cd70c !  [THE user: test001] 
+[16:06:30.339] [15583] [ERROR] [error:157]	got error busi back: 0250274b-8c5c-4187-b4c7-7accdb6ef9b5, code: 1007 
+[16:06:30.339] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 0250274b-8c5c-4187-b4c7-7accdb6ef9b5 !  [THE user: test001] 
+[16:06:30.340] [15583] [ERROR] [error:157]	got error busi back: 18891c90-06df-4a9c-89ae-92b665d10bb8, code: 1007 
+[16:06:30.340] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 18891c90-06df-4a9c-89ae-92b665d10bb8 !  [THE user: test001] 
+[16:06:30.340] [15583] [ERROR] [error:157]	got error busi back: 8875d4e6-9d9d-4163-a7be-366519e67036, code: 1007 
+[16:06:30.340] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 8875d4e6-9d9d-4163-a7be-366519e67036 !  [THE user: test001] 
+[16:06:30.341] [15583] [ERROR] [error:157]	got error busi back: 6ec76a0d-40f4-406b-9a8e-843646dc031b, code: 1007 
+[16:06:30.341] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6ec76a0d-40f4-406b-9a8e-843646dc031b !  [THE user: test001] 
+[16:06:30.341] [15583] [ERROR] [error:157]	got error busi back: 08cc42f0-636a-467c-b05a-8286e1653dc4, code: 1007 
+[16:06:30.341] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 08cc42f0-636a-467c-b05a-8286e1653dc4 !  [THE user: test001] 
+[16:06:30.342] [15583] [ERROR] [error:157]	got error busi back: 07deee8a-db89-4d09-ad34-7397c7e1645a, code: 1007 
+[16:06:30.342] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 07deee8a-db89-4d09-ad34-7397c7e1645a !  [THE user: test001] 
+[16:06:30.343] [15583] [ERROR] [error:157]	got error busi back: 22514f07-4ef7-4313-ba2c-53d6acf47333, code: 1007 
+[16:06:30.343] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 22514f07-4ef7-4313-ba2c-53d6acf47333 !  [THE user: test001] 
+[16:06:30.343] [15583] [ERROR] [error:157]	got error busi back: c0366b40-c2a9-48b8-a033-09f63005f952, code: 1007 
+[16:06:30.343] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: c0366b40-c2a9-48b8-a033-09f63005f952 !  [THE user: test001] 
+[16:06:30.344] [15583] [ERROR] [error:157]	got error busi back: 47e65463-a686-401c-8faf-a2ee65631864, code: 1007 
+[16:06:30.344] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 47e65463-a686-401c-8faf-a2ee65631864 !  [THE user: test001] 
+[16:06:30.344] [15583] [ERROR] [error:157]	got error busi back: 33648fc1-05bc-462b-9e61-2d6ee7263dba, code: 1007 
+[16:06:30.344] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 33648fc1-05bc-462b-9e61-2d6ee7263dba !  [THE user: test001] 
+[16:06:30.345] [15583] [ERROR] [error:157]	got error busi back: 244ef96d-8541-41e1-b5a3-028c73dad48a, code: 1007 
+[16:06:30.345] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 244ef96d-8541-41e1-b5a3-028c73dad48a !  [THE user: test001] 
+[16:06:30.345] [15583] [ERROR] [error:157]	got error busi back: f75aa62d-36f6-4864-bf77-dcb7f47f271a, code: 1007 
+[16:06:30.345] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: f75aa62d-36f6-4864-bf77-dcb7f47f271a !  [THE user: test001] 
+[16:06:30.346] [15583] [ERROR] [error:157]	got error busi back: aef17056-e04f-475d-8cc0-35f5e5e0a38a, code: 1007 
+[16:06:30.346] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: aef17056-e04f-475d-8cc0-35f5e5e0a38a !  [THE user: test001] 
+[16:06:30.346] [15583] [ERROR] [error:157]	got error busi back: 308037b6-4eff-4249-a707-abbabcabb8a8, code: 1007 
+[16:06:30.346] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 308037b6-4eff-4249-a707-abbabcabb8a8 !  [THE user: test001] 
+[16:06:30.346] [15583] [ERROR] [error:157]	got error busi back: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d, code: 1007 
+[16:06:30.346] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d !  [THE user: test001] 
+[16:06:30.347] [15583] [ERROR] [error:157]	got error busi back: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e, code: 1007 
+[16:06:30.347] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e !  [THE user: test001] 
+[16:06:30.347] [15583] [ERROR] [error:157]	got error busi back: 716b0af4-1a76-4894-ab39-01a006955946, code: 1007 
+[16:06:30.347] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 716b0af4-1a76-4894-ab39-01a006955946 !  [THE user: test001] 
+[16:06:30.348] [15583] [ERROR] [error:157]	got error busi back: 7515218e-bb61-49e7-8df8-b1691aa8782a, code: 1007 
+[16:06:30.348] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 7515218e-bb61-49e7-8df8-b1691aa8782a !  [THE user: test001] 
+[16:06:30.348] [15583] [ERROR] [error:157]	got error busi back: df02463e-efd5-4d64-99aa-e09ff4662ef5, code: 1007 
+[16:06:30.348] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: df02463e-efd5-4d64-99aa-e09ff4662ef5 !  [THE user: test001] 
+[16:06:30.349] [22386] [ERROR] [error:157]	got error busi back: f48fbbca-b644-459e-b952-112a092e15b5, code: 1007 
+[16:06:30.349] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: f48fbbca-b644-459e-b952-112a092e15b5 !  [THE user: test001] 
+[16:06:30.349] [15583] [ERROR] [error:157]	got error busi back: 74d4c184-06af-40af-86b0-87b89c1ef06a, code: 1007 
+[16:06:30.349] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 74d4c184-06af-40af-86b0-87b89c1ef06a !  [THE user: test001] 
+[16:06:30.350] [22386] [ERROR] [error:157]	got error busi back: d72d3e2d-e106-488d-9300-843d0ba09797, code: 1007 
+[16:06:30.350] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: d72d3e2d-e106-488d-9300-843d0ba09797 !  [THE user: test001] 
+[16:06:30.350] [15583] [ERROR] [error:157]	got error busi back: 0ba474d0-cdff-4704-be89-de8bfa6d0660, code: 1007 
+[16:06:30.350] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 0ba474d0-cdff-4704-be89-de8bfa6d0660 !  [THE user: test001] 
+[16:06:30.351] [22386] [ERROR] [error:157]	got error busi back: e234999b-691b-4ccc-8f54-ba8faf199c5c, code: 1007 
+[16:06:30.351] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: e234999b-691b-4ccc-8f54-ba8faf199c5c !  [THE user: test001] 
+[16:06:30.351] [15583] [ERROR] [error:157]	got error busi back: bba82edb-cbbf-4f51-8d74-0017f5470cec, code: 1007 
+[16:06:30.351] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bba82edb-cbbf-4f51-8d74-0017f5470cec !  [THE user: test001] 
+[16:06:30.352] [22386] [ERROR] [error:157]	got error busi back: 086228cf-a771-4300-97ec-8376681ea113, code: 1007 
+[16:06:30.352] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 086228cf-a771-4300-97ec-8376681ea113 !  [THE user: test001] 
+[16:06:30.352] [15583] [ERROR] [error:157]	got error busi back: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a, code: 1007 
+[16:06:30.352] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a !  [THE user: test001] 
+[16:06:30.353] [22386] [ERROR] [error:157]	got error busi back: beb4f556-e2b2-473b-ad4e-7cb90d19264e, code: 1007 
+[16:06:30.353] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: beb4f556-e2b2-473b-ad4e-7cb90d19264e !  [THE user: test001] 
+[16:06:30.353] [15583] [ERROR] [error:157]	got error busi back: 8fc10e0b-2d75-46c9-aaf7-d557b68d5f38, code: 1007 
+[16:06:30.353] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 8fc10e0b-2d75-46c9-aaf7-d557b68d5f38 !  [THE user: test001] 
+[16:06:30.354] [22386] [ERROR] [error:157]	got error busi back: 3c02e17f-a864-4caa-a13e-ee06ac0e15dd, code: 1007 
+[16:06:30.354] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 3c02e17f-a864-4caa-a13e-ee06ac0e15dd !  [THE user: test001] 
+[16:06:30.354] [15583] [ERROR] [error:157]	got error busi back: 60031659-e9ce-4092-8d4b-945df6385041, code: 1007 
+[16:06:30.354] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 60031659-e9ce-4092-8d4b-945df6385041 !  [THE user: test001] 
+[16:06:30.355] [22386] [ERROR] [error:157]	got error busi back: 014f8a36-3cfa-4605-b133-9ea0c8471e3c, code: 1007 
+[16:06:30.355] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 014f8a36-3cfa-4605-b133-9ea0c8471e3c !  [THE user: test001] 
+[16:06:30.355] [15583] [ERROR] [error:157]	got error busi back: 4452d012-3425-499d-9f1f-fea0f036972f, code: 1007 
+[16:06:30.355] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 4452d012-3425-499d-9f1f-fea0f036972f !  [THE user: test001] 
+[16:06:30.356] [22386] [ERROR] [error:157]	got error busi back: 18fbf605-2c8f-41f6-ac8d-a849d006aee1, code: 1007 
+[16:06:30.356] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 18fbf605-2c8f-41f6-ac8d-a849d006aee1 !  [THE user: test001] 
+[16:06:30.356] [15583] [ERROR] [error:157]	got error busi back: 7ec9f453-86d0-4c08-9ef8-db504c3250ed, code: 1007 
+[16:06:30.356] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 7ec9f453-86d0-4c08-9ef8-db504c3250ed !  [THE user: test001] 
+[16:06:30.357] [22386] [ERROR] [error:157]	got error busi back: 958ac688-65c7-4e25-8b28-0d5635e0b5c9, code: 1007 
+[16:06:30.357] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 958ac688-65c7-4e25-8b28-0d5635e0b5c9 !  [THE user: test001] 
+[16:06:30.357] [15583] [ERROR] [error:157]	got error busi back: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83, code: 1007 
+[16:06:30.357] [15583] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83 !  [THE user: test001] 
+[16:06:30.357] [22386] [ERROR] [error:157]	got error busi back: 16ae256b-7d7b-436e-bf61-7184e8b47fa5, code: 1007 
+[16:06:30.358] [22386] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 16ae256b-7d7b-436e-bf61-7184e8b47fa5 !  [THE user: test001] 
+[16:06:35.516] [31769] [WARN ] [~MpcMemPool:48]	the mempool is freed! 

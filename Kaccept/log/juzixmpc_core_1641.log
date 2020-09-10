@@ -1,0 +1,486 @@
+[16:11:54.222] [1641 ] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[16:11:54.224] [1641 ] [INFO ] [init:111]	JniNativeCallback init ok. 
+[16:11:54.224] [1641 ] [INFO ] [init:136]	to init engine, user: test003, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[16:11:54.224] [1641 ] [WARN ] [init:158]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[16:11:54.224] [1641 ] [INFO ] [parseCircuits:365]	** preload circuit:  /home/lmars/gc/crossk10_10.gc 
+[16:11:54.224] [1641 ] [INFO ] [init:172]	the --Mpc.Circuits=/home/lmars/gc/crossk10_10.gc is set ! 
+[16:11:55.521] [1641 ] [INFO ] [resolveCiruit:326]	** circuit resolve => circuit: /home/lmars/gc/crossk10_10.gc , gates: 2476000, andGate: 825500, wires: 2478560, cost time: 1.296775 seconds, speed: 1909351.933049 (gc / second) ** 
+[16:11:55.522] [1641 ] [INFO ] [CircuitFile:108]	circuit: /home/lmars/gc/crossk10_10.gc,  hash: 1AB21D8355CFA17F8E61194831E81A8F22BEC8C728FEFB747ED035EB5082AA2B 
+[16:11:55.522] [1641 ] [INFO ] [init:188]	preload circuits ok ! 
+[16:11:55.522] [1641 ] [INFO ] [init:212]	Not start node server ! use proxy forward ! 
+[16:11:55.523] [1641 ] [INFO ] [MpcTaskDispatcher:39]	construct task dispatcher, with 8 processor, load balence is: 16384 
+[16:11:55.523] [1641 ] [INFO ] [init:63]	INIT the processor: 0, type: 0 ok 
+[16:11:55.523] [1738 ] [INFO ] [operator():54]	task processor: 0 is running... 
+[16:11:55.523] [1641 ] [INFO ] [init:63]	INIT the processor: 1, type: 0 ok 
+[16:11:55.523] [1740 ] [INFO ] [operator():54]	task processor: 1 is running... 
+[16:11:55.523] [1641 ] [INFO ] [init:63]	INIT the processor: 2, type: 0 ok 
+[16:11:55.523] [1740 ] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[16:11:55.523] [1738 ] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[16:11:55.523] [1741 ] [INFO ] [operator():54]	task processor: 2 is running... 
+[16:11:55.523] [1641 ] [INFO ] [init:63]	INIT the processor: 3, type: 0 ok 
+[16:11:55.523] [1743 ] [INFO ] [operator():54]	task processor: 3 is running... 
+[16:11:55.523] [1641 ] [INFO ] [init:63]	INIT the processor: 4, type: 1 ok 
+[16:11:55.524] [1641 ] [INFO ] [init:63]	INIT the processor: 5, type: 1 ok 
+[16:11:55.524] [1641 ] [INFO ] [init:63]	INIT the processor: 6, type: 1 ok 
+[16:11:55.523] [1741 ] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[16:11:55.524] [1747 ] [INFO ] [operator():54]	task processor: 6 is running... 
+[08:11:55.523] [1743 ] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[16:11:55.523] [1745 ] [INFO ] [operator():54]	task processor: 4 is running... 
+[16:11:55.524] [1641 ] [INFO ] [init:63]	INIT the processor: 7, type: 1 ok 
+[16:11:55.524] [1745 ] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[16:11:55.524] [1641 ] [INFO ] [init:234]	INIT task dispatcher done ! 
+[16:11:55.524] [1746 ] [INFO ] [operator():54]	task processor: 5 is running... 
+[16:11:55.524] [1747 ] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[16:11:55.524] [1746 ] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[16:11:55.525] [1641 ] [INFO ] [init:64]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[16:11:55.526] [1748 ] [INFO ] [operator():54]	task processor: 7 is running... 
+[16:11:55.526] [1748 ] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[16:11:55.546] [1757 ] [INFO ] [connected:34]	to get session... 
+[16:11:55.546] [1757 ] [INFO ] [connected:38]	to get create busi node callback... 
+[16:11:55.546] [1757 ] [INFO ] [connected:46]	to set node callback, public endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000, user: test003 ... 
+[16:11:55.552] [1757 ] [WARN ] [connected:55]	the busi session create success. 
+[16:11:56.034] [1641 ] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[16:11:56.035] [1641 ] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[16:11:56.035] [1641 ] [INFO ] [init:86]	INIT busi node client success. user: test003, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[16:11:56.035] [1641 ] [INFO ] [init:244]	INIT busi node client done ! 
+[16:11:56.035] [1641 ] [INFO ] [init:48]	input ready process init ok. 
+[16:11:56.035] [1641 ] [INFO ] [init:253]	INIT input ready processor done ! 
+[16:11:56.035] [1641 ] [INFO ] [init:48]	ready process init ok. max request queue size: 4 
+[16:11:56.035] [1641 ] [INFO ] [init:263]	INIT ready processor done ! 
+[16:11:56.035] [1641 ] [INFO ] [init:269]	Mpc engine init success. 
+[16:11:56.035] [1802 ] [INFO ] [popCommitTask:127]	to POP a commit task, task size: 0  ... 
+[16:11:56.036] [1641 ] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[16:12:01.251] [1755 ] [WARN ] [MpcMemPool:42]	the mempool construction, size: 134217728, mem: 0x7f36eb041010 
+[16:12:01.273] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:01.398] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:01.411] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:01.448] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:11.094] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:11.199] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:11.321] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:11.336] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:20.043] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:20.258] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:20.400] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:20.657] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:28.967] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:29.269] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:29.349] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:29.618] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:37.556] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:37.935] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:38.284] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:38.334] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:46.284] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:46.417] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:46.821] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:46.923] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:54.774] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:54.887] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:55.440] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:12:55.535] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:03.438] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:03.619] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:04.001] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:04.345] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:11.808] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:12.050] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:12.287] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:12.639] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:20.205] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:20.501] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:20.721] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:21.308] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:28.762] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:28.957] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:29.165] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:30.073] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:37.260] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:37.409] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:37.588] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:38.663] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:45.182] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:13:45.581] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[16:14:22.194] [1755 ] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[16:14:22.194] [1755 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[16:14:22.202] [1756 ] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[16:14:22.202] [1756 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[16:14:22.574] [1755 ] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[16:14:22.574] [1755 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[16:14:40.042] [1755 ] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[16:14:40.042] [1755 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[16:14:40.045] [1756 ] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[16:14:40.045] [1756 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[16:14:40.174] [1755 ] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[16:14:40.174] [1755 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[20:15:15.012] [1756 ] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[20:15:15.012] [1756 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[20:15:15.093] [1756 ] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[20:15:15.094] [1756 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[20:15:16.774] [15565] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[20:15:16.774] [15565] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[20:18:07.633] [1756 ] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[20:18:07.633] [1756 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[20:18:07.705] [1756 ] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[20:18:07.705] [1756 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[20:18:09.072] [22966] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[20:18:09.072] [22966] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:03:52.096] [1756 ] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:03:52.096] [1756 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:03:52.104] [4263 ] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:03:52.104] [4263 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:03:52.336] [1756 ] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:03:52.336] [1756 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:04:17.061] [4263 ] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:04:17.061] [4263 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:04:17.065] [1756 ] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:04:17.065] [1756 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:04:17.220] [1756 ] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:04:17.220] [1756 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:05:44.313] [4263 ] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:05:44.313] [4263 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:05:44.321] [14321] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:05:44.321] [14321] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:05:44.579] [4263 ] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:05:44.579] [4263 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:11:15.205] [14321] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:11:15.205] [14321] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:11:15.219] [15392] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:11:15.219] [15392] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:11:15.537] [14321] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:11:15.537] [14321] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:11:19.245] [14321] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:11:19.245] [14321] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:11:19.248] [14321] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:11:19.248] [14321] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:11:19.476] [14321] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:11:19.476] [14321] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:12:31.924] [14321] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:12:31.924] [14321] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:12:31.932] [22091] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:12:31.932] [22091] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:12:32.160] [14321] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:12:32.160] [14321] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:12:45.068] [22091] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:12:45.068] [22091] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:12:45.071] [14321] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:12:45.071] [14321] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:12:45.198] [22091] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:12:45.198] [22091] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:16:23.891] [14321] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:16:23.891] [14321] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:16:23.901] [12062] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:16:23.901] [12062] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:16:24.149] [14321] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:16:24.149] [14321] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:16:32.679] [12062] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:16:32.679] [12062] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:16:32.685] [12062] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:16:32.685] [12062] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:16:32.861] [14321] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:16:32.861] [14321] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:26:59.377] [12062] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:26:59.377] [12062] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:26:59.390] [11664] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:26:59.390] [11664] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:26:59.676] [12062] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:26:59.677] [12062] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:27:51.034] [11664] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:27:51.034] [11664] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:27:51.041] [12062] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:27:51.041] [12062] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:27:51.170] [11664] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:27:51.170] [11664] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:43:11.516] [12062] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:43:11.516] [12062] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:43:11.528] [6750 ] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:43:11.528] [6750 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:43:12.102] [12062] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:43:12.102] [12062] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:46:19.596] [6750 ] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:46:19.596] [6750 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:46:19.613] [19200] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:46:19.613] [19200] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:46:20.049] [6750 ] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:46:20.049] [6750 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:50:42.273] [19200] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:50:42.273] [19200] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:50:42.283] [5543 ] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:50:42.283] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:50:42.749] [19200] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:50:42.749] [19200] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:51:03.839] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:03.843] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:03.853] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:03.854] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:09.597] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:11.021] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:11.139] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:11.358] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:16.914] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:18.282] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:18.488] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:18.706] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:23.353] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:25.858] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:26.059] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:26.140] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:30.234] [1745 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:33.441] [1746 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:33.495] [1748 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:33.535] [1747 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:51:36.455] [5543 ] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:51:36.455] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:51:36.467] [5543 ] [ERROR] [error:157]	got error busi back: dc23b69f-665c-43bd-aae6-a3fbcedea91c, code: 1007 
+[21:51:36.480] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: dc23b69f-665c-43bd-aae6-a3fbcedea91c,  put buffer(size: 16384, seq: 533) failed, exec failed ! 
+[21:51:36.480] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: dc23b69f-665c-43bd-aae6-a3fbcedea91c, fromUser: test004  
+[21:51:36.490] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: dc23b69f-665c-43bd-aae6-a3fbcedea91c,  put buffer(size: 16384, seq: 534) failed, exec failed ! 
+[21:51:36.490] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: dc23b69f-665c-43bd-aae6-a3fbcedea91c, fromUser: test004  
+[21:51:36.490] [19200] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:51:36.490] [19200] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:51:36.576] [5543 ] [ERROR] [error:157]	got error busi back: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, code: 1007 
+[21:51:36.586] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 509) failed, exec failed ! 
+[21:51:36.586] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.593] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 510) failed, exec failed ! 
+[21:51:36.594] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.601] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 511) failed, exec failed ! 
+[21:51:36.601] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.608] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 512) failed, exec failed ! 
+[21:51:36.608] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.615] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 513) failed, exec failed ! 
+[21:51:36.615] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.623] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 514) failed, exec failed ! 
+[21:51:36.623] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.629] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 515) failed, exec failed ! 
+[21:51:36.629] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.634] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 516) failed, exec failed ! 
+[21:51:36.634] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.639] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 517) failed, exec failed ! 
+[21:51:36.639] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.644] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 518) failed, exec failed ! 
+[21:51:36.644] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.647] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 519) failed, exec failed ! 
+[21:51:36.647] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.656] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 520) failed, exec failed ! 
+[21:51:36.657] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.663] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 521) failed, exec failed ! 
+[21:51:36.663] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.674] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 522) failed, exec failed ! 
+[21:51:36.674] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.681] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 523) failed, exec failed ! 
+[21:51:36.681] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.689] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 524) failed, exec failed ! 
+[21:51:36.689] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.696] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9,  put buffer(size: 16384, seq: 525) failed, exec failed ! 
+[21:51:36.696] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, fromUser: test004  
+[21:51:36.696] [19200] [ERROR] [error:157]	got error busi back: 57fc0992-dc18-466d-b3c0-03b52ee90d01, code: 1007 
+[21:51:36.701] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 567) failed, exec failed ! 
+[21:51:36.701] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.710] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 568) failed, exec failed ! 
+[21:51:36.710] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.714] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 569) failed, exec failed ! 
+[21:51:36.714] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.717] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 570) failed, exec failed ! 
+[21:51:36.717] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.721] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 571) failed, exec failed ! 
+[21:51:36.721] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.726] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 572) failed, exec failed ! 
+[21:51:36.727] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.731] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 573) failed, exec failed ! 
+[21:51:36.731] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.734] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 574) failed, exec failed ! 
+[21:51:36.734] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.738] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 575) failed, exec failed ! 
+[21:51:36.738] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.741] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 576) failed, exec failed ! 
+[21:51:36.741] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.747] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 577) failed, exec failed ! 
+[21:51:36.747] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.753] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 578) failed, exec failed ! 
+[21:51:36.753] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.758] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 579) failed, exec failed ! 
+[21:51:36.758] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.763] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 580) failed, exec failed ! 
+[21:51:36.763] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.767] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 581) failed, exec failed ! 
+[21:51:36.767] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.770] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 57fc0992-dc18-466d-b3c0-03b52ee90d01,  put buffer(size: 16384, seq: 582) failed, exec failed ! 
+[21:51:36.770] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 57fc0992-dc18-466d-b3c0-03b52ee90d01, fromUser: test004  
+[21:51:36.776] [19200] [ERROR] [error:157]	got error busi back: 2fe6a4e0-10ae-4a19-a514-443215338cfa, code: 1007 
+[21:51:36.781] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1571) failed, exec failed ! 
+[21:51:36.781] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.786] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1572) failed, exec failed ! 
+[21:51:36.786] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.793] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1573) failed, exec failed ! 
+[21:51:36.793] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.810] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1574) failed, exec failed ! 
+[21:51:36.810] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.817] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1575) failed, exec failed ! 
+[21:51:36.817] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.823] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1576) failed, exec failed ! 
+[21:51:36.823] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.828] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1577) failed, exec failed ! 
+[21:51:36.828] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.832] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1578) failed, exec failed ! 
+[21:51:36.832] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.835] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1579) failed, exec failed ! 
+[21:51:36.835] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.839] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1580) failed, exec failed ! 
+[21:51:36.840] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.844] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1581) failed, exec failed ! 
+[21:51:36.844] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.849] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1582) failed, exec failed ! 
+[21:51:36.849] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.853] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1583) failed, exec failed ! 
+[21:51:36.853] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.856] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1584) failed, exec failed ! 
+[21:51:36.856] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.860] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1585) failed, exec failed ! 
+[21:51:36.860] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.874] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1586) failed, exec failed ! 
+[21:51:36.874] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.878] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1587) failed, exec failed ! 
+[21:51:36.878] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.885] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1588) failed, exec failed ! 
+[21:51:36.885] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.890] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1589) failed, exec failed ! 
+[21:51:36.890] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.894] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1590) failed, exec failed ! 
+[21:51:36.894] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.909] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1591) failed, exec failed ! 
+[21:51:36.909] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.915] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1592) failed, exec failed ! 
+[21:51:36.915] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.919] [5543 ] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1593) failed, exec failed ! 
+[21:51:36.919] [5543 ] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.926] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1594) failed, exec failed ! 
+[21:51:36.926] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.939] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1595) failed, exec failed ! 
+[21:51:36.939] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.949] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1596) failed, exec failed ! 
+[21:51:36.949] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.952] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1597) failed, exec failed ! 
+[21:51:36.952] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.957] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1598) failed, exec failed ! 
+[21:51:36.957] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.961] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1599) failed, exec failed ! 
+[21:51:36.961] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.964] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1600) failed, exec failed ! 
+[21:51:36.964] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.969] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1601) failed, exec failed ! 
+[21:51:36.969] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.972] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1602) failed, exec failed ! 
+[21:51:36.972] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.975] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1603) failed, exec failed ! 
+[21:51:36.975] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.979] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1604) failed, exec failed ! 
+[21:51:36.979] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.982] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1605) failed, exec failed ! 
+[21:51:36.983] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.991] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1606) failed, exec failed ! 
+[21:51:36.991] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.995] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1607) failed, exec failed ! 
+[21:51:36.995] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:36.000] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1608) failed, exec failed ! 
+[21:51:37.000] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:37.004] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1609) failed, exec failed ! 
+[21:51:37.004] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:37.009] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1610) failed, exec failed ! 
+[21:51:37.009] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:37.012] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1611) failed, exec failed ! 
+[21:51:37.012] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:37.014] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1612) failed, exec failed ! 
+[21:51:37.014] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:37.020] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1613) failed, exec failed ! 
+[21:51:37.020] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:37.023] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1614) failed, exec failed ! 
+[21:51:37.023] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:37.030] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1615) failed, exec failed ! 
+[21:51:37.030] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:37.033] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1616) failed, exec failed ! 
+[21:51:37.033] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:37.036] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1617) failed, exec failed ! 
+[21:51:37.036] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:37.038] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1618) failed, exec failed ! 
+[21:51:37.038] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:37.041] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1619) failed, exec failed ! 
+[21:51:37.041] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:37.047] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 16384, seq: 1620) failed, exec failed ! 
+[21:51:37.047] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:37.049] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 4992, seq: 1621) failed, exec failed ! 
+[21:51:37.049] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:37.059] [19200] [WARN ] [putBuffer:304]	get cache task failed, task: 2fe6a4e0-10ae-4a19-a514-443215338cfa,  put buffer(size: 102400, seq: 1622) failed, exec failed ! 
+[21:51:37.059] [19200] [ERROR] [inputData:201]	proxy input data, cannot put receive buffer to dispatcher !  task: 2fe6a4e0-10ae-4a19-a514-443215338cfa, fromUser: test004  
+[21:51:37.123] [19200] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:51:37.123] [19200] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:54:53.423] [5543 ] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:54:53.423] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:54:53.432] [5543 ] [ERROR] [error:157]	got error busi back: dc23b69f-665c-43bd-aae6-a3fbcedea91c, code: 1007 
+[21:54:53.432] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: dc23b69f-665c-43bd-aae6-a3fbcedea91c !  [THE user: test003] 
+[21:54:53.443] [5543 ] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:54:53.443] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:54:53.517] [5543 ] [ERROR] [error:157]	got error busi back: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, code: 1007 
+[21:54:53.517] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9 !  [THE user: test003] 
+[21:54:53.578] [5543 ] [ERROR] [error:157]	got error busi back: 57fc0992-dc18-466d-b3c0-03b52ee90d01, code: 1007 
+[21:54:53.578] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 57fc0992-dc18-466d-b3c0-03b52ee90d01 !  [THE user: test003] 
+[21:54:53.620] [5543 ] [ERROR] [error:157]	got error busi back: 2fe6a4e0-10ae-4a19-a514-443215338cfa, code: 1007 
+[21:54:53.620] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 2fe6a4e0-10ae-4a19-a514-443215338cfa !  [THE user: test003] 
+[21:54:53.878] [5543 ] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:54:53.878] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:55:56.633] [5543 ] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:55:56.633] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:55:56.639] [24507] [ERROR] [error:157]	got error busi back: dc23b69f-665c-43bd-aae6-a3fbcedea91c, code: 1007 
+[21:55:56.639] [24507] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: dc23b69f-665c-43bd-aae6-a3fbcedea91c !  [THE user: test003] 
+[21:55:56.644] [5543 ] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:55:56.644] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:55:56.702] [5543 ] [ERROR] [error:157]	got error busi back: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, code: 1007 
+[21:55:56.702] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9 !  [THE user: test003] 
+[21:55:56.748] [5543 ] [ERROR] [error:157]	got error busi back: 57fc0992-dc18-466d-b3c0-03b52ee90d01, code: 1007 
+[21:55:56.748] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 57fc0992-dc18-466d-b3c0-03b52ee90d01 !  [THE user: test003] 
+[21:55:56.772] [5543 ] [ERROR] [error:157]	got error busi back: 2fe6a4e0-10ae-4a19-a514-443215338cfa, code: 1007 
+[21:55:56.772] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 2fe6a4e0-10ae-4a19-a514-443215338cfa !  [THE user: test003] 
+[21:55:56.899] [5543 ] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:55:56.899] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:57:43.585] [5543 ] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:57:43.585] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:57:43.621] [5543 ] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:57:43.621] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:57:43.858] [31232] [ERROR] [error:157]	got error busi back: 57fc0992-dc18-466d-b3c0-03b52ee90d01, code: 1007 
+[21:57:43.858] [31232] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 57fc0992-dc18-466d-b3c0-03b52ee90d01 !  [THE user: test003] 
+[21:57:43.932] [5543 ] [ERROR] [error:157]	got error busi back: 2fe6a4e0-10ae-4a19-a514-443215338cfa, code: 1007 
+[21:57:43.932] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 2fe6a4e0-10ae-4a19-a514-443215338cfa !  [THE user: test003] 
+[21:57:44.413] [31232] [ERROR] [error:157]	got error busi back: dc23b69f-665c-43bd-aae6-a3fbcedea91c, code: 1007 
+[21:57:44.413] [31232] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: dc23b69f-665c-43bd-aae6-a3fbcedea91c !  [THE user: test003] 
+[21:57:44.489] [5543 ] [ERROR] [error:157]	got error busi back: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, code: 1007 
+[21:57:44.489] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9 !  [THE user: test003] 
+[21:57:44.784] [31232] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:57:44.784] [31232] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:58:04.627] [5543 ] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:58:04.627] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:58:04.652] [31232] [ERROR] [error:157]	got error busi back: dc23b69f-665c-43bd-aae6-a3fbcedea91c, code: 1007 
+[21:58:04.652] [31232] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: dc23b69f-665c-43bd-aae6-a3fbcedea91c !  [THE user: test003] 
+[21:58:04.678] [5543 ] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:58:04.678] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:58:04.776] [31232] [ERROR] [error:157]	got error busi back: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, code: 1007 
+[21:58:04.776] [31232] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9 !  [THE user: test003] 
+[21:58:04.892] [5543 ] [ERROR] [error:157]	got error busi back: 57fc0992-dc18-466d-b3c0-03b52ee90d01, code: 1007 
+[21:58:04.892] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 57fc0992-dc18-466d-b3c0-03b52ee90d01 !  [THE user: test003] 
+[21:58:04.950] [31232] [ERROR] [error:157]	got error busi back: 2fe6a4e0-10ae-4a19-a514-443215338cfa, code: 1007 
+[21:58:04.950] [31232] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 2fe6a4e0-10ae-4a19-a514-443215338cfa !  [THE user: test003] 
+[21:58:05.349] [5543 ] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:58:05.349] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[21:58:45.212] [5543 ] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[21:58:45.212] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[21:58:45.218] [5543 ] [ERROR] [error:157]	got error busi back: dc23b69f-665c-43bd-aae6-a3fbcedea91c, code: 1007 
+[21:58:45.218] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: dc23b69f-665c-43bd-aae6-a3fbcedea91c !  [THE user: test003] 
+[21:58:45.224] [5543 ] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[21:58:45.224] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[21:58:45.254] [5543 ] [ERROR] [error:157]	got error busi back: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9, code: 1007 
+[21:58:45.254] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 834c1b90-2a34-43ed-9aa6-d5dc8815cdc9 !  [THE user: test003] 
+[21:58:45.286] [5543 ] [ERROR] [error:157]	got error busi back: 57fc0992-dc18-466d-b3c0-03b52ee90d01, code: 1007 
+[21:58:45.286] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 57fc0992-dc18-466d-b3c0-03b52ee90d01 !  [THE user: test003] 
+[21:58:45.304] [5543 ] [ERROR] [error:157]	got error busi back: 2fe6a4e0-10ae-4a19-a514-443215338cfa, code: 1007 
+[21:58:45.304] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 2fe6a4e0-10ae-4a19-a514-443215338cfa !  [THE user: test003] 
+[21:58:45.487] [5543 ] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[21:58:45.487] [5543 ] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[22:03:58.006] [31787] [WARN ] [~MpcMemPool:48]	the mempool is freed! 

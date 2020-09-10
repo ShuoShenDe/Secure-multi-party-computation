@@ -1,0 +1,137 @@
+[21:22:50.713] [4369 ] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[21:22:50.714] [4369 ] [INFO ] [init:111]	JniNativeCallback init ok. 
+[21:22:50.714] [4369 ] [INFO ] [init:108]	to init engine, user: test001, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:22:50.714] [4369 ] [WARN ] [init:130]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[21:22:50.714] [4369 ] [INFO ] [init:156]	Not start node server ! use proxy forward ! 
+[21:22:50.714] [4369 ] [INFO ] [MpcTaskDispatcher:43]	construct task dispatcher, with 3 processor, load balence is: 6000 
+[21:22:50.714] [4369 ] [INFO ] [init:60]	INIT the processor: 0 ok 
+[21:22:50.714] [4369 ] [INFO ] [init:60]	INIT the processor: 1 ok 
+[21:22:50.714] [4369 ] [INFO ] [init:60]	INIT the processor: 2 ok 
+[21:22:50.714] [4369 ] [INFO ] [init:177]	INIT task dispatcher done ! 
+[21:22:50.714] [4369 ] [INFO ] [init:40]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:22:50.717] [4394 ] [INFO ] [operator():51]	task processor: 0 is running... 
+[21:22:50.718] [4394 ] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[21:22:50.718] [4396 ] [INFO ] [operator():51]	task processor: 2 is running... 
+[21:22:50.718] [4396 ] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[21:22:50.718] [4395 ] [INFO ] [operator():51]	task processor: 1 is running... 
+[21:22:50.718] [4395 ] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[21:22:50.744] [4403 ] [INFO ] [connected:34]	to get session... 
+[21:22:50.744] [4403 ] [INFO ] [connected:38]	to get create busi node callback... 
+[21:22:50.744] [4403 ] [INFO ] [connected:45]	to set node callback... 
+[21:22:50.750] [4403 ] [WARN ] [connected:54]	the busi session create success. 
+[21:22:51.237] [4369 ] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[21:22:51.237] [4369 ] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[21:22:51.237] [4369 ] [INFO ] [init:86]	INIT busi node client success. user: test001, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:22:51.237] [4369 ] [INFO ] [init:187]	INIT busi node client done ! 
+[21:22:51.237] [4369 ] [INFO ] [init:48]	ready process init ok. max request queue size: 3 
+[21:22:51.237] [4369 ] [INFO ] [init:202]	Mpc engine init success. 
+[21:22:51.237] [4415 ] [DEBUG] [popCommitTask:110]	to POP a commit task, task size: 0  ... 
+[21:22:51.238] [4369 ] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[21:22:57.493] [4402 ] [WARN ] [allReady:153]	busi allReady callback done,  task: bb4da872-0f3f-42f1-9440-3cb43b4e7f97, user: test001, ready: 1 !  
+[21:23:18.411] [4394 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: bb4da872-0f3f-42f1-9440-3cb43b4e7f97 ! 
+[21:23:18.412] [4394 ] [WARN ] [processTask:130]	processor a MPC task: bb4da872-0f3f-42f1-9440-3cb43b4e7f97 Failed ! 
+[21:23:22.194] [4402 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 47be710e-e573-4787-a2d4-20d90a2e7070, user: test001, ready: 1 !  
+[21:23:42.951] [4396 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 47be710e-e573-4787-a2d4-20d90a2e7070 ! 
+[21:23:42.952] [4396 ] [WARN ] [processTask:130]	processor a MPC task: 47be710e-e573-4787-a2d4-20d90a2e7070 Failed ! 
+[21:23:52.217] [4402 ] [WARN ] [allReady:153]	busi allReady callback done,  task: e7938d24-f536-4e3c-b262-0c738e497db4, user: test001, ready: 1 !  
+[21:24:12.353] [4395 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: e7938d24-f536-4e3c-b262-0c738e497db4 ! 
+[21:24:12.353] [4395 ] [WARN ] [processTask:130]	processor a MPC task: e7938d24-f536-4e3c-b262-0c738e497db4 Failed ! 
+[21:30:53.088] [25977] [WARN ] [allReady:153]	busi allReady callback done,  task: 010170da-a5a2-4363-a10b-527228c6aef0, user: test001, ready: 1 !  
+[21:31:09.030] [4394 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 010170da-a5a2-4363-a10b-527228c6aef0 ! 
+[21:31:09.030] [4394 ] [WARN ] [processTask:130]	processor a MPC task: 010170da-a5a2-4363-a10b-527228c6aef0 Failed ! 
+[21:31:23.104] [4402 ] [WARN ] [allReady:153]	busi allReady callback done,  task: a630c511-43d1-4a9a-b308-676fdf4d1caf, user: test001, ready: 1 !  
+[21:31:39.435] [4396 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: a630c511-43d1-4a9a-b308-676fdf4d1caf ! 
+[21:31:39.435] [4396 ] [WARN ] [processTask:130]	processor a MPC task: a630c511-43d1-4a9a-b308-676fdf4d1caf Failed ! 
+[21:31:53.124] [4402 ] [WARN ] [allReady:153]	busi allReady callback done,  task: d780890e-ad95-4e33-a4dc-8be880841002, user: test001, ready: 1 !  
+[21:32:09.650] [4395 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: d780890e-ad95-4e33-a4dc-8be880841002 ! 
+[21:32:09.650] [4395 ] [WARN ] [processTask:130]	processor a MPC task: d780890e-ad95-4e33-a4dc-8be880841002 Failed ! 
+[21:43:15.339] [27623] [WARN ] [allReady:153]	busi allReady callback done,  task: 92f45e9d-0a8b-48cd-816b-75544e2fed30, user: test001, ready: 1 !  
+[21:43:30.999] [4394 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 92f45e9d-0a8b-48cd-816b-75544e2fed30 ! 
+[21:43:30.999] [4394 ] [WARN ] [processTask:130]	processor a MPC task: 92f45e9d-0a8b-48cd-816b-75544e2fed30 Failed ! 
+[21:43:45.351] [4402 ] [WARN ] [allReady:153]	busi allReady callback done,  task: a35bb1da-b680-450a-acac-a7a272468f26, user: test001, ready: 1 !  
+[21:44:01.362] [4396 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: a35bb1da-b680-450a-acac-a7a272468f26 ! 
+[21:44:01.362] [4396 ] [WARN ] [processTask:130]	processor a MPC task: a35bb1da-b680-450a-acac-a7a272468f26 Failed ! 
+[21:44:15.366] [27623] [WARN ] [allReady:153]	busi allReady callback done,  task: cb57296d-1fac-4389-bf27-3fe16a5a9bc2, user: test001, ready: 1 !  
+[21:44:31.592] [4395 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: cb57296d-1fac-4389-bf27-3fe16a5a9bc2 ! 
+[21:44:31.592] [4395 ] [WARN ] [processTask:130]	processor a MPC task: cb57296d-1fac-4389-bf27-3fe16a5a9bc2 Failed ! 
+[21:45:36.928] [1643 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 0a4be1df-515b-4c02-bbe4-cda67798223d, user: test001, ready: 1 !  
+[21:45:53.193] [4394 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 0a4be1df-515b-4c02-bbe4-cda67798223d ! 
+[21:45:53.193] [4394 ] [WARN ] [processTask:130]	processor a MPC task: 0a4be1df-515b-4c02-bbe4-cda67798223d Failed ! 
+[21:46:06.943] [27623] [WARN ] [allReady:153]	busi allReady callback done,  task: 44e9ff4f-5f37-4b18-9713-e9e9565cf207, user: test001, ready: 1 !  
+[21:46:23.668] [4396 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 44e9ff4f-5f37-4b18-9713-e9e9565cf207 ! 
+[21:46:23.668] [4396 ] [WARN ] [processTask:130]	processor a MPC task: 44e9ff4f-5f37-4b18-9713-e9e9565cf207 Failed ! 
+[21:46:36.956] [27623] [WARN ] [allReady:153]	busi allReady callback done,  task: eaaa5f20-96be-422b-9882-830aa773c4fd, user: test001, ready: 1 !  
+[21:46:53.383] [4395 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: eaaa5f20-96be-422b-9882-830aa773c4fd ! 
+[21:46:53.383] [4395 ] [WARN ] [processTask:130]	processor a MPC task: eaaa5f20-96be-422b-9882-830aa773c4fd Failed ! 
+[21:52:11.470] [19682] [WARN ] [allReady:153]	busi allReady callback done,  task: 044b7fdb-e808-4bef-9382-35f2320ef7f8, user: test001, ready: 1 !  
+[21:52:27.659] [4394 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 044b7fdb-e808-4bef-9382-35f2320ef7f8 ! 
+[21:52:27.659] [4394 ] [WARN ] [processTask:130]	processor a MPC task: 044b7fdb-e808-4bef-9382-35f2320ef7f8 Failed ! 
+[21:52:41.484] [1643 ] [WARN ] [allReady:153]	busi allReady callback done,  task: d76078ed-6788-4e9d-93cc-87cba10d10c8, user: test001, ready: 1 !  
+[21:52:58.316] [4396 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: d76078ed-6788-4e9d-93cc-87cba10d10c8 ! 
+[21:52:58.316] [4396 ] [WARN ] [processTask:130]	processor a MPC task: d76078ed-6788-4e9d-93cc-87cba10d10c8 Failed ! 
+[21:53:11.496] [19682] [WARN ] [allReady:153]	busi allReady callback done,  task: 562ec769-293e-48c0-b7bc-83783e828f82, user: test001, ready: 1 !  
+[21:53:27.897] [4395 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 562ec769-293e-48c0-b7bc-83783e828f82 ! 
+[21:53:27.898] [4395 ] [WARN ] [processTask:130]	processor a MPC task: 562ec769-293e-48c0-b7bc-83783e828f82 Failed ! 
+[21:58:36.030] [5009 ] [WARN ] [allReady:153]	busi allReady callback done,  task: eb32fed7-fa4a-4eee-a85c-e29ffda38428, user: test001, ready: 1 !  
+[21:58:52.026] [4394 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: eb32fed7-fa4a-4eee-a85c-e29ffda38428 ! 
+[21:58:52.026] [4394 ] [WARN ] [processTask:130]	processor a MPC task: eb32fed7-fa4a-4eee-a85c-e29ffda38428 Failed ! 
+[21:59:06.043] [5009 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 725c443d-ec49-4af3-9933-732a01db3485, user: test001, ready: 1 !  
+[21:59:22.610] [4396 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 725c443d-ec49-4af3-9933-732a01db3485 ! 
+[21:59:22.610] [4396 ] [WARN ] [processTask:130]	processor a MPC task: 725c443d-ec49-4af3-9933-732a01db3485 Failed ! 
+[21:59:36.054] [1643 ] [WARN ] [allReady:153]	busi allReady callback done,  task: a8d5bffd-5e80-43b7-b97a-9c32f40c53fc, user: test001, ready: 1 !  
+[21:59:52.446] [4395 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: a8d5bffd-5e80-43b7-b97a-9c32f40c53fc ! 
+[21:59:52.446] [4395 ] [WARN ] [processTask:130]	processor a MPC task: a8d5bffd-5e80-43b7-b97a-9c32f40c53fc Failed ! 
+[22:02:44.662] [16031] [WARN ] [allReady:153]	busi allReady callback done,  task: 457b4db5-f10a-427e-9cef-ece7d3229494, user: test001, ready: 1 !  
+[22:03:00.182] [4394 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 457b4db5-f10a-427e-9cef-ece7d3229494 ! 
+[22:03:00.182] [4394 ] [WARN ] [processTask:130]	processor a MPC task: 457b4db5-f10a-427e-9cef-ece7d3229494 Failed ! 
+[22:03:14.674] [16031] [WARN ] [allReady:153]	busi allReady callback done,  task: 2b7aaa2c-6d35-47f4-9c43-925bb2b67dcb, user: test001, ready: 1 !  
+[22:03:31.263] [4396 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 2b7aaa2c-6d35-47f4-9c43-925bb2b67dcb ! 
+[22:03:31.263] [4396 ] [WARN ] [processTask:130]	processor a MPC task: 2b7aaa2c-6d35-47f4-9c43-925bb2b67dcb Failed ! 
+[22:03:44.687] [16031] [WARN ] [allReady:153]	busi allReady callback done,  task: 74f7358d-0422-4bfe-a627-7f392f12afae, user: test001, ready: 1 !  
+[22:04:00.721] [4395 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 74f7358d-0422-4bfe-a627-7f392f12afae ! 
+[22:04:00.722] [4395 ] [WARN ] [processTask:130]	processor a MPC task: 74f7358d-0422-4bfe-a627-7f392f12afae Failed ! 
+[22:07:32.436] [28815] [WARN ] [allReady:153]	busi allReady callback done,  task: 36a0f8e9-9072-4103-8ed4-96f1054d9a76, user: test001, ready: 1 !  
+[22:07:47.925] [4394 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 36a0f8e9-9072-4103-8ed4-96f1054d9a76 ! 
+[22:07:47.926] [4394 ] [WARN ] [processTask:130]	processor a MPC task: 36a0f8e9-9072-4103-8ed4-96f1054d9a76 Failed ! 
+[22:08:02.447] [28815] [WARN ] [allReady:153]	busi allReady callback done,  task: 6333adc1-2d01-47a7-919d-5cfeafb551db, user: test001, ready: 1 !  
+[22:08:19.109] [4396 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 6333adc1-2d01-47a7-919d-5cfeafb551db ! 
+[22:08:19.109] [4396 ] [WARN ] [processTask:130]	processor a MPC task: 6333adc1-2d01-47a7-919d-5cfeafb551db Failed ! 
+[22:08:32.460] [28815] [WARN ] [allReady:153]	busi allReady callback done,  task: 252f29d5-8b17-4333-8b26-8a58048808cd, user: test001, ready: 1 !  
+[22:08:49.230] [4395 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 252f29d5-8b17-4333-8b26-8a58048808cd ! 
+[22:08:49.230] [4395 ] [WARN ] [processTask:130]	processor a MPC task: 252f29d5-8b17-4333-8b26-8a58048808cd Failed ! 
+[22:13:14.070] [12095] [WARN ] [allReady:153]	busi allReady callback done,  task: e1a57133-8301-49dc-af94-34c69e33610d, user: test001, ready: 1 !  
+[22:13:29.789] [4394 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: e1a57133-8301-49dc-af94-34c69e33610d ! 
+[22:13:29.789] [4394 ] [WARN ] [processTask:130]	processor a MPC task: e1a57133-8301-49dc-af94-34c69e33610d Failed ! 
+[22:13:44.081] [5009 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 866c7ddc-78f0-4d21-a0c5-05569169f250, user: test001, ready: 1 !  
+[22:14:00.335] [4396 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 866c7ddc-78f0-4d21-a0c5-05569169f250 ! 
+[22:14:00.335] [4396 ] [WARN ] [processTask:130]	processor a MPC task: 866c7ddc-78f0-4d21-a0c5-05569169f250 Failed ! 
+[22:14:14.091] [5009 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 4e82a522-8bb9-4f58-bf92-bb4b31e95f68, user: test001, ready: 1 !  
+[22:14:30.910] [4395 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 4e82a522-8bb9-4f58-bf92-bb4b31e95f68 ! 
+[22:14:30.910] [4395 ] [WARN ] [processTask:130]	processor a MPC task: 4e82a522-8bb9-4f58-bf92-bb4b31e95f68 Failed ! 
+[22:14:44.157] [12095] [WARN ] [allReady:153]	busi allReady callback done,  task: e42aba3c-9e58-479a-9632-f2e41a5e4627, user: test001, ready: 1 !  
+[22:15:00.062] [4394 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: e42aba3c-9e58-479a-9632-f2e41a5e4627 ! 
+[22:15:00.062] [4394 ] [WARN ] [processTask:130]	processor a MPC task: e42aba3c-9e58-479a-9632-f2e41a5e4627 Failed ! 
+[22:15:14.168] [5009 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 9dd13d51-2512-4ca6-ab22-4b61ad300ae7, user: test001, ready: 1 !  
+[22:15:31.091] [4396 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 9dd13d51-2512-4ca6-ab22-4b61ad300ae7 ! 
+[22:15:31.091] [4396 ] [WARN ] [processTask:130]	processor a MPC task: 9dd13d51-2512-4ca6-ab22-4b61ad300ae7 Failed ! 
+[22:15:44.180] [5009 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 7cc776f7-b0f7-4ad0-a9de-ae739c36bbfa, user: test001, ready: 1 !  
+[22:16:00.741] [4395 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 7cc776f7-b0f7-4ad0-a9de-ae739c36bbfa ! 
+[22:16:00.741] [4395 ] [WARN ] [processTask:130]	processor a MPC task: 7cc776f7-b0f7-4ad0-a9de-ae739c36bbfa Failed ! 
+[22:16:14.243] [5009 ] [WARN ] [allReady:153]	busi allReady callback done,  task: ce957bf2-5aab-40e4-b7a6-0712b7afb1dc, user: test001, ready: 1 !  
+[22:16:30.011] [4394 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: ce957bf2-5aab-40e4-b7a6-0712b7afb1dc ! 
+[22:16:30.011] [4394 ] [WARN ] [processTask:130]	processor a MPC task: ce957bf2-5aab-40e4-b7a6-0712b7afb1dc Failed ! 
+[22:16:44.258] [5009 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 234487d9-673d-45ae-9fe8-aed2b0909904, user: test001, ready: 1 !  
+[22:17:00.846] [4396 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 234487d9-673d-45ae-9fe8-aed2b0909904 ! 
+[22:17:00.846] [4396 ] [WARN ] [processTask:130]	processor a MPC task: 234487d9-673d-45ae-9fe8-aed2b0909904 Failed ! 
+[22:17:14.272] [5009 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 7d157e48-8ee3-497a-9ec2-cb7f386801bc, user: test001, ready: 1 !  
+[22:17:30.967] [4395 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 7d157e48-8ee3-497a-9ec2-cb7f386801bc ! 
+[22:17:30.967] [4395 ] [WARN ] [processTask:130]	processor a MPC task: 7d157e48-8ee3-497a-9ec2-cb7f386801bc Failed ! 
+[22:18:18.006] [12095] [WARN ] [allReady:153]	busi allReady callback done,  task: b0bf8013-9ad5-4ccb-bb8c-a26acaf2496d, user: test001, ready: 1 !  
+[22:18:34.007] [4394 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: b0bf8013-9ad5-4ccb-bb8c-a26acaf2496d ! 
+[22:18:34.007] [4394 ] [WARN ] [processTask:130]	processor a MPC task: b0bf8013-9ad5-4ccb-bb8c-a26acaf2496d Failed ! 
+[22:18:48.019] [12095] [WARN ] [allReady:153]	busi allReady callback done,  task: 5e53c4e4-0ac6-43f8-8ab8-aa562541c704, user: test001, ready: 1 !  
+[22:19:04.862] [4396 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 5e53c4e4-0ac6-43f8-8ab8-aa562541c704 ! 
+[22:19:04.862] [4396 ] [WARN ] [processTask:130]	processor a MPC task: 5e53c4e4-0ac6-43f8-8ab8-aa562541c704 Failed ! 
+[22:19:18.039] [12095] [WARN ] [allReady:153]	busi allReady callback done,  task: 3470b6fb-50ad-46d0-b3a0-74eb32370434, user: test001, ready: 1 !  
+[22:19:34.788] [4395 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 3470b6fb-50ad-46d0-b3a0-74eb32370434 ! 
+[22:19:34.788] [4395 ] [WARN ] [processTask:130]	processor a MPC task: 3470b6fb-50ad-46d0-b3a0-74eb32370434 Failed ! 

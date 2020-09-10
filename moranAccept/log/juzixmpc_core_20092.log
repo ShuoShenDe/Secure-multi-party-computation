@@ -1,0 +1,5 @@
+[10:35:26.373] [20092] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[10:35:26.373] [20092] [INFO ] [init:66]	JniNativeCallback init ok. 
+[10:35:26.373] [20092] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_initContext:85]	Ice.Config is not set !!! 
+[10:40:28.919] [2274 ] [INFO ] [init:66]	JniNativeCallback init ok. 
+[10:40:28.919] [2274 ] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_initContext:85]	Ice.Config is not set !!! 

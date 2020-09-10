@@ -1,0 +1,41 @@
+[21:40:13.229] [26561] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[21:40:13.230] [26561] [INFO ] [init:111]	JniNativeCallback init ok. 
+[21:40:13.230] [26561] [INFO ] [init:108]	to init engine, user: test002, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:40:13.230] [26561] [WARN ] [init:130]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[21:40:13.230] [26561] [INFO ] [init:156]	Not start node server ! use proxy forward ! 
+[21:40:13.230] [26561] [INFO ] [MpcTaskDispatcher:43]	construct task dispatcher, with 3 processor, load balence is: 6000 
+[21:40:13.230] [26561] [INFO ] [init:60]	INIT the processor: 0 ok 
+[21:40:13.230] [26562] [INFO ] [operator():51]	task processor: 0 is running... 
+[21:40:13.230] [26561] [INFO ] [init:60]	INIT the processor: 1 ok 
+[21:40:13.230] [26562] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[21:40:13.230] [26563] [INFO ] [operator():51]	task processor: 1 is running... 
+[13:40:13.230] [26561] [INFO ] [init:60]	INIT the processor: 2 ok 
+[21:40:13.230] [26563] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[21:40:13.230] [26564] [INFO ] [operator():51]	task processor: 2 is running... 
+[21:40:13.230] [26561] [INFO ] [init:177]	INIT task dispatcher done ! 
+[21:40:13.230] [26564] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[21:40:13.230] [26561] [INFO ] [init:40]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:40:13.242] [26569] [INFO ] [connected:34]	to get session... 
+[21:40:13.242] [26569] [INFO ] [connected:38]	to get create busi node callback... 
+[21:40:13.242] [26569] [INFO ] [connected:45]	to set node callback... 
+[21:40:13.244] [26569] [WARN ] [connected:54]	the busi session create success. 
+[21:40:13.737] [26561] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[21:40:13.737] [26561] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[21:40:13.737] [26561] [INFO ] [init:86]	INIT busi node client success. user: test002, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:40:13.737] [26561] [INFO ] [init:187]	INIT busi node client done ! 
+[21:40:13.737] [26561] [INFO ] [init:48]	ready process init ok. max request queue size: 3 
+[21:40:13.737] [26561] [INFO ] [init:202]	Mpc engine init success. 
+[21:40:13.737] [26598] [DEBUG] [popCommitTask:110]	to POP a commit task, task size: 0  ... 
+[21:40:13.738] [26561] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[21:40:13.743] [26561] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:40:13.850] [26561] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:40:13.864] [26606] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:40:19.535] [26567] [WARN ] [allReady:153]	busi allReady callback done,  task: 2269088d-2209-4f77-8e4a-a55849d00760, user: test002, ready: 2 !  
+[21:40:19.535] [26568] [WARN ] [allReady:153]	busi allReady callback done,  task: b3f30780-dcf8-44a1-929f-e7e37ba59a0b, user: test002, ready: 2 !  
+[21:40:19.535] [26605] [WARN ] [allReady:153]	busi allReady callback done,  task: aa0ecefc-375d-4318-a3de-eb5e58f0a9de, user: test002, ready: 2 !  
+[21:40:43.486] [26563] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: b3f30780-dcf8-44a1-929f-e7e37ba59a0b ! 
+[21:40:43.486] [26563] [WARN ] [processTask:130]	processor a MPC task: b3f30780-dcf8-44a1-929f-e7e37ba59a0b Failed ! 
+[21:40:43.751] [26564] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 2269088d-2209-4f77-8e4a-a55849d00760 ! 
+[21:40:43.751] [26564] [WARN ] [processTask:130]	processor a MPC task: 2269088d-2209-4f77-8e4a-a55849d00760 Failed ! 
+[21:40:44.111] [26562] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: aa0ecefc-375d-4318-a3de-eb5e58f0a9de ! 
+[21:40:44.111] [26562] [WARN ] [processTask:130]	processor a MPC task: aa0ecefc-375d-4318-a3de-eb5e58f0a9de Failed ! 

@@ -1,0 +1,101 @@
+[21:11:38.371] [26773] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[21:11:38.371] [26773] [INFO ] [init:111]	JniNativeCallback init ok. 
+[21:11:38.371] [26773] [INFO ] [init:136]	to init engine, user: test002, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:11:38.371] [26773] [WARN ] [init:158]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[21:11:38.371] [26773] [WARN ] [init:178]	Cannot find the --Mpc.Circuits=xxxxx config item ! not preload circuits !! 
+[21:11:38.371] [26773] [INFO ] [init:188]	preload circuits ok ! 
+[21:11:38.371] [26773] [INFO ] [init:212]	Not start node server ! use proxy forward ! 
+[21:11:38.372] [26773] [INFO ] [MpcTaskDispatcher:39]	construct task dispatcher, with 8 processor, load balence is: 16384 
+[21:11:38.372] [26773] [INFO ] [init:63]	INIT the processor: 0, type: 0 ok 
+[21:11:38.372] [26788] [INFO ] [operator():54]	task processor: 0 is running... 
+[21:11:38.372] [26773] [INFO ] [init:63]	INIT the processor: 1, type: 0 ok 
+[21:11:38.372] [26788] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[21:11:38.372] [26773] [INFO ] [init:63]	INIT the processor: 2, type: 0 ok 
+[21:11:38.372] [26773] [INFO ] [init:63]	INIT the processor: 3, type: 0 ok 
+[21:11:38.372] [26791] [INFO ] [operator():54]	task processor: 3 is running... 
+[21:11:38.372] [26773] [INFO ] [init:63]	INIT the processor: 4, type: 1 ok 
+[21:11:38.372] [26791] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[21:11:38.373] [26773] [INFO ] [init:63]	INIT the processor: 5, type: 1 ok 
+[21:11:38.373] [26793] [INFO ] [operator():54]	task processor: 5 is running... 
+[21:11:38.373] [26793] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[21:11:38.373] [26773] [INFO ] [init:63]	INIT the processor: 6, type: 1 ok 
+[21:11:38.373] [26794] [INFO ] [operator():54]	task processor: 6 is running... 
+[21:11:38.373] [26773] [INFO ] [init:63]	INIT the processor: 7, type: 1 ok 
+[21:11:38.373] [26794] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[21:11:38.373] [26773] [INFO ] [init:234]	INIT task dispatcher done ! 
+[21:11:38.374] [26773] [INFO ] [init:64]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:11:38.373] [26792] [INFO ] [operator():54]	task processor: 4 is running... 
+[21:11:38.374] [26792] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[21:11:38.373] [26795] [INFO ] [operator():54]	task processor: 7 is running... 
+[21:11:38.374] [26795] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[21:11:38.376] [26789] [INFO ] [operator():54]	task processor: 1 is running... 
+[21:11:38.376] [26789] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[21:11:38.378] [26790] [INFO ] [operator():54]	task processor: 2 is running... 
+[21:11:38.378] [26790] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[21:11:38.386] [26801] [INFO ] [connected:34]	to get session... 
+[21:11:38.386] [26801] [INFO ] [connected:38]	to get create busi node callback... 
+[21:11:38.386] [26801] [INFO ] [connected:46]	to set node callback, public endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000, user: test002 ... 
+[21:11:38.388] [26801] [WARN ] [connected:55]	the busi session create success. 
+[21:11:38.880] [26773] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[21:11:38.880] [26773] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[21:11:38.880] [26773] [INFO ] [init:86]	INIT busi node client success. user: test002, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:11:38.880] [26773] [INFO ] [init:244]	INIT busi node client done ! 
+[21:11:38.880] [26773] [INFO ] [init:48]	input ready process init ok. 
+[21:11:38.880] [26773] [INFO ] [init:253]	INIT input ready processor done ! 
+[21:11:38.880] [26773] [INFO ] [init:48]	ready process init ok. max request queue size: 4 
+[21:11:38.880] [26773] [INFO ] [init:263]	INIT ready processor done ! 
+[21:11:38.880] [26874] [INFO ] [popCommitTask:127]	to POP a commit task, task size: 0  ... 
+[21:11:38.880] [26773] [INFO ] [init:269]	Mpc engine init success. 
+[21:11:38.881] [26773] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[21:11:38.886] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:38.939] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:38.944] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:38.965] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:38.974] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:38.982] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:38.989] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:38.993] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:38.997] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.001] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.006] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.011] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.019] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.023] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.027] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.028] [26800] [WARN ] [MpcMemPool:42]	the mempool construction, size: 134217728, mem: 0x7f021dffb010 
+[21:11:39.033] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.042] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.045] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.050] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.053] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.063] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.067] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.071] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.074] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.077] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.081] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.089] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.107] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.111] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.120] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.127] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.132] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.138] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.144] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.151] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.156] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.161] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.169] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.176] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.179] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.185] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.209] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.214] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.220] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.224] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.227] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.231] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.234] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.237] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:11:39.242] [26773] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:12:30.666] [25612] [WARN ] [~MpcMemPool:48]	the mempool is freed! 

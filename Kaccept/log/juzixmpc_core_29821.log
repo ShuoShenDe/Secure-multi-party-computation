@@ -1,0 +1,110 @@
+[22:04:43.457] [29821] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[22:04:43.457] [29821] [INFO ] [init:111]	JniNativeCallback init ok. 
+[22:04:43.458] [29821] [INFO ] [init:136]	to init engine, user: test003, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[22:04:43.458] [29821] [WARN ] [init:158]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[22:04:43.458] [29821] [INFO ] [parseCircuits:365]	** preload circuit:  /home/lmars/gc/crossk10_10.gc 
+[22:04:43.458] [29821] [INFO ] [init:172]	the --Mpc.Circuits=/home/lmars/gc/crossk10_10.gc is set ! 
+[22:04:44.610] [29821] [INFO ] [resolveCiruit:326]	** circuit resolve => circuit: /home/lmars/gc/crossk10_10.gc , gates: 2476000, andGate: 825500, wires: 2478560, cost time: 1.152226 seconds, speed: 2148883.348477 (gc / second) ** 
+[22:04:44.610] [29821] [INFO ] [CircuitFile:108]	circuit: /home/lmars/gc/crossk10_10.gc,  hash: 1AB21D8355CFA17F8E61194831E81A8F22BEC8C728FEFB747ED035EB5082AA2B 
+[22:04:44.610] [29821] [INFO ] [init:188]	preload circuits ok ! 
+[22:04:44.610] [29821] [INFO ] [init:212]	Not start node server ! use proxy forward ! 
+[22:04:44.611] [29821] [INFO ] [MpcTaskDispatcher:39]	construct task dispatcher, with 8 processor, load balence is: 16384 
+[22:04:44.612] [29821] [INFO ] [init:63]	INIT the processor: 0, type: 0 ok 
+[22:04:44.612] [29906] [INFO ] [operator():54]	task processor: 0 is running... 
+[22:04:44.612] [29907] [INFO ] [operator():54]	task processor: 1 is running... 
+[22:04:44.612] [29907] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[22:04:44.612] [29821] [INFO ] [init:63]	INIT the processor: 1, type: 0 ok 
+[22:04:44.613] [29821] [INFO ] [init:63]	INIT the processor: 2, type: 0 ok 
+[22:04:44.613] [29908] [INFO ] [operator():54]	task processor: 2 is running... 
+[22:04:44.613] [29821] [INFO ] [init:63]	INIT the processor: 3, type: 0 ok 
+[22:04:44.613] [29908] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[22:04:44.613] [29909] [INFO ] [operator():54]	task processor: 3 is running... 
+[22:04:44.613] [29821] [INFO ] [init:63]	INIT the processor: 4, type: 1 ok 
+[22:04:44.613] [29906] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[22:04:44.613] [29909] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[22:04:44.613] [29910] [INFO ] [operator():54]	task processor: 4 is running... 
+[22:04:44.613] [29821] [INFO ] [init:63]	INIT the processor: 5, type: 1 ok 
+[22:04:44.613] [29910] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[22:04:44.613] [29821] [INFO ] [init:63]	INIT the processor: 6, type: 1 ok 
+[22:04:44.613] [29913] [INFO ] [operator():54]	task processor: 6 is running... 
+[22:04:44.613] [29911] [INFO ] [operator():54]	task processor: 5 is running... 
+[22:04:44.613] [29911] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[22:04:44.613] [29821] [INFO ] [init:63]	INIT the processor: 7, type: 1 ok 
+[22:04:44.613] [29914] [INFO ] [operator():54]	task processor: 7 is running... 
+[22:04:44.613] [29914] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[22:04:44.613] [29913] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[22:04:44.613] [29821] [INFO ] [init:234]	INIT task dispatcher done ! 
+[22:04:44.615] [29821] [INFO ] [init:64]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[22:04:44.630] [29920] [INFO ] [connected:34]	to get session... 
+[22:04:44.630] [29920] [INFO ] [connected:38]	to get create busi node callback... 
+[22:04:44.630] [29920] [INFO ] [connected:46]	to set node callback, public endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000, user: test003 ... 
+[22:04:44.634] [29920] [WARN ] [connected:55]	the busi session create success. 
+[22:04:45.122] [29821] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[22:04:45.122] [29821] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[22:04:45.123] [29821] [INFO ] [init:86]	INIT busi node client success. user: test003, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[22:04:45.123] [29821] [INFO ] [init:244]	INIT busi node client done ! 
+[22:04:45.123] [29821] [INFO ] [init:48]	input ready process init ok. 
+[22:04:45.123] [29821] [INFO ] [init:253]	INIT input ready processor done ! 
+[22:04:45.123] [29821] [INFO ] [init:48]	ready process init ok. max request queue size: 4 
+[22:04:45.123] [29821] [INFO ] [init:263]	INIT ready processor done ! 
+[22:04:45.123] [29971] [INFO ] [popCommitTask:127]	to POP a commit task, task size: 0  ... 
+[22:04:45.123] [29821] [INFO ] [init:269]	Mpc engine init success. 
+[22:04:45.124] [29821] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[22:04:49.719] [29918] [WARN ] [MpcMemPool:42]	the mempool construction, size: 134217728, mem: 0x7fa28f76a010 
+[22:04:49.735] [29910] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:04:49.790] [29911] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:04:49.814] [29914] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:04:51.879] [29913] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:04:56.916] [29910] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:04:56.995] [29911] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:04:57.071] [29914] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:04:58.913] [29913] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:03.367] [29911] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:03.525] [29910] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:03.819] [29914] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:05.690] [29913] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:10.287] [29911] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:10.678] [29914] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:10.753] [29910] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:12.772] [29913] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:17.526] [29911] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:17.805] [29910] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:17.815] [29914] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:19.559] [29913] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:24.498] [29911] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:24.583] [29910] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:24.699] [29914] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:26.213] [29913] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:31.299] [29910] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:31.623] [29914] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:31.756] [29911] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:33.137] [29913] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:38.236] [29910] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:38.699] [29914] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:38.765] [29911] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:39.991] [29913] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:45.630] [29910] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:45.746] [29914] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:45.974] [29911] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:46.881] [29913] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:52.159] [29910] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:52.298] [29914] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:52.356] [29911] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:53.669] [29913] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:58.637] [29911] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:58.644] [29914] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:58.709] [29910] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:05:59.662] [29913] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:06:05.132] [29911] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:06:05.447] [29914] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:06:05.569] [29910] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:06:06.127] [29913] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:06:11.240] [29911] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:10:33.368] [29918] [ERROR] [error:157]	got error busi back: 974aa042-75a6-406b-affe-c628a2be51b8, code: 1007 
+[22:10:33.368] [29918] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 974aa042-75a6-406b-affe-c628a2be51b8 !  [THE user: test003] 
+[22:10:33.395] [20130] [ERROR] [error:157]	got error busi back: bb403281-6cce-48a4-84cd-75fc5a63de1a, code: 1007 
+[22:10:33.396] [20130] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: bb403281-6cce-48a4-84cd-75fc5a63de1a !  [THE user: test003] 
+[22:10:34.240] [29918] [ERROR] [error:157]	got error busi back: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7, code: 1007 
+[22:10:34.240] [29918] [WARN ] [error:167]	busi err back, erase task failed, cannot find cache task: 6fcfeb79-1b9b-4740-85e9-2cd1c62ce2b7 !  [THE user: test003] 
+[22:10:34.316] [20130] [ERROR] [error:157]	got error busi back: 7d7a0a5c-c2ea-481a-bf9c-5d96e63639fd, code: 1007 
+[22:13:22.355] [26975] [WARN ] [~MpcMemPool:48]	the mempool is freed! 

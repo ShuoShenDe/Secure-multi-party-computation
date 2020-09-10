@@ -1,0 +1,22 @@
+<mpc-node-config>
+    <!-- 用户，可以配置成在JUGO平台注册用户的钱包地址 -->
+    <node-user>0x1234abcd</node-user>
+
+    <!-- 密码，访问glacier时鉴权使用的密码 -->
+    <node-password>xxxxxx</node-password>
+
+    <!-- 当前节点接入JUGO计算框架的方式, SERVICE:以独立ICE服务方式接入，CALLBACK：以回调方式接入 -->
+    <node-communicate-mode>SERVICE</node-communicate-mode>
+    <!-- 以独立ICE服务方式接入时，本地ICE服务的连接地址，一般是本地节点的Glacier2的对外地址 -->
+    <node-endpoint>tcp -h 127.0.0.1 -p 4503 -t 10000</node-endpoint>
+
+    <!-- JUGO计算框架服务地址，一般时JUGO计算框架配置的Glacier2的对外地址 -->
+    <jugo-endpoint>tcp -h 127.0.0.1 -p 4502 -t 10000</jugo-endpoint>
+
+    <!-- 电路文件下载连接模板 -->
+    <circuit-download-url>http://192.168.7.167:8080/file_api/file/download?arithmeticId=%s&user=%s</circuit-download-url>
+
+    <!-- 电路文件本地保存路径，电路文件的文件名为： algorithmId.circuit -->
+    <circuit-local-path>/home/sunzone/developer/jugompc</circuit-local-path>
+
+</mpc-node-config>

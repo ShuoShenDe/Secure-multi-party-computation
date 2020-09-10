@@ -1,0 +1,213 @@
+[19:30:55.749] [1152 ] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[19:30:55.749] [1152 ] [INFO ] [init:111]	JniNativeCallback init ok. 
+[19:30:55.750] [1152 ] [INFO ] [init:108]	to init engine, user: test001, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[19:30:55.750] [1152 ] [WARN ] [init:130]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[19:30:55.750] [1152 ] [INFO ] [init:156]	Not start node server ! use proxy forward ! 
+[19:30:55.750] [1152 ] [INFO ] [MpcTaskDispatcher:43]	construct task dispatcher, with 3 processor, load balence is: 6000 
+[19:30:55.750] [1152 ] [INFO ] [init:60]	INIT the processor: 0 ok 
+[19:30:55.750] [9539 ] [INFO ] [operator():51]	task processor: 0 is running... 
+[19:30:55.750] [1152 ] [INFO ] [init:60]	INIT the processor: 1 ok 
+[19:30:55.750] [9540 ] [INFO ] [operator():51]	task processor: 1 is running... 
+[19:30:55.750] [9541 ] [INFO ] [operator():51]	task processor: 2 is running... 
+[19:30:55.750] [1152 ] [INFO ] [init:60]	INIT the processor: 2 ok 
+[19:30:55.750] [1152 ] [INFO ] [init:177]	INIT task dispatcher done ! 
+[19:30:55.750] [9539 ] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[19:30:55.750] [1152 ] [INFO ] [init:40]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[19:30:55.750] [9540 ] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[19:30:55.750] [9541 ] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[19:30:55.762] [9548 ] [INFO ] [connected:34]	to get session... 
+[19:30:55.762] [9548 ] [INFO ] [connected:38]	to get create busi node callback... 
+[19:30:55.762] [9548 ] [INFO ] [connected:45]	to set node callback... 
+[19:30:55.764] [9548 ] [WARN ] [connected:54]	the busi session create success. 
+[19:30:56.258] [1152 ] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[19:30:56.258] [1152 ] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[19:30:56.258] [1152 ] [INFO ] [init:86]	INIT busi node client success. user: test001, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[19:30:56.258] [1152 ] [INFO ] [init:187]	INIT busi node client done ! 
+[19:30:56.258] [1152 ] [INFO ] [init:48]	ready process init ok. max request queue size: 3 
+[19:30:56.258] [1152 ] [INFO ] [init:202]	Mpc engine init success. 
+[19:30:56.258] [9555 ] [DEBUG] [popCommitTask:110]	to POP a commit task, task size: 0  ... 
+[19:30:56.259] [1152 ] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[19:31:02.057] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.107] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.157] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.207] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.257] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.308] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.358] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.408] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.458] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.508] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.558] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.609] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.659] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.709] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.759] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.809] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.860] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.910] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:02.960] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.010] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.060] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.111] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.161] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.211] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.261] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.311] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.361] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.412] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.462] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.512] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.562] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.612] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.662] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.713] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.763] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.813] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.863] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.913] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:03.963] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.014] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.064] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.114] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.164] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.214] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.265] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.315] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.365] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.415] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.465] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.515] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.566] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.616] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.666] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.716] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.766] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.816] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.867] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.917] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:04.967] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.017] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.067] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.117] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.168] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.218] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.268] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.318] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.368] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.419] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.469] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.519] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.569] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.619] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.670] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.720] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.770] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.820] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.870] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.921] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:05.971] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.021] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.071] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.121] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.172] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.222] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.272] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.322] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.372] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.422] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.473] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.523] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.573] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.623] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.673] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.724] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.774] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.824] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.874] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.924] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:06.975] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:07.025] [9547 ] [WARN ] [putBuffer:213]	taskId: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is not avaiable, wait a 50ms try to putBuffer ! 
+[19:31:07.075] [9547 ] [ERROR] [putBuffer:242]	task: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e is got exception, invited user: test001 wait a 5s not allReady back !!! 
+[19:31:07.075] [9547 ] [ERROR] [inputData:192]	proxy input data, cannot put receive buffer to dispatcher !  task: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e, fromUser: test002  
+[19:31:08.432] [9546 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e, user: test001, ready: 1 !  
+[19:33:00.917] [9828 ] [ERROR] [error:161]	got error busi back: c0366b40-c2a9-48b8-a033-09f63005f952, code: 1007 
+[19:33:00.917] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: c0366b40-c2a9-48b8-a033-09f63005f952 !  [THE user: test001] 
+[19:33:00.918] [15281] [ERROR] [error:161]	got error busi back: a758fb68-87dd-4ba8-aa73-28af56157c1e, code: 1007 
+[19:33:00.918] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: a758fb68-87dd-4ba8-aa73-28af56157c1e !  [THE user: test001] 
+[19:33:00.919] [9828 ] [ERROR] [error:161]	got error busi back: 47e65463-a686-401c-8faf-a2ee65631864, code: 1007 
+[19:33:00.919] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 47e65463-a686-401c-8faf-a2ee65631864 !  [THE user: test001] 
+[19:33:00.919] [15281] [ERROR] [error:161]	got error busi back: 244ef96d-8541-41e1-b5a3-028c73dad48a, code: 1007 
+[19:33:00.919] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 244ef96d-8541-41e1-b5a3-028c73dad48a !  [THE user: test001] 
+[19:33:00.920] [9828 ] [ERROR] [error:161]	got error busi back: 10ab5684-74dc-4597-aa14-edb1912fff66, code: 1007 
+[19:33:00.920] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 10ab5684-74dc-4597-aa14-edb1912fff66 !  [THE user: test001] 
+[19:33:00.921] [15281] [ERROR] [error:161]	got error busi back: b5564c12-1b7b-46a3-a977-fa0a1d942301, code: 1007 
+[19:33:00.921] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: b5564c12-1b7b-46a3-a977-fa0a1d942301 !  [THE user: test001] 
+[19:33:00.922] [9828 ] [ERROR] [error:161]	got error busi back: 3a6998e3-4d83-4b64-88a9-5863046b5ede, code: 1007 
+[19:33:00.922] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 3a6998e3-4d83-4b64-88a9-5863046b5ede !  [THE user: test001] 
+[19:33:00.922] [15281] [ERROR] [error:161]	got error busi back: aef17056-e04f-475d-8cc0-35f5e5e0a38a, code: 1007 
+[19:33:00.922] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: aef17056-e04f-475d-8cc0-35f5e5e0a38a !  [THE user: test001] 
+[19:33:00.923] [9828 ] [ERROR] [error:161]	got error busi back: 308037b6-4eff-4249-a707-abbabcabb8a8, code: 1007 
+[19:33:00.923] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 308037b6-4eff-4249-a707-abbabcabb8a8 !  [THE user: test001] 
+[19:33:00.924] [15281] [ERROR] [error:161]	got error busi back: 5c033499-96fe-4184-908e-c4c3ccddb7f2, code: 1007 
+[19:33:00.924] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 5c033499-96fe-4184-908e-c4c3ccddb7f2 !  [THE user: test001] 
+[19:33:00.925] [9828 ] [ERROR] [error:161]	got error busi back: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e, code: 1007 
+[19:33:00.936] [15281] [ERROR] [error:161]	got error busi back: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d, code: 1007 
+[19:33:00.936] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d !  [THE user: test001] 
+[19:33:00.937] [9828 ] [ERROR] [error:161]	got error busi back: df02463e-efd5-4d64-99aa-e09ff4662ef5, code: 1007 
+[19:33:00.937] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: df02463e-efd5-4d64-99aa-e09ff4662ef5 !  [THE user: test001] 
+[19:33:00.941] [15281] [ERROR] [error:161]	got error busi back: 5edb3deb-5679-45c4-af8e-7a766763231d, code: 1007 
+[19:33:00.941] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 5edb3deb-5679-45c4-af8e-7a766763231d !  [THE user: test001] 
+[19:33:00.942] [9828 ] [ERROR] [error:161]	got error busi back: 27aa2967-ea70-4656-99cd-3f8858454c9d, code: 1007 
+[19:33:00.942] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 27aa2967-ea70-4656-99cd-3f8858454c9d !  [THE user: test001] 
+[19:33:00.942] [15281] [ERROR] [error:161]	got error busi back: f48fbbca-b644-459e-b952-112a092e15b5, code: 1007 
+[19:33:00.942] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: f48fbbca-b644-459e-b952-112a092e15b5 !  [THE user: test001] 
+[19:33:00.943] [9828 ] [ERROR] [error:161]	got error busi back: 74d4c184-06af-40af-86b0-87b89c1ef06a, code: 1007 
+[19:33:00.943] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 74d4c184-06af-40af-86b0-87b89c1ef06a !  [THE user: test001] 
+[19:33:00.944] [15281] [ERROR] [error:161]	got error busi back: cf3f91b7-dd8d-4024-8737-52689f2aa5f8, code: 1007 
+[19:33:00.944] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: cf3f91b7-dd8d-4024-8737-52689f2aa5f8 !  [THE user: test001] 
+[19:33:00.944] [9828 ] [ERROR] [error:161]	got error busi back: d72d3e2d-e106-488d-9300-843d0ba09797, code: 1007 
+[19:33:00.944] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: d72d3e2d-e106-488d-9300-843d0ba09797 !  [THE user: test001] 
+[19:33:00.945] [15281] [ERROR] [error:161]	got error busi back: 908007e8-a282-4bb3-9c3b-3b1417e19f3c, code: 1007 
+[19:33:00.945] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 908007e8-a282-4bb3-9c3b-3b1417e19f3c !  [THE user: test001] 
+[19:33:00.946] [9828 ] [ERROR] [error:161]	got error busi back: a926fc2b-504d-4761-b0bf-47e08060e938, code: 1007 
+[19:33:00.946] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: a926fc2b-504d-4761-b0bf-47e08060e938 !  [THE user: test001] 
+[19:33:00.947] [15281] [ERROR] [error:161]	got error busi back: e5bdd831-07e3-4a30-82ec-7c96609d8869, code: 1007 
+[19:33:00.947] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: e5bdd831-07e3-4a30-82ec-7c96609d8869 !  [THE user: test001] 
+[19:33:00.947] [9828 ] [ERROR] [error:161]	got error busi back: f1fac291-a6bb-46a7-8374-ba9371e64352, code: 1007 
+[19:33:00.947] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: f1fac291-a6bb-46a7-8374-ba9371e64352 !  [THE user: test001] 
+[19:33:00.948] [15281] [ERROR] [error:161]	got error busi back: 086228cf-a771-4300-97ec-8376681ea113, code: 1007 
+[19:33:00.948] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 086228cf-a771-4300-97ec-8376681ea113 !  [THE user: test001] 
+[19:33:00.949] [9828 ] [ERROR] [error:161]	got error busi back: beb4f556-e2b2-473b-ad4e-7cb90d19264e, code: 1007 
+[19:33:00.949] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: beb4f556-e2b2-473b-ad4e-7cb90d19264e !  [THE user: test001] 
+[19:33:00.949] [15281] [ERROR] [error:161]	got error busi back: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a, code: 1007 
+[19:33:00.949] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a !  [THE user: test001] 
+[19:33:00.950] [9828 ] [ERROR] [error:161]	got error busi back: 60031659-e9ce-4092-8d4b-945df6385041, code: 1007 
+[19:33:00.950] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 60031659-e9ce-4092-8d4b-945df6385041 !  [THE user: test001] 
+[19:33:00.951] [15281] [ERROR] [error:161]	got error busi back: b736587d-9a3f-46a5-b380-5d2001483bf7, code: 1007 
+[19:33:00.951] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: b736587d-9a3f-46a5-b380-5d2001483bf7 !  [THE user: test001] 
+[19:33:00.951] [9828 ] [ERROR] [error:161]	got error busi back: 5a52949b-4c9e-4d4f-9371-195de7f401af, code: 1007 
+[19:33:00.951] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 5a52949b-4c9e-4d4f-9371-195de7f401af !  [THE user: test001] 
+[19:33:00.952] [15281] [ERROR] [error:161]	got error busi back: 014f8a36-3cfa-4605-b133-9ea0c8471e3c, code: 1007 
+[19:33:00.952] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 014f8a36-3cfa-4605-b133-9ea0c8471e3c !  [THE user: test001] 
+[19:33:00.953] [9828 ] [ERROR] [error:161]	got error busi back: 091b0d01-ffb3-485f-9b51-9c41da6cd70c, code: 1007 
+[19:33:00.953] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 091b0d01-ffb3-485f-9b51-9c41da6cd70c !  [THE user: test001] 
+[19:33:00.953] [15281] [ERROR] [error:161]	got error busi back: 18fbf605-2c8f-41f6-ac8d-a849d006aee1, code: 1007 
+[19:33:00.953] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 18fbf605-2c8f-41f6-ac8d-a849d006aee1 !  [THE user: test001] 
+[19:33:00.954] [9828 ] [ERROR] [error:161]	got error busi back: 4452d012-3425-499d-9f1f-fea0f036972f, code: 1007 
+[19:33:00.954] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 4452d012-3425-499d-9f1f-fea0f036972f !  [THE user: test001] 
+[19:33:00.957] [15281] [ERROR] [error:161]	got error busi back: 18891c90-06df-4a9c-89ae-92b665d10bb8, code: 1007 
+[19:33:00.957] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 18891c90-06df-4a9c-89ae-92b665d10bb8 !  [THE user: test001] 
+[19:33:00.958] [9828 ] [ERROR] [error:161]	got error busi back: 7ec9f453-86d0-4c08-9ef8-db504c3250ed, code: 1007 
+[19:33:00.958] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 7ec9f453-86d0-4c08-9ef8-db504c3250ed !  [THE user: test001] 
+[19:33:00.959] [15281] [ERROR] [error:161]	got error busi back: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83, code: 1007 
+[19:33:00.959] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83 !  [THE user: test001] 
+[19:33:00.960] [9828 ] [ERROR] [error:161]	got error busi back: 16ae256b-7d7b-436e-bf61-7184e8b47fa5, code: 1007 
+[19:33:00.960] [9828 ] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 16ae256b-7d7b-436e-bf61-7184e8b47fa5 !  [THE user: test001] 
+[19:33:00.961] [15281] [ERROR] [error:161]	got error busi back: 08cc42f0-636a-467c-b05a-8286e1653dc4, code: 1007 
+[19:33:00.961] [15281] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 08cc42f0-636a-467c-b05a-8286e1653dc4 !  [THE user: test001] 
+[19:37:27.497] [27606] [WARN ] [allReady:153]	busi allReady callback done,  task: 4d27415b-9b93-4fd4-986b-8a96860acab9, user: test001, ready: 1 !  
+[19:37:58.875] [9539 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 4d27415b-9b93-4fd4-986b-8a96860acab9 ! 
+[19:37:58.876] [9539 ] [WARN ] [processTask:130]	processor a MPC task: 4d27415b-9b93-4fd4-986b-8a96860acab9 Failed ! 
+[19:38:44.444] [9828 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 79db190d-c599-4e0e-b00b-2b4beb4e42ed, user: test001, ready: 1 !  
+[19:39:07.331] [9540 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 79db190d-c599-4e0e-b00b-2b4beb4e42ed ! 
+[19:39:07.331] [9540 ] [WARN ] [processTask:130]	processor a MPC task: 79db190d-c599-4e0e-b00b-2b4beb4e42ed Failed ! 

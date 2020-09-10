@@ -1,0 +1,50 @@
+[21:22:52.050] [5217 ] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[21:22:52.051] [5217 ] [INFO ] [init:111]	JniNativeCallback init ok. 
+[21:22:52.051] [5217 ] [INFO ] [init:108]	to init engine, user: test002, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:22:52.051] [5217 ] [WARN ] [init:130]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[21:22:52.054] [5217 ] [INFO ] [init:156]	Not start node server ! use proxy forward ! 
+[21:22:52.054] [5217 ] [INFO ] [MpcTaskDispatcher:43]	construct task dispatcher, with 3 processor, load balence is: 6000 
+[21:22:52.054] [5217 ] [INFO ] [init:60]	INIT the processor: 0 ok 
+[21:22:52.054] [5217 ] [INFO ] [init:60]	INIT the processor: 1 ok 
+[21:22:52.054] [5217 ] [INFO ] [init:60]	INIT the processor: 2 ok 
+[21:22:52.054] [5217 ] [INFO ] [init:177]	INIT task dispatcher done ! 
+[21:22:52.054] [5217 ] [INFO ] [init:40]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:22:52.056] [5235 ] [INFO ] [operator():51]	task processor: 2 is running... 
+[21:22:52.056] [5235 ] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[21:22:52.056] [5234 ] [INFO ] [operator():51]	task processor: 1 is running... 
+[21:22:52.056] [5234 ] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[21:22:52.056] [5233 ] [INFO ] [operator():51]	task processor: 0 is running... 
+[21:22:52.057] [5233 ] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[21:22:52.069] [5241 ] [INFO ] [connected:34]	to get session... 
+[21:22:52.069] [5241 ] [INFO ] [connected:38]	to get create busi node callback... 
+[21:22:52.069] [5241 ] [INFO ] [connected:45]	to set node callback... 
+[21:22:52.071] [5241 ] [WARN ] [connected:54]	the busi session create success. 
+[21:22:52.561] [5217 ] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[21:22:52.561] [5217 ] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[21:22:52.561] [5217 ] [INFO ] [init:86]	INIT busi node client success. user: test002, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:22:52.561] [5217 ] [INFO ] [init:187]	INIT busi node client done ! 
+[21:22:52.561] [5217 ] [INFO ] [init:48]	ready process init ok. max request queue size: 3 
+[21:22:52.561] [5217 ] [INFO ] [init:202]	Mpc engine init success. 
+[21:22:52.561] [5258 ] [DEBUG] [popCommitTask:110]	to POP a commit task, task size: 0  ... 
+[21:22:52.562] [5217 ] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[21:22:52.566] [5217 ] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:22:53.676] [5318 ] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:22:54.715] [5367 ] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:22:58.336] [5238 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 8d8d2be4-2671-41ce-a16b-1e748d48f4e0, user: test002, ready: 2 !  
+[21:22:58.336] [5321 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 07bb3516-2496-4292-a412-29208011c30c, user: test002, ready: 2 !  
+[21:22:58.337] [5239 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 20381d9c-75c0-47f9-8cb7-1fdbad139f72, user: test002, ready: 2 !  
+[21:23:18.475] [5234 ] [WARN ] [consumeBuffer:308]	consume buffer for task: 20381d9c-75c0-47f9-8cb7-1fdbad139f72, time to timeout; 20, cost time: 20.121272, case 1 ! 
+[21:23:18.475] [5234 ] [WARN ] [recv_data_impl:162]	consume buffer failed, this run of the task: 20381d9c-75c0-47f9-8cb7-1fdbad139f72 exec failed! 
+[21:23:18.476] [5234 ] [WARN ] [recv_data:44]	recv data exception, network error or connection closed . ret=-2 
+[21:23:18.476] [5234 ] [WARN ] [fetchSessionID:136]	alice: recv bob response of session failed ! 
+[21:23:18.476] [5234 ] [WARN ] [pre_run:257]	fetch session id failed ! 
+[21:23:18.476] [5234 ] [ERROR] [pre_run:312]	label executor pre run failed ! 
+[21:23:18.476] [5234 ] [ERROR] [alice_run:173]	mpc alice pre run failed ! 
+[21:23:18.476] [5234 ] [ERROR] [run:181]	alice run mpc failed ! 
+[21:23:18.476] [5234 ] [ERROR] [processMpcBusi:201]	MPC run failed ! taskID: 20381d9c-75c0-47f9-8cb7-1fdbad139f72  
+[21:23:18.476] [5234 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 20381d9c-75c0-47f9-8cb7-1fdbad139f72 ! 
+[21:23:18.476] [5234 ] [WARN ] [processTask:130]	processor a MPC task: 20381d9c-75c0-47f9-8cb7-1fdbad139f72 Failed ! 
+[21:23:22.714] [5235 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 8d8d2be4-2671-41ce-a16b-1e748d48f4e0 ! 
+[21:23:22.715] [5235 ] [WARN ] [processTask:130]	processor a MPC task: 8d8d2be4-2671-41ce-a16b-1e748d48f4e0 Failed ! 
+[21:23:22.791] [5233 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 07bb3516-2496-4292-a412-29208011c30c ! 
+[21:23:22.791] [5233 ] [WARN ] [processTask:130]	processor a MPC task: 07bb3516-2496-4292-a412-29208011c30c Failed ! 

@@ -1,0 +1,422 @@
+[13:48:24.881] [16033] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[13:48:24.882] [16033] [INFO ] [init:111]	JniNativeCallback init ok. 
+[13:48:24.882] [16033] [INFO ] [init:136]	to init engine, user: test006, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[13:48:24.882] [16033] [WARN ] [init:158]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[13:48:24.882] [16033] [INFO ] [parseCircuits:365]	** preload circuit:  /home/lmars/gc/localmoran.gc 
+[13:48:24.882] [16033] [INFO ] [init:172]	the --Mpc.Circuits=/home/lmars/gc/localmoran.gc is set ! 
+[13:48:26.294] [16033] [INFO ] [resolveCiruit:326]	** circuit resolve => circuit: /home/lmars/gc/localmoran.gc , gates: 3230476, andGate: 900086, wires: 3237068, cost time: 1.411538 seconds, speed: 2288621.312108 (gc / second) ** 
+[13:48:26.294] [16033] [INFO ] [CircuitFile:108]	circuit: /home/lmars/gc/localmoran.gc,  hash: 1AB21D8355CFA17F8E61194831E81A8F22BEC8C728FEFB747ED035EB5082AA2B 
+[13:48:26.294] [16033] [INFO ] [init:188]	preload circuits ok ! 
+[13:48:26.294] [16033] [INFO ] [init:212]	Not start node server ! use proxy forward ! 
+[13:48:26.294] [16033] [INFO ] [MpcTaskDispatcher:39]	construct task dispatcher, with 8 processor, load balence is: 16384 
+[13:48:26.294] [16033] [INFO ] [init:63]	INIT the processor: 0, type: 0 ok 
+[13:48:26.294] [16033] [INFO ] [init:63]	INIT the processor: 1, type: 0 ok 
+[13:48:26.294] [16033] [INFO ] [init:63]	INIT the processor: 2, type: 0 ok 
+[13:48:26.294] [16033] [INFO ] [init:63]	INIT the processor: 3, type: 0 ok 
+[13:48:26.294] [16138] [INFO ] [operator():54]	task processor: 0 is running... 
+[13:48:26.294] [16138] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[13:48:26.295] [16139] [INFO ] [operator():54]	task processor: 1 is running... 
+[13:48:26.295] [16139] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[13:48:26.295] [16033] [INFO ] [init:63]	INIT the processor: 4, type: 1 ok 
+[13:48:26.295] [16142] [INFO ] [operator():54]	task processor: 4 is running... 
+[13:48:26.295] [16033] [INFO ] [init:63]	INIT the processor: 5, type: 1 ok 
+[13:48:26.295] [16142] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[13:48:26.295] [16033] [INFO ] [init:63]	INIT the processor: 6, type: 1 ok 
+[13:48:26.295] [16144] [INFO ] [operator():54]	task processor: 6 is running... 
+[13:48:26.295] [16144] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[13:48:26.295] [16033] [INFO ] [init:63]	INIT the processor: 7, type: 1 ok 
+[05:48:26.295] [16140] [INFO ] [operator():54]	task processor: 2 is running... 
+[13:48:26.295] [16140] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[13:48:26.295] [16033] [INFO ] [init:234]	INIT task dispatcher done ! 
+[13:48:26.295] [16145] [INFO ] [operator():54]	task processor: 7 is running... 
+[13:48:26.295] [16145] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[13:48:26.295] [16141] [INFO ] [operator():54]	task processor: 3 is running... 
+[13:48:26.295] [16141] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[13:48:26.295] [16143] [INFO ] [operator():54]	task processor: 5 is running... 
+[13:48:26.295] [16143] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[13:48:26.296] [16033] [INFO ] [init:64]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[13:48:26.309] [16151] [INFO ] [connected:34]	to get session... 
+[13:48:26.309] [16151] [INFO ] [connected:38]	to get create busi node callback... 
+[13:48:26.309] [16151] [INFO ] [connected:46]	to set node callback, public endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000, user: test006 ... 
+[13:48:26.311] [16151] [WARN ] [connected:55]	the busi session create success. 
+[13:48:26.802] [16033] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[13:48:26.802] [16033] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[13:48:26.802] [16033] [INFO ] [init:86]	INIT busi node client success. user: test006, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[13:48:26.802] [16033] [INFO ] [init:244]	INIT busi node client done ! 
+[13:48:26.803] [16033] [INFO ] [init:48]	input ready process init ok. 
+[13:48:26.803] [16033] [INFO ] [init:253]	INIT input ready processor done ! 
+[13:48:26.803] [16033] [INFO ] [init:48]	ready process init ok. max request queue size: 4 
+[13:48:26.803] [16033] [INFO ] [init:263]	INIT ready processor done ! 
+[13:48:26.803] [16033] [INFO ] [init:269]	Mpc engine init success. 
+[13:48:26.803] [16033] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[13:48:26.807] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:26.878] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:26.887] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:26.902] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:26.910] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:26.912] [16150] [WARN ] [MpcMemPool:42]	the mempool construction, size: 134217728, mem: 0x7f74616d7010 
+[13:48:26.951] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:26.966] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:26.985] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.004] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.012] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.016] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.023] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.030] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.041] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.047] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.057] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.064] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.070] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.077] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.083] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.089] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.095] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.101] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.104] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.112] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.125] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.131] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.136] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.140] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.147] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.157] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.165] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.171] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.179] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.184] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.190] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.197] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.202] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.213] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.219] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.223] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.246] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.263] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.268] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.277] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.282] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.285] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.289] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.292] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.295] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.298] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.302] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.305] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.313] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.318] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.322] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.325] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.329] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.338] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.341] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.348] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.354] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.366] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.372] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.383] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.387] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.392] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.398] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.401] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.408] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.414] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.426] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.433] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.439] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.446] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.453] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.459] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.479] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.492] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.514] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.520] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.528] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.534] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.539] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.548] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.556] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.563] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.574] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.579] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.590] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.609] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.613] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.681] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.686] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.690] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.695] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.700] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.704] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.708] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:27.717] [16033] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:48:30.379] [16150] [WARN ] [allReady:100]	the task not exists (wait invite callback) !!! task: 7e319ae7-b48b-4f25-b253-e84fedf030f8, try wait 10ms... 
+[13:53:19.343] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.348] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.351] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.352] [16138] [WARN ] [run:156]	no data for input !!!! 
+[13:53:19.352] [16138] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: f151e78d-5c47-491c-8eec-31555937e04f  
+[13:53:19.356] [16140] [WARN ] [run:156]	no data for input !!!! 
+[13:53:19.356] [16140] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 896de05b-1068-4f9c-b2a1-2064119c36fd  
+[13:53:19.358] [16139] [WARN ] [run:156]	no data for input !!!! 
+[13:53:19.358] [16139] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: d9d56a04-9915-4d2f-b400-eceab046ff24  
+[13:53:19.362] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.369] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.370] [16141] [WARN ] [run:156]	no data for input !!!! 
+[13:53:19.370] [16141] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: b8a2ab1f-45fc-4922-87b8-1ccd7cd889e7  
+[13:53:19.374] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.378] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.383] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.386] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.390] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.393] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.397] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.400] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.403] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.407] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.410] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.413] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.417] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.436] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.441] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.450] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.454] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.459] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.468] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.475] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.482] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.487] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.491] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.498] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.503] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.507] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.510] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.513] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.517] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.521] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.526] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.530] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.533] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.537] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.542] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.545] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.549] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.563] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.567] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.572] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.575] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.578] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.582] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.585] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.589] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.592] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.597] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.600] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.603] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.611] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.618] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.622] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.625] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.628] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.631] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.634] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.641] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.644] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.648] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.655] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.658] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.662] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.666] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.670] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.673] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.677] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.681] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.685] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.688] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.692] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.696] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.700] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.705] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.709] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.713] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.717] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.721] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.724] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.727] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.730] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.734] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.738] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.741] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.744] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.747] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.750] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.765] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.776] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.780] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.784] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.787] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.790] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.793] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.796] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:19.799] [14514] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[13:53:21.366] [16138] [WARN ] [processTask:148]	processor a MPC task: f151e78d-5c47-491c-8eec-31555937e04f Failed ! 
+[13:53:21.370] [16139] [WARN ] [processTask:148]	processor a MPC task: d9d56a04-9915-4d2f-b400-eceab046ff24 Failed ! 
+[13:53:21.370] [16138] [WARN ] [run:156]	no data for input !!!! 
+[13:53:21.370] [16138] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: c4f2d409-26fd-4af8-b43f-13d534b22a60  
+[13:53:21.370] [16140] [WARN ] [processTask:148]	processor a MPC task: 896de05b-1068-4f9c-b2a1-2064119c36fd Failed ! 
+[13:53:21.376] [16139] [WARN ] [run:156]	no data for input !!!! 
+[13:53:21.376] [16139] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 6ef63bae-05df-4063-aff0-17dc6e16bc0f  
+[13:53:21.376] [16140] [WARN ] [run:156]	no data for input !!!! 
+[13:53:21.376] [16140] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 0aaca994-5d32-443c-a312-a54e5ba0c191  
+[13:53:21.381] [16141] [WARN ] [processTask:148]	processor a MPC task: b8a2ab1f-45fc-4922-87b8-1ccd7cd889e7 Failed ! 
+[13:53:21.384] [16141] [WARN ] [run:156]	no data for input !!!! 
+[13:53:21.384] [16141] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: a8767e9d-87e2-4457-ad09-82c1359f3c7a  
+[13:53:23.381] [16138] [WARN ] [processTask:148]	processor a MPC task: c4f2d409-26fd-4af8-b43f-13d534b22a60 Failed ! 
+[13:53:23.384] [16140] [WARN ] [processTask:148]	processor a MPC task: 0aaca994-5d32-443c-a312-a54e5ba0c191 Failed ! 
+[13:53:23.386] [16138] [WARN ] [run:156]	no data for input !!!! 
+[13:53:23.386] [16138] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 1b2fc0de-14a2-4f4c-84e5-c6459b35ccea  
+[13:53:23.387] [16139] [WARN ] [processTask:148]	processor a MPC task: 6ef63bae-05df-4063-aff0-17dc6e16bc0f Failed ! 
+[13:53:23.389] [16140] [WARN ] [run:156]	no data for input !!!! 
+[13:53:23.389] [16140] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: ec623c08-c951-49a7-a317-ada5e9b923e5  
+[13:53:23.392] [16139] [WARN ] [run:156]	no data for input !!!! 
+[13:53:23.392] [16139] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: a0d14dec-680b-41bb-9022-011f427a7eaa  
+[13:53:23.393] [16141] [WARN ] [processTask:148]	processor a MPC task: a8767e9d-87e2-4457-ad09-82c1359f3c7a Failed ! 
+[13:53:23.397] [16141] [WARN ] [run:156]	no data for input !!!! 
+[13:53:23.397] [16141] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 648767ba-672c-48b7-a98f-6f44b5459a51  
+[13:53:25.396] [16138] [WARN ] [processTask:148]	processor a MPC task: 1b2fc0de-14a2-4f4c-84e5-c6459b35ccea Failed ! 
+[13:53:25.401] [16138] [WARN ] [run:156]	no data for input !!!! 
+[13:53:25.401] [16138] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: f4657242-4696-4d7a-9115-9072a94354e2  
+[13:53:25.401] [16139] [WARN ] [processTask:148]	processor a MPC task: a0d14dec-680b-41bb-9022-011f427a7eaa Failed ! 
+[13:53:25.402] [16140] [WARN ] [processTask:148]	processor a MPC task: ec623c08-c951-49a7-a317-ada5e9b923e5 Failed ! 
+[13:53:25.405] [16141] [WARN ] [processTask:148]	processor a MPC task: 648767ba-672c-48b7-a98f-6f44b5459a51 Failed ! 
+[13:53:25.406] [16139] [WARN ] [run:156]	no data for input !!!! 
+[13:53:25.406] [16139] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: de6bd23f-af51-4210-ab62-77f259fce197  
+[13:53:25.408] [16140] [WARN ] [run:156]	no data for input !!!! 
+[13:53:25.408] [16140] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 38b38a40-e957-4d86-863b-077c454df5cd  
+[13:53:25.410] [16141] [WARN ] [run:156]	no data for input !!!! 
+[13:53:25.410] [16141] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 8febf2bb-614e-4e04-8b57-38e602c7a2a9  
+[13:53:27.409] [16138] [WARN ] [processTask:148]	processor a MPC task: f4657242-4696-4d7a-9115-9072a94354e2 Failed ! 
+[13:53:27.413] [16138] [WARN ] [run:156]	no data for input !!!! 
+[13:53:27.413] [16138] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 2652b7b5-3d25-4d7d-9914-31882369bade  
+[13:53:27.416] [16139] [WARN ] [processTask:148]	processor a MPC task: de6bd23f-af51-4210-ab62-77f259fce197 Failed ! 
+[13:53:27.420] [16139] [WARN ] [run:156]	no data for input !!!! 
+[13:53:27.420] [16139] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: b80cf794-5363-43b3-bf30-68c0abecc682  
+[13:53:27.420] [16141] [WARN ] [processTask:148]	processor a MPC task: 8febf2bb-614e-4e04-8b57-38e602c7a2a9 Failed ! 
+[13:53:27.423] [16140] [WARN ] [processTask:148]	processor a MPC task: 38b38a40-e957-4d86-863b-077c454df5cd Failed ! 
+[13:53:27.423] [16141] [WARN ] [run:156]	no data for input !!!! 
+[13:53:27.423] [16141] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 7ce52cc0-4bda-4d43-9476-86ac639b4062  
+[13:53:27.426] [16140] [WARN ] [run:156]	no data for input !!!! 
+[13:53:27.426] [16140] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 2764e135-52ff-40ca-99f4-bd448e612948  
+[13:53:29.421] [16138] [WARN ] [processTask:148]	processor a MPC task: 2652b7b5-3d25-4d7d-9914-31882369bade Failed ! 
+[13:53:29.426] [16138] [WARN ] [run:156]	no data for input !!!! 
+[13:53:29.426] [16138] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: ad15134e-2fb8-4d72-9161-d22158d5f4be  
+[13:53:29.428] [16139] [WARN ] [processTask:148]	processor a MPC task: b80cf794-5363-43b3-bf30-68c0abecc682 Failed ! 
+[13:53:29.431] [16141] [WARN ] [processTask:148]	processor a MPC task: 7ce52cc0-4bda-4d43-9476-86ac639b4062 Failed ! 
+[13:53:29.432] [16139] [WARN ] [run:156]	no data for input !!!! 
+[13:53:29.432] [16139] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 475754ca-ad72-44f8-b208-2ce3deb7a6b0  
+[13:53:29.435] [16140] [WARN ] [processTask:148]	processor a MPC task: 2764e135-52ff-40ca-99f4-bd448e612948 Failed ! 
+[13:53:29.435] [16141] [WARN ] [run:156]	no data for input !!!! 
+[13:53:29.435] [16141] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: bf39589f-839f-49d1-a2d9-a079547d5f56  
+[13:53:29.438] [16140] [WARN ] [run:156]	no data for input !!!! 
+[13:53:29.438] [16140] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: d557cf0b-a143-4282-9078-46b1237c36e5  
+[13:53:31.433] [16138] [WARN ] [processTask:148]	processor a MPC task: ad15134e-2fb8-4d72-9161-d22158d5f4be Failed ! 
+[13:53:31.438] [16138] [WARN ] [run:156]	no data for input !!!! 
+[13:53:31.438] [16138] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 427d1883-8527-4985-bbcc-4ac757382c36  
+[13:53:31.443] [16141] [WARN ] [processTask:148]	processor a MPC task: bf39589f-839f-49d1-a2d9-a079547d5f56 Failed ! 
+[13:53:31.443] [16139] [WARN ] [processTask:148]	processor a MPC task: 475754ca-ad72-44f8-b208-2ce3deb7a6b0 Failed ! 
+[13:53:31.446] [16140] [WARN ] [processTask:148]	processor a MPC task: d557cf0b-a143-4282-9078-46b1237c36e5 Failed ! 
+[13:53:31.448] [16139] [WARN ] [run:156]	no data for input !!!! 
+[13:53:31.448] [16139] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 954c35e6-5c58-45ea-a150-390ff8b0f0fc  
+[13:53:31.449] [16141] [WARN ] [run:156]	no data for input !!!! 
+[13:53:31.449] [16141] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 05f09f01-154a-4abd-b119-44c188b10efe  
+[13:53:31.451] [16140] [WARN ] [run:156]	no data for input !!!! 
+[13:53:31.451] [16140] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 7f81e4c1-9c24-4689-9391-7d35a354f916  
+[13:53:33.445] [16138] [WARN ] [processTask:148]	processor a MPC task: 427d1883-8527-4985-bbcc-4ac757382c36 Failed ! 
+[13:53:33.458] [16141] [WARN ] [processTask:148]	processor a MPC task: 05f09f01-154a-4abd-b119-44c188b10efe Failed ! 
+[13:53:33.459] [16139] [WARN ] [processTask:148]	processor a MPC task: 954c35e6-5c58-45ea-a150-390ff8b0f0fc Failed ! 
+[13:53:33.460] [16140] [WARN ] [processTask:148]	processor a MPC task: 7f81e4c1-9c24-4689-9391-7d35a354f916 Failed ! 
+[13:53:33.470] [16138] [WARN ] [run:156]	no data for input !!!! 
+[13:53:33.470] [16138] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 8b9b3112-03e2-4fa4-9fd8-a6b300434329  
+[13:53:33.471] [16140] [WARN ] [run:156]	no data for input !!!! 
+[13:53:33.471] [16140] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 6b2e6ac5-26cb-4cd7-95f3-8f3ad793c479  
+[13:53:33.472] [16139] [WARN ] [run:156]	no data for input !!!! 
+[13:53:33.472] [16139] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 7c4d57ac-6d96-4c7f-8843-4d877c7107d4  
+[13:53:33.474] [16141] [WARN ] [run:156]	no data for input !!!! 
+[13:53:33.474] [16141] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 8f269e76-9007-4461-8059-fb0f518784a4  
+[13:53:35.479] [16138] [WARN ] [processTask:148]	processor a MPC task: 8b9b3112-03e2-4fa4-9fd8-a6b300434329 Failed ! 
+[13:53:35.479] [16140] [WARN ] [processTask:148]	processor a MPC task: 6b2e6ac5-26cb-4cd7-95f3-8f3ad793c479 Failed ! 
+[13:53:35.481] [16141] [WARN ] [processTask:148]	processor a MPC task: 8f269e76-9007-4461-8059-fb0f518784a4 Failed ! 
+[13:53:35.483] [16139] [WARN ] [processTask:148]	processor a MPC task: 7c4d57ac-6d96-4c7f-8843-4d877c7107d4 Failed ! 
+[13:53:35.485] [16138] [WARN ] [run:156]	no data for input !!!! 
+[13:53:35.485] [16138] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 68a7d0d1-64aa-475b-b41d-89956eedf026  
+[13:53:35.486] [16141] [WARN ] [run:156]	no data for input !!!! 
+[13:53:35.486] [16141] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: ae69f4f5-3052-4d75-8e1f-e6d5e378e201  
+[13:53:35.486] [16140] [WARN ] [run:156]	no data for input !!!! 
+[13:53:35.486] [16140] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: f4be1b3e-71a1-437f-b900-625a3c9e3209  
+[13:53:35.487] [16139] [WARN ] [run:156]	no data for input !!!! 
+[13:53:35.487] [16139] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: a519d831-821b-4bd8-bd17-deb938d634f7  
+[13:53:37.493] [16138] [WARN ] [processTask:148]	processor a MPC task: 68a7d0d1-64aa-475b-b41d-89956eedf026 Failed ! 
+[13:53:37.494] [16139] [WARN ] [processTask:148]	processor a MPC task: a519d831-821b-4bd8-bd17-deb938d634f7 Failed ! 
+[13:53:37.494] [16141] [WARN ] [processTask:148]	processor a MPC task: ae69f4f5-3052-4d75-8e1f-e6d5e378e201 Failed ! 
+[13:53:37.497] [16140] [WARN ] [processTask:148]	processor a MPC task: f4be1b3e-71a1-437f-b900-625a3c9e3209 Failed ! 
+[13:53:37.497] [16138] [WARN ] [run:156]	no data for input !!!! 
+[13:53:37.497] [16138] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 09899fee-0c0c-4d40-a080-803011ac71fc  
+[13:53:37.498] [16139] [WARN ] [run:156]	no data for input !!!! 
+[13:53:37.498] [16139] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: b75ce889-1aee-4a47-965c-84821696d56e  
+[13:53:37.499] [16141] [WARN ] [run:156]	no data for input !!!! 
+[13:53:37.499] [16141] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 938839f0-27a9-4d38-8ec3-66edbc98d52c  
+[13:53:37.502] [16140] [WARN ] [run:156]	no data for input !!!! 
+[13:53:37.502] [16140] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 0515b4f5-108b-44cc-9cec-a3d84f0a1239  
+[13:53:39.510] [16139] [WARN ] [processTask:148]	processor a MPC task: b75ce889-1aee-4a47-965c-84821696d56e Failed ! 
+[13:53:39.511] [16141] [WARN ] [processTask:148]	processor a MPC task: 938839f0-27a9-4d38-8ec3-66edbc98d52c Failed ! 
+[13:53:39.515] [16138] [WARN ] [processTask:148]	processor a MPC task: 09899fee-0c0c-4d40-a080-803011ac71fc Failed ! 
+[13:53:39.517] [16139] [WARN ] [run:156]	no data for input !!!! 
+[13:53:39.517] [16139] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 72c9fccb-5327-40f0-846a-ecd5e094cf65  
+[13:53:39.519] [16141] [WARN ] [run:156]	no data for input !!!! 
+[13:53:39.519] [16141] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 916d8d5c-6e6a-46d3-9441-ee7971104f4c  
+[13:53:39.520] [16140] [WARN ] [processTask:148]	processor a MPC task: 0515b4f5-108b-44cc-9cec-a3d84f0a1239 Failed ! 
+[13:53:39.521] [16138] [WARN ] [run:156]	no data for input !!!! 
+[13:53:39.521] [16138] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 3c70d5ac-3389-4177-9db1-84363c0e106b  
+[13:53:39.523] [16140] [WARN ] [run:156]	no data for input !!!! 
+[13:53:39.523] [16140] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 32d1920c-0179-4f71-8ba7-37c68824c8b8  
+[13:53:41.527] [16139] [WARN ] [processTask:148]	processor a MPC task: 72c9fccb-5327-40f0-846a-ecd5e094cf65 Failed ! 
+[13:53:41.531] [16141] [WARN ] [processTask:148]	processor a MPC task: 916d8d5c-6e6a-46d3-9441-ee7971104f4c Failed ! 
+[13:53:41.532] [16139] [WARN ] [run:156]	no data for input !!!! 
+[13:53:41.532] [16139] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 67cbc25d-5129-4925-841e-60b62761455b  
+[13:53:41.532] [16138] [WARN ] [processTask:148]	processor a MPC task: 3c70d5ac-3389-4177-9db1-84363c0e106b Failed ! 
+[13:53:41.533] [16140] [WARN ] [processTask:148]	processor a MPC task: 32d1920c-0179-4f71-8ba7-37c68824c8b8 Failed ! 
+[13:53:41.537] [16141] [WARN ] [run:156]	no data for input !!!! 
+[13:53:41.537] [16141] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: ecb0cba0-ff2a-47b9-a8b6-b3ab0a4c5acf  
+[13:53:41.537] [16138] [WARN ] [run:156]	no data for input !!!! 
+[13:53:41.537] [16138] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: cf9f8857-cb75-4011-8214-9dc101597c85  
+[13:53:41.539] [16140] [WARN ] [run:156]	no data for input !!!! 
+[13:53:41.539] [16140] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 0eb18384-8338-412f-b04f-82f7aeafb9b0  
+[13:53:43.543] [16139] [WARN ] [processTask:148]	processor a MPC task: 67cbc25d-5129-4925-841e-60b62761455b Failed ! 
+[13:53:43.546] [16138] [WARN ] [processTask:148]	processor a MPC task: cf9f8857-cb75-4011-8214-9dc101597c85 Failed ! 
+[13:53:43.546] [16141] [WARN ] [processTask:148]	processor a MPC task: ecb0cba0-ff2a-47b9-a8b6-b3ab0a4c5acf Failed ! 
+[13:53:43.547] [16139] [WARN ] [run:156]	no data for input !!!! 
+[13:53:43.547] [16139] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 65067876-29a3-47d3-81ac-eda2771e8aec  
+[13:53:43.548] [16140] [WARN ] [processTask:148]	processor a MPC task: 0eb18384-8338-412f-b04f-82f7aeafb9b0 Failed ! 
+[13:53:43.550] [16138] [WARN ] [run:156]	no data for input !!!! 
+[13:53:43.550] [16138] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 6f1c8279-019e-4b43-8172-67d733408c80  
+[13:53:43.552] [16141] [WARN ] [run:156]	no data for input !!!! 
+[13:53:43.552] [16141] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: a2ff0e37-02a7-4ae8-8a9c-47ccc4e59d5f  
+[13:53:43.553] [16140] [WARN ] [run:156]	no data for input !!!! 
+[13:53:43.553] [16140] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 43ed7316-30c5-483c-a8fc-42fabd15a75d  
+[13:53:45.568] [16138] [WARN ] [processTask:148]	processor a MPC task: 6f1c8279-019e-4b43-8172-67d733408c80 Failed ! 
+[13:53:45.577] [16139] [WARN ] [processTask:148]	processor a MPC task: 65067876-29a3-47d3-81ac-eda2771e8aec Failed ! 
+[13:53:45.579] [16139] [WARN ] [run:156]	no data for input !!!! 
+[13:53:45.579] [16139] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 70330a65-d93a-43db-8237-0a56485612ed  
+[13:53:45.581] [16138] [WARN ] [run:156]	no data for input !!!! 
+[13:53:45.581] [16138] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 8b9f8970-4cbc-486a-ba3c-3fab0c1ce464  
+[13:53:45.583] [16141] [WARN ] [processTask:148]	processor a MPC task: a2ff0e37-02a7-4ae8-8a9c-47ccc4e59d5f Failed ! 
+[13:53:45.585] [16141] [WARN ] [run:156]	no data for input !!!! 
+[13:53:45.585] [16141] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 95fe8a18-7b14-4e32-8124-77d8e66be2be  
+[13:53:45.589] [16140] [WARN ] [processTask:148]	processor a MPC task: 43ed7316-30c5-483c-a8fc-42fabd15a75d Failed ! 
+[13:53:45.591] [16140] [WARN ] [run:156]	no data for input !!!! 
+[13:53:45.591] [16140] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: fb9a4c69-b2d5-4b90-b7e4-c5b2350767af  
+[13:53:47.586] [16139] [WARN ] [processTask:148]	processor a MPC task: 70330a65-d93a-43db-8237-0a56485612ed Failed ! 
+[13:53:47.592] [16138] [WARN ] [processTask:148]	processor a MPC task: 8b9f8970-4cbc-486a-ba3c-3fab0c1ce464 Failed ! 
+[13:53:47.593] [16141] [WARN ] [processTask:148]	processor a MPC task: 95fe8a18-7b14-4e32-8124-77d8e66be2be Failed ! 
+[13:53:47.601] [16140] [WARN ] [processTask:148]	processor a MPC task: fb9a4c69-b2d5-4b90-b7e4-c5b2350767af Failed ! 
+[13:53:47.825] [9895 ] [WARN ] [~MpcMemPool:48]	the mempool is freed! 

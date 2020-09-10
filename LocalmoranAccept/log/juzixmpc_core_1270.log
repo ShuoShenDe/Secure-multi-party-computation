@@ -1,0 +1,151 @@
+[21:18:09.433] [1270 ] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[21:18:09.435] [1270 ] [INFO ] [init:111]	JniNativeCallback init ok. 
+[21:18:09.435] [1270 ] [INFO ] [init:136]	to init engine, user: test001, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:18:09.435] [1270 ] [WARN ] [init:158]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[21:18:09.435] [1270 ] [WARN ] [init:178]	Cannot find the --Mpc.Circuits=xxxxx config item ! not preload circuits !! 
+[21:18:09.435] [1270 ] [INFO ] [init:188]	preload circuits ok ! 
+[21:18:09.435] [1270 ] [INFO ] [init:212]	Not start node server ! use proxy forward ! 
+[21:18:09.436] [1270 ] [INFO ] [MpcTaskDispatcher:39]	construct task dispatcher, with 8 processor, load balence is: 16384 
+[21:18:09.436] [1270 ] [INFO ] [init:63]	INIT the processor: 0, type: 0 ok 
+[21:18:09.436] [1270 ] [INFO ] [init:63]	INIT the processor: 1, type: 0 ok 
+[21:18:09.436] [1270 ] [INFO ] [init:63]	INIT the processor: 2, type: 0 ok 
+[21:18:09.436] [1270 ] [INFO ] [init:63]	INIT the processor: 3, type: 0 ok 
+[21:18:09.436] [1270 ] [INFO ] [init:63]	INIT the processor: 4, type: 1 ok 
+[21:18:09.436] [1270 ] [INFO ] [init:63]	INIT the processor: 5, type: 1 ok 
+[21:18:09.436] [1270 ] [INFO ] [init:63]	INIT the processor: 6, type: 1 ok 
+[21:18:09.436] [1270 ] [INFO ] [init:63]	INIT the processor: 7, type: 1 ok 
+[21:18:09.436] [1270 ] [INFO ] [init:234]	INIT task dispatcher done ! 
+[21:18:09.437] [1283 ] [INFO ] [operator():54]	task processor: 5 is running... 
+[21:18:09.437] [1283 ] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[21:18:09.437] [1277 ] [INFO ] [operator():54]	task processor: 0 is running... 
+[21:18:09.437] [1277 ] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[21:18:09.437] [1284 ] [INFO ] [operator():54]	task processor: 6 is running... 
+[21:18:09.437] [1284 ] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[21:18:09.437] [1285 ] [INFO ] [operator():54]	task processor: 7 is running... 
+[21:18:09.437] [1285 ] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[21:18:09.437] [1280 ] [INFO ] [operator():54]	task processor: 3 is running... 
+[21:18:09.437] [1280 ] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[21:18:09.437] [1282 ] [INFO ] [operator():54]	task processor: 4 is running... 
+[21:18:09.437] [1282 ] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[21:18:09.437] [1278 ] [INFO ] [operator():54]	task processor: 1 is running... 
+[21:18:09.437] [1278 ] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[21:18:09.437] [1270 ] [INFO ] [init:64]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:18:09.439] [1279 ] [INFO ] [operator():54]	task processor: 2 is running... 
+[21:18:09.441] [1279 ] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[21:18:09.461] [1291 ] [INFO ] [connected:34]	to get session... 
+[21:18:09.461] [1291 ] [INFO ] [connected:38]	to get create busi node callback... 
+[21:18:09.461] [1291 ] [INFO ] [connected:46]	to set node callback, public endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000, user: test001 ... 
+[21:18:09.466] [1291 ] [WARN ] [connected:55]	the busi session create success. 
+[21:18:09.951] [1270 ] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[21:18:09.951] [1270 ] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[21:18:09.951] [1270 ] [INFO ] [init:86]	INIT busi node client success. user: test001, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:18:09.951] [1270 ] [INFO ] [init:244]	INIT busi node client done ! 
+[21:18:09.952] [1270 ] [INFO ] [init:48]	input ready process init ok. 
+[21:18:09.952] [1270 ] [INFO ] [init:253]	INIT input ready processor done ! 
+[21:18:09.952] [1270 ] [INFO ] [init:48]	ready process init ok. max request queue size: 4 
+[21:18:09.952] [1270 ] [INFO ] [init:263]	INIT ready processor done ! 
+[21:18:09.952] [1270 ] [INFO ] [init:269]	Mpc engine init success. 
+[21:18:09.952] [1327 ] [INFO ] [popCommitTask:127]	to POP a commit task, task size: 0  ... 
+[21:18:09.953] [1270 ] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[21:18:50.372] [1289 ] [WARN ] [MpcMemPool:42]	the mempool construction, size: 134217728, mem: 0x7effce7fc010 
+[21:18:52.089] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:18:52.090] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:18:52.093] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:18:52.095] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:00.658] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:00.795] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:00.801] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:00.893] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:09.724] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:09.774] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:09.803] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:09.893] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:18.055] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:18.101] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:18.244] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:18.340] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:25.872] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:26.008] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:26.036] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:26.190] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:33.621] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:33.672] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:33.951] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:33.971] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:41.294] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:41.368] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:41.552] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:41.709] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:49.474] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:49.577] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:49.598] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:49.755] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:57.427] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:57.494] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:57.592] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:19:57.745] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:05.916] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:06.087] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:06.096] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:06.260] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:14.104] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:14.253] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:14.296] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:14.529] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:22.587] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:22.677] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:22.924] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:22.966] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:30.838] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:30.858] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:30.988] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:31.145] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:39.319] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:39.371] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:39.401] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:39.528] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:47.727] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:47.812] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:47.815] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:47.968] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:55.786] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:55.890] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:55.917] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:20:56.090] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:03.811] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:03.960] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:04.045] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:04.307] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:12.232] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:12.345] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:12.632] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:13.216] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:20.616] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:20.839] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:21.130] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:21.729] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:28.569] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:28.977] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:29.271] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:29.758] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:36.660] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:37.113] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:37.436] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:37.954] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:44.966] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:45.409] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:45.693] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:46.094] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:53.273] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:53.775] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:54.063] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:21:54.449] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:22:01.618] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:22:02.067] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:22:02.453] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:22:02.772] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:22:09.815] [1285 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:22:10.247] [1284 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:22:10.640] [1282 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[21:22:11.050] [1283 ] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[22:02:10.452] [31600] [WARN ] [~MpcMemPool:48]	the mempool is freed! 

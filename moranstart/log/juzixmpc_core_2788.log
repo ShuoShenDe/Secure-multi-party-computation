@@ -1,0 +1,35 @@
+[15:48:55.465] [2788 ] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[15:48:55.466] [2788 ] [INFO ] [init:111]	JniNativeCallback init ok. 
+[15:48:55.466] [2788 ] [INFO ] [init:108]	to init engine, user: test002, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[15:48:55.466] [2788 ] [WARN ] [init:130]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[15:48:55.466] [2788 ] [INFO ] [init:156]	Not start node server ! use proxy forward ! 
+[15:48:55.467] [2788 ] [INFO ] [MpcTaskDispatcher:43]	construct task dispatcher, with 3 processor, load balence is: 6000 
+[15:48:55.467] [2788 ] [INFO ] [init:60]	INIT the processor: 0 ok 
+[15:48:55.467] [2788 ] [INFO ] [init:60]	INIT the processor: 1 ok 
+[15:48:55.467] [2790 ] [INFO ] [operator():51]	task processor: 0 is running... 
+[15:48:55.467] [2788 ] [INFO ] [init:60]	INIT the processor: 2 ok 
+[15:48:55.467] [2790 ] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[15:48:55.467] [2788 ] [INFO ] [init:177]	INIT task dispatcher done ! 
+[15:48:55.467] [2793 ] [INFO ] [operator():51]	task processor: 1 is running... 
+[15:48:55.467] [2788 ] [INFO ] [init:40]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[15:48:55.467] [2795 ] [INFO ] [operator():51]	task processor: 2 is running... 
+[15:48:55.467] [2793 ] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[15:48:55.467] [2795 ] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[15:48:55.478] [2801 ] [INFO ] [connected:34]	to get session... 
+[15:48:55.478] [2801 ] [INFO ] [connected:38]	to get create busi node callback... 
+[15:48:55.478] [2801 ] [INFO ] [connected:45]	to set node callback... 
+[15:48:55.481] [2801 ] [WARN ] [connected:54]	the busi session create success. 
+[15:48:55.973] [2788 ] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[15:48:55.974] [2788 ] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[15:48:55.974] [2788 ] [INFO ] [init:86]	INIT busi node client success. user: test002, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[15:48:55.974] [2788 ] [INFO ] [init:187]	INIT busi node client done ! 
+[15:48:55.974] [2788 ] [INFO ] [init:48]	ready process init ok. max request queue size: 3 
+[15:48:55.974] [2788 ] [INFO ] [init:202]	Mpc engine init success. 
+[15:48:55.974] [2914 ] [DEBUG] [popCommitTask:110]	to POP a commit task, task size: 0  ... 
+[15:48:55.975] [2788 ] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[15:48:55.978] [2788 ] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[15:49:01.393] [2800 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 08cc42f0-636a-467c-b05a-8286e1653dc4, user: test002, ready: 2 !  
+[15:49:01.399] [2790 ] [WARN ] [run:151]	no data for input !!!! 
+[15:49:01.399] [2790 ] [ERROR] [processMpcBusi:201]	MPC run failed ! taskID: 08cc42f0-636a-467c-b05a-8286e1653dc4  
+[15:49:01.399] [2790 ] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 08cc42f0-636a-467c-b05a-8286e1653dc4 ! 
+[15:49:01.399] [2790 ] [WARN ] [processTask:130]	processor a MPC task: 08cc42f0-636a-467c-b05a-8286e1653dc4 Failed ! 

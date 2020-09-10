@@ -1,0 +1,341 @@
+[21:22:51.584] [18204] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[21:22:51.585] [18204] [INFO ] [init:111]	JniNativeCallback init ok. 
+[21:22:51.585] [18204] [INFO ] [init:108]	to init engine, user: test002, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:22:51.585] [18204] [WARN ] [init:130]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[21:22:51.585] [18204] [INFO ] [init:156]	Not start node server ! use proxy forward ! 
+[21:22:51.585] [18204] [INFO ] [MpcTaskDispatcher:43]	construct task dispatcher, with 3 processor, load balence is: 6000 
+[21:22:51.585] [18204] [INFO ] [init:60]	INIT the processor: 0 ok 
+[21:22:51.585] [18204] [INFO ] [init:60]	INIT the processor: 1 ok 
+[21:22:51.585] [18218] [INFO ] [operator():51]	task processor: 0 is running... 
+[21:22:51.585] [18204] [INFO ] [init:60]	INIT the processor: 2 ok 
+[21:22:51.585] [18204] [INFO ] [init:177]	INIT task dispatcher done ! 
+[21:22:51.585] [18204] [INFO ] [init:40]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:22:51.586] [18219] [INFO ] [operator():51]	task processor: 1 is running... 
+[21:22:51.586] [18219] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[21:22:51.585] [18220] [INFO ] [operator():51]	task processor: 2 is running... 
+[21:22:51.585] [18218] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[21:22:51.592] [18220] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[21:22:51.600] [18226] [INFO ] [connected:34]	to get session... 
+[21:22:51.600] [18226] [INFO ] [connected:38]	to get create busi node callback... 
+[21:22:51.600] [18226] [INFO ] [connected:45]	to set node callback... 
+[21:22:51.603] [18226] [WARN ] [connected:54]	the busi session create success. 
+[21:22:52.093] [18204] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[21:22:52.093] [18204] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[21:22:52.093] [18204] [INFO ] [init:86]	INIT busi node client success. user: test002, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[21:22:52.093] [18204] [INFO ] [init:187]	INIT busi node client done ! 
+[21:22:52.093] [18204] [INFO ] [init:48]	ready process init ok. max request queue size: 3 
+[21:22:52.093] [18204] [INFO ] [init:202]	Mpc engine init success. 
+[21:22:52.093] [18300] [DEBUG] [popCommitTask:110]	to POP a commit task, task size: 0  ... 
+[21:22:52.094] [18204] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[21:22:52.098] [18204] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:22:57.610] [18224] [WARN ] [allReady:153]	busi allReady callback done,  task: bb4da872-0f3f-42f1-9440-3cb43b4e7f97, user: test002, ready: 2 !  
+[21:23:18.417] [18219] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: bb4da872-0f3f-42f1-9440-3cb43b4e7f97 ! 
+[21:23:18.417] [18219] [WARN ] [processTask:130]	processor a MPC task: bb4da872-0f3f-42f1-9440-3cb43b4e7f97 Failed ! 
+[21:23:22.195] [20703] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:23:22.200] [18224] [WARN ] [allReady:153]	busi allReady callback done,  task: 47be710e-e573-4787-a2d4-20d90a2e7070, user: test002, ready: 2 !  
+[21:23:42.957] [18218] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 47be710e-e573-4787-a2d4-20d90a2e7070 ! 
+[21:23:42.957] [18218] [WARN ] [processTask:130]	processor a MPC task: 47be710e-e573-4787-a2d4-20d90a2e7070 Failed ! 
+[21:23:52.217] [23180] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:23:52.223] [18224] [WARN ] [allReady:153]	busi allReady callback done,  task: e7938d24-f536-4e3c-b262-0c738e497db4, user: test002, ready: 2 !  
+[21:24:12.358] [18220] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: e7938d24-f536-4e3c-b262-0c738e497db4 ! 
+[21:24:12.358] [18220] [WARN ] [processTask:130]	processor a MPC task: e7938d24-f536-4e3c-b262-0c738e497db4 Failed ! 
+[21:30:53.088] [31640] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:30:53.095] [31641] [WARN ] [allReady:153]	busi allReady callback done,  task: 010170da-a5a2-4363-a10b-527228c6aef0, user: test002, ready: 2 !  
+[21:31:09.036] [18219] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 010170da-a5a2-4363-a10b-527228c6aef0 ! 
+[21:31:09.036] [18219] [WARN ] [processTask:130]	processor a MPC task: 010170da-a5a2-4363-a10b-527228c6aef0 Failed ! 
+[21:31:23.106] [19040] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:31:23.111] [31641] [WARN ] [allReady:153]	busi allReady callback done,  task: a630c511-43d1-4a9a-b308-676fdf4d1caf, user: test002, ready: 2 !  
+[21:31:39.440] [18218] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: a630c511-43d1-4a9a-b308-676fdf4d1caf ! 
+[21:31:39.441] [18218] [WARN ] [processTask:130]	processor a MPC task: a630c511-43d1-4a9a-b308-676fdf4d1caf Failed ! 
+[21:31:53.125] [21464] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:31:53.131] [18225] [WARN ] [allReady:153]	busi allReady callback done,  task: d780890e-ad95-4e33-a4dc-8be880841002, user: test002, ready: 2 !  
+[21:32:09.655] [18220] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: d780890e-ad95-4e33-a4dc-8be880841002 ! 
+[21:32:09.655] [18220] [WARN ] [processTask:130]	processor a MPC task: d780890e-ad95-4e33-a4dc-8be880841002 Failed ! 
+[21:43:15.339] [26737] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:43:15.346] [8085 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 92f45e9d-0a8b-48cd-816b-75544e2fed30, user: test002, ready: 2 !  
+[21:43:31.005] [18219] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 92f45e9d-0a8b-48cd-816b-75544e2fed30 ! 
+[21:43:31.005] [18219] [WARN ] [processTask:130]	processor a MPC task: 92f45e9d-0a8b-48cd-816b-75544e2fed30 Failed ! 
+[21:43:45.354] [18204] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:43:45.358] [18225] [WARN ] [allReady:153]	busi allReady callback done,  task: a35bb1da-b680-450a-acac-a7a272468f26, user: test002, ready: 2 !  
+[21:44:01.369] [18218] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: a35bb1da-b680-450a-acac-a7a272468f26 ! 
+[21:44:01.369] [18218] [WARN ] [processTask:130]	processor a MPC task: a35bb1da-b680-450a-acac-a7a272468f26 Failed ! 
+[21:44:15.369] [20703] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:44:15.373] [8085 ] [WARN ] [allReady:153]	busi allReady callback done,  task: cb57296d-1fac-4389-bf27-3fe16a5a9bc2, user: test002, ready: 2 !  
+[21:44:31.598] [18220] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: cb57296d-1fac-4389-bf27-3fe16a5a9bc2 ! 
+[21:44:31.598] [18220] [WARN ] [processTask:130]	processor a MPC task: cb57296d-1fac-4389-bf27-3fe16a5a9bc2 Failed ! 
+[21:45:36.931] [23959] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:45:36.936] [20937] [WARN ] [allReady:153]	busi allReady callback done,  task: 0a4be1df-515b-4c02-bbe4-cda67798223d, user: test002, ready: 2 !  
+[21:45:53.199] [18219] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 0a4be1df-515b-4c02-bbe4-cda67798223d ! 
+[21:45:53.199] [18219] [WARN ] [processTask:130]	processor a MPC task: 0a4be1df-515b-4c02-bbe4-cda67798223d Failed ! 
+[21:46:06.944] [31640] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:46:06.950] [20937] [WARN ] [allReady:153]	busi allReady callback done,  task: 44e9ff4f-5f37-4b18-9713-e9e9565cf207, user: test002, ready: 2 !  
+[21:46:23.675] [18218] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 44e9ff4f-5f37-4b18-9713-e9e9565cf207 ! 
+[21:46:23.675] [18218] [WARN ] [processTask:130]	processor a MPC task: 44e9ff4f-5f37-4b18-9713-e9e9565cf207 Failed ! 
+[21:46:36.958] [19040] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:46:36.963] [20937] [WARN ] [allReady:153]	busi allReady callback done,  task: eaaa5f20-96be-422b-9882-830aa773c4fd, user: test002, ready: 2 !  
+[21:46:53.390] [18220] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: eaaa5f20-96be-422b-9882-830aa773c4fd ! 
+[21:46:53.390] [18220] [WARN ] [processTask:130]	processor a MPC task: eaaa5f20-96be-422b-9882-830aa773c4fd Failed ! 
+[21:52:11.470] [23180] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:52:11.478] [26831] [WARN ] [allReady:153]	busi allReady callback done,  task: 044b7fdb-e808-4bef-9382-35f2320ef7f8, user: test002, ready: 2 !  
+[21:52:27.666] [18219] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 044b7fdb-e808-4bef-9382-35f2320ef7f8 ! 
+[21:52:27.666] [18219] [WARN ] [processTask:130]	processor a MPC task: 044b7fdb-e808-4bef-9382-35f2320ef7f8 Failed ! 
+[21:52:41.485] [26737] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:52:41.492] [20937] [WARN ] [allReady:153]	busi allReady callback done,  task: d76078ed-6788-4e9d-93cc-87cba10d10c8, user: test002, ready: 2 !  
+[21:52:58.323] [18218] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: d76078ed-6788-4e9d-93cc-87cba10d10c8 ! 
+[21:52:58.323] [18218] [WARN ] [processTask:130]	processor a MPC task: d76078ed-6788-4e9d-93cc-87cba10d10c8 Failed ! 
+[21:53:11.498] [18204] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:53:11.504] [20937] [WARN ] [allReady:153]	busi allReady callback done,  task: 562ec769-293e-48c0-b7bc-83783e828f82, user: test002, ready: 2 !  
+[21:53:27.904] [18220] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 562ec769-293e-48c0-b7bc-83783e828f82 ! 
+[21:53:27.904] [18220] [WARN ] [processTask:130]	processor a MPC task: 562ec769-293e-48c0-b7bc-83783e828f82 Failed ! 
+[21:58:36.031] [21464] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:58:36.038] [31453] [WARN ] [allReady:153]	busi allReady callback done,  task: eb32fed7-fa4a-4eee-a85c-e29ffda38428, user: test002, ready: 2 !  
+[21:58:52.033] [18219] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: eb32fed7-fa4a-4eee-a85c-e29ffda38428 ! 
+[21:58:52.033] [18219] [WARN ] [processTask:130]	processor a MPC task: eb32fed7-fa4a-4eee-a85c-e29ffda38428 Failed ! 
+[21:59:06.045] [23959] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:59:06.050] [31453] [WARN ] [allReady:153]	busi allReady callback done,  task: 725c443d-ec49-4af3-9933-732a01db3485, user: test002, ready: 2 !  
+[21:59:22.617] [18218] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 725c443d-ec49-4af3-9933-732a01db3485 ! 
+[21:59:22.617] [18218] [WARN ] [processTask:130]	processor a MPC task: 725c443d-ec49-4af3-9933-732a01db3485 Failed ! 
+[21:59:36.056] [31640] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:59:36.061] [31453] [WARN ] [allReady:153]	busi allReady callback done,  task: a8d5bffd-5e80-43b7-b97a-9c32f40c53fc, user: test002, ready: 2 !  
+[21:59:52.453] [18220] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: a8d5bffd-5e80-43b7-b97a-9c32f40c53fc ! 
+[21:59:52.453] [18220] [WARN ] [processTask:130]	processor a MPC task: a8d5bffd-5e80-43b7-b97a-9c32f40c53fc Failed ! 
+[22:02:44.662] [20703] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:02:44.670] [31453] [WARN ] [allReady:153]	busi allReady callback done,  task: 457b4db5-f10a-427e-9cef-ece7d3229494, user: test002, ready: 2 !  
+[22:03:00.189] [18219] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 457b4db5-f10a-427e-9cef-ece7d3229494 ! 
+[22:03:00.189] [18219] [WARN ] [processTask:130]	processor a MPC task: 457b4db5-f10a-427e-9cef-ece7d3229494 Failed ! 
+[22:03:14.676] [23180] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:03:14.681] [23084] [WARN ] [allReady:153]	busi allReady callback done,  task: 2b7aaa2c-6d35-47f4-9c43-925bb2b67dcb, user: test002, ready: 2 !  
+[22:03:31.270] [18218] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 2b7aaa2c-6d35-47f4-9c43-925bb2b67dcb ! 
+[22:03:31.270] [18218] [WARN ] [processTask:130]	processor a MPC task: 2b7aaa2c-6d35-47f4-9c43-925bb2b67dcb Failed ! 
+[22:03:44.688] [26737] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:03:44.694] [23084] [WARN ] [allReady:153]	busi allReady callback done,  task: 74f7358d-0422-4bfe-a627-7f392f12afae, user: test002, ready: 2 !  
+[22:04:00.728] [18220] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 74f7358d-0422-4bfe-a627-7f392f12afae ! 
+[22:04:00.729] [18220] [WARN ] [processTask:130]	processor a MPC task: 74f7358d-0422-4bfe-a627-7f392f12afae Failed ! 
+[22:07:32.437] [19040] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:07:32.443] [18625] [WARN ] [allReady:153]	busi allReady callback done,  task: 36a0f8e9-9072-4103-8ed4-96f1054d9a76, user: test002, ready: 2 !  
+[22:07:47.933] [18219] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 36a0f8e9-9072-4103-8ed4-96f1054d9a76 ! 
+[22:07:47.933] [18219] [WARN ] [processTask:130]	processor a MPC task: 36a0f8e9-9072-4103-8ed4-96f1054d9a76 Failed ! 
+[22:08:02.450] [21464] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:08:02.455] [31453] [WARN ] [allReady:153]	busi allReady callback done,  task: 6333adc1-2d01-47a7-919d-5cfeafb551db, user: test002, ready: 2 !  
+[22:08:19.116] [18218] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 6333adc1-2d01-47a7-919d-5cfeafb551db ! 
+[22:08:19.116] [18218] [WARN ] [processTask:130]	processor a MPC task: 6333adc1-2d01-47a7-919d-5cfeafb551db Failed ! 
+[22:08:32.461] [23959] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:08:32.467] [18625] [WARN ] [allReady:153]	busi allReady callback done,  task: 252f29d5-8b17-4333-8b26-8a58048808cd, user: test002, ready: 2 !  
+[22:08:49.237] [18220] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 252f29d5-8b17-4333-8b26-8a58048808cd ! 
+[22:08:49.237] [18220] [WARN ] [processTask:130]	processor a MPC task: 252f29d5-8b17-4333-8b26-8a58048808cd Failed ! 
+[22:13:14.071] [18204] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:13:14.078] [19138] [WARN ] [allReady:153]	busi allReady callback done,  task: e1a57133-8301-49dc-af94-34c69e33610d, user: test002, ready: 2 !  
+[22:13:29.796] [18219] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: e1a57133-8301-49dc-af94-34c69e33610d ! 
+[22:13:29.796] [18219] [WARN ] [processTask:130]	processor a MPC task: e1a57133-8301-49dc-af94-34c69e33610d Failed ! 
+[22:13:44.083] [20703] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:13:44.089] [18625] [WARN ] [allReady:153]	busi allReady callback done,  task: 866c7ddc-78f0-4d21-a0c5-05569169f250, user: test002, ready: 2 !  
+[22:14:00.342] [18218] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 866c7ddc-78f0-4d21-a0c5-05569169f250 ! 
+[22:14:00.342] [18218] [WARN ] [processTask:130]	processor a MPC task: 866c7ddc-78f0-4d21-a0c5-05569169f250 Failed ! 
+[22:14:14.093] [23180] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:14:14.099] [19138] [WARN ] [allReady:153]	busi allReady callback done,  task: 4e82a522-8bb9-4f58-bf92-bb4b31e95f68, user: test002, ready: 2 !  
+[22:14:30.916] [18220] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 4e82a522-8bb9-4f58-bf92-bb4b31e95f68 ! 
+[22:14:30.916] [18220] [WARN ] [processTask:130]	processor a MPC task: 4e82a522-8bb9-4f58-bf92-bb4b31e95f68 Failed ! 
+[22:14:44.159] [31636] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:14:44.164] [18625] [WARN ] [allReady:153]	busi allReady callback done,  task: e42aba3c-9e58-479a-9632-f2e41a5e4627, user: test002, ready: 2 !  
+[22:15:00.069] [18219] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: e42aba3c-9e58-479a-9632-f2e41a5e4627 ! 
+[22:15:00.069] [18219] [WARN ] [processTask:130]	processor a MPC task: e42aba3c-9e58-479a-9632-f2e41a5e4627 Failed ! 
+[22:15:14.171] [18204] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:15:14.176] [18625] [WARN ] [allReady:153]	busi allReady callback done,  task: 9dd13d51-2512-4ca6-ab22-4b61ad300ae7, user: test002, ready: 2 !  
+[22:15:31.098] [18218] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 9dd13d51-2512-4ca6-ab22-4b61ad300ae7 ! 
+[22:15:31.098] [18218] [WARN ] [processTask:130]	processor a MPC task: 9dd13d51-2512-4ca6-ab22-4b61ad300ae7 Failed ! 
+[22:15:44.183] [20703] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:15:44.189] [19138] [WARN ] [allReady:153]	busi allReady callback done,  task: 7cc776f7-b0f7-4ad0-a9de-ae739c36bbfa, user: test002, ready: 2 !  
+[22:16:00.748] [18220] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 7cc776f7-b0f7-4ad0-a9de-ae739c36bbfa ! 
+[22:16:00.748] [18220] [WARN ] [processTask:130]	processor a MPC task: 7cc776f7-b0f7-4ad0-a9de-ae739c36bbfa Failed ! 
+[22:16:14.246] [23959] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:16:14.251] [18625] [WARN ] [allReady:153]	busi allReady callback done,  task: ce957bf2-5aab-40e4-b7a6-0712b7afb1dc, user: test002, ready: 2 !  
+[22:16:30.017] [18219] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: ce957bf2-5aab-40e4-b7a6-0712b7afb1dc ! 
+[22:16:30.017] [18219] [WARN ] [processTask:130]	processor a MPC task: ce957bf2-5aab-40e4-b7a6-0712b7afb1dc Failed ! 
+[22:16:44.260] [31636] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:16:44.266] [18625] [WARN ] [allReady:153]	busi allReady callback done,  task: 234487d9-673d-45ae-9fe8-aed2b0909904, user: test002, ready: 2 !  
+[22:17:00.853] [18218] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 234487d9-673d-45ae-9fe8-aed2b0909904 ! 
+[22:17:00.853] [18218] [WARN ] [processTask:130]	processor a MPC task: 234487d9-673d-45ae-9fe8-aed2b0909904 Failed ! 
+[22:17:14.274] [18204] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:17:14.280] [18625] [WARN ] [allReady:153]	busi allReady callback done,  task: 7d157e48-8ee3-497a-9ec2-cb7f386801bc, user: test002, ready: 2 !  
+[22:17:30.974] [18220] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 7d157e48-8ee3-497a-9ec2-cb7f386801bc ! 
+[22:17:30.974] [18220] [WARN ] [processTask:130]	processor a MPC task: 7d157e48-8ee3-497a-9ec2-cb7f386801bc Failed ! 
+[22:18:18.009] [26737] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:18:18.015] [19138] [WARN ] [allReady:153]	busi allReady callback done,  task: b0bf8013-9ad5-4ccb-bb8c-a26acaf2496d, user: test002, ready: 2 !  
+[22:18:34.014] [18219] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: b0bf8013-9ad5-4ccb-bb8c-a26acaf2496d ! 
+[22:18:34.014] [18219] [WARN ] [processTask:130]	processor a MPC task: b0bf8013-9ad5-4ccb-bb8c-a26acaf2496d Failed ! 
+[22:18:48.022] [18202] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:18:48.027] [18625] [WARN ] [allReady:153]	busi allReady callback done,  task: 5e53c4e4-0ac6-43f8-8ab8-aa562541c704, user: test002, ready: 2 !  
+[22:19:04.869] [18218] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 5e53c4e4-0ac6-43f8-8ab8-aa562541c704 ! 
+[22:19:04.869] [18218] [WARN ] [processTask:130]	processor a MPC task: 5e53c4e4-0ac6-43f8-8ab8-aa562541c704 Failed ! 
+[22:19:18.034] [31640] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:19:18.046] [19138] [WARN ] [allReady:153]	busi allReady callback done,  task: 3470b6fb-50ad-46d0-b3a0-74eb32370434, user: test002, ready: 2 !  
+[22:19:34.794] [18220] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 3470b6fb-50ad-46d0-b3a0-74eb32370434 ! 
+[22:19:34.794] [18220] [WARN ] [processTask:130]	processor a MPC task: 3470b6fb-50ad-46d0-b3a0-74eb32370434 Failed ! 
+[19:12:40.858] [18625] [ERROR] [error:161]	got error busi back: c0366b40-c2a9-48b8-a033-09f63005f952, code: 1007 
+[19:12:40.858] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: c0366b40-c2a9-48b8-a033-09f63005f952 !  [THE user: test002] 
+[19:12:40.859] [20433] [ERROR] [error:161]	got error busi back: a758fb68-87dd-4ba8-aa73-28af56157c1e, code: 1007 
+[19:12:40.859] [20433] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: a758fb68-87dd-4ba8-aa73-28af56157c1e !  [THE user: test002] 
+[19:12:40.860] [18625] [ERROR] [error:161]	got error busi back: 47e65463-a686-401c-8faf-a2ee65631864, code: 1007 
+[19:12:40.860] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 47e65463-a686-401c-8faf-a2ee65631864 !  [THE user: test002] 
+[19:12:40.861] [20433] [ERROR] [error:161]	got error busi back: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3, code: 1007 
+[19:12:40.861] [20433] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3 !  [THE user: test002] 
+[19:12:40.862] [18625] [ERROR] [error:161]	got error busi back: 33648fc1-05bc-462b-9e61-2d6ee7263dba, code: 1007 
+[19:12:40.862] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 33648fc1-05bc-462b-9e61-2d6ee7263dba !  [THE user: test002] 
+[19:12:40.862] [18625] [ERROR] [error:161]	got error busi back: 244ef96d-8541-41e1-b5a3-028c73dad48a, code: 1007 
+[19:12:40.862] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 244ef96d-8541-41e1-b5a3-028c73dad48a !  [THE user: test002] 
+[19:12:40.863] [18625] [ERROR] [error:161]	got error busi back: 10ab5684-74dc-4597-aa14-edb1912fff66, code: 1007 
+[19:12:40.863] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 10ab5684-74dc-4597-aa14-edb1912fff66 !  [THE user: test002] 
+[19:12:40.864] [18625] [ERROR] [error:161]	got error busi back: f75aa62d-36f6-4864-bf77-dcb7f47f271a, code: 1007 
+[19:12:40.864] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: f75aa62d-36f6-4864-bf77-dcb7f47f271a !  [THE user: test002] 
+[19:12:40.865] [20433] [ERROR] [error:161]	got error busi back: b5564c12-1b7b-46a3-a977-fa0a1d942301, code: 1007 
+[19:12:40.865] [20433] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: b5564c12-1b7b-46a3-a977-fa0a1d942301 !  [THE user: test002] 
+[19:12:40.865] [18625] [ERROR] [error:161]	got error busi back: 3a6998e3-4d83-4b64-88a9-5863046b5ede, code: 1007 
+[19:12:40.865] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 3a6998e3-4d83-4b64-88a9-5863046b5ede !  [THE user: test002] 
+[19:12:40.866] [18625] [ERROR] [error:161]	got error busi back: 308037b6-4eff-4249-a707-abbabcabb8a8, code: 1007 
+[19:12:40.866] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 308037b6-4eff-4249-a707-abbabcabb8a8 !  [THE user: test002] 
+[19:12:40.867] [18625] [ERROR] [error:161]	got error busi back: aef17056-e04f-475d-8cc0-35f5e5e0a38a, code: 1007 
+[19:12:40.867] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: aef17056-e04f-475d-8cc0-35f5e5e0a38a !  [THE user: test002] 
+[19:12:40.868] [18625] [ERROR] [error:161]	got error busi back: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e, code: 1007 
+[19:12:40.868] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e !  [THE user: test002] 
+[19:12:40.868] [18625] [ERROR] [error:161]	got error busi back: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d, code: 1007 
+[19:12:40.869] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d !  [THE user: test002] 
+[19:12:40.869] [18625] [ERROR] [error:161]	got error busi back: 5c033499-96fe-4184-908e-c4c3ccddb7f2, code: 1007 
+[19:12:40.869] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 5c033499-96fe-4184-908e-c4c3ccddb7f2 !  [THE user: test002] 
+[19:12:40.870] [18625] [ERROR] [error:161]	got error busi back: 5edb3deb-5679-45c4-af8e-7a766763231d, code: 1007 
+[19:12:40.870] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 5edb3deb-5679-45c4-af8e-7a766763231d !  [THE user: test002] 
+[19:12:40.871] [18625] [ERROR] [error:161]	got error busi back: df02463e-efd5-4d64-99aa-e09ff4662ef5, code: 1007 
+[19:12:40.871] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: df02463e-efd5-4d64-99aa-e09ff4662ef5 !  [THE user: test002] 
+[19:12:40.871] [18625] [ERROR] [error:161]	got error busi back: 27aa2967-ea70-4656-99cd-3f8858454c9d, code: 1007 
+[19:12:40.871] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 27aa2967-ea70-4656-99cd-3f8858454c9d !  [THE user: test002] 
+[19:12:40.872] [18625] [ERROR] [error:161]	got error busi back: f48fbbca-b644-459e-b952-112a092e15b5, code: 1007 
+[19:12:40.872] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: f48fbbca-b644-459e-b952-112a092e15b5 !  [THE user: test002] 
+[19:12:40.873] [18625] [ERROR] [error:161]	got error busi back: 74d4c184-06af-40af-86b0-87b89c1ef06a, code: 1007 
+[19:12:40.873] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 74d4c184-06af-40af-86b0-87b89c1ef06a !  [THE user: test002] 
+[19:12:40.874] [18625] [ERROR] [error:161]	got error busi back: cf3f91b7-dd8d-4024-8737-52689f2aa5f8, code: 1007 
+[19:12:40.874] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: cf3f91b7-dd8d-4024-8737-52689f2aa5f8 !  [THE user: test002] 
+[19:12:40.875] [18625] [ERROR] [error:161]	got error busi back: 908007e8-a282-4bb3-9c3b-3b1417e19f3c, code: 1007 
+[19:12:40.875] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 908007e8-a282-4bb3-9c3b-3b1417e19f3c !  [THE user: test002] 
+[19:12:40.876] [18625] [ERROR] [error:161]	got error busi back: d72d3e2d-e106-488d-9300-843d0ba09797, code: 1007 
+[19:12:40.876] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: d72d3e2d-e106-488d-9300-843d0ba09797 !  [THE user: test002] 
+[19:12:40.876] [18625] [ERROR] [error:161]	got error busi back: a926fc2b-504d-4761-b0bf-47e08060e938, code: 1007 
+[19:12:40.876] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: a926fc2b-504d-4761-b0bf-47e08060e938 !  [THE user: test002] 
+[19:12:40.877] [18625] [ERROR] [error:161]	got error busi back: f1fac291-a6bb-46a7-8374-ba9371e64352, code: 1007 
+[19:12:40.877] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: f1fac291-a6bb-46a7-8374-ba9371e64352 !  [THE user: test002] 
+[19:12:40.878] [18625] [ERROR] [error:161]	got error busi back: e5bdd831-07e3-4a30-82ec-7c96609d8869, code: 1007 
+[19:12:40.878] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: e5bdd831-07e3-4a30-82ec-7c96609d8869 !  [THE user: test002] 
+[19:12:40.879] [18625] [ERROR] [error:161]	got error busi back: 086228cf-a771-4300-97ec-8376681ea113, code: 1007 
+[19:12:40.879] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 086228cf-a771-4300-97ec-8376681ea113 !  [THE user: test002] 
+[19:12:40.879] [18625] [ERROR] [error:161]	got error busi back: beb4f556-e2b2-473b-ad4e-7cb90d19264e, code: 1007 
+[19:12:40.879] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: beb4f556-e2b2-473b-ad4e-7cb90d19264e !  [THE user: test002] 
+[19:12:40.880] [18625] [ERROR] [error:161]	got error busi back: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a, code: 1007 
+[19:12:40.880] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a !  [THE user: test002] 
+[19:12:40.881] [18625] [ERROR] [error:161]	got error busi back: 60031659-e9ce-4092-8d4b-945df6385041, code: 1007 
+[19:12:40.881] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 60031659-e9ce-4092-8d4b-945df6385041 !  [THE user: test002] 
+[19:12:40.881] [18625] [ERROR] [error:161]	got error busi back: b736587d-9a3f-46a5-b380-5d2001483bf7, code: 1007 
+[19:12:40.881] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: b736587d-9a3f-46a5-b380-5d2001483bf7 !  [THE user: test002] 
+[19:12:40.882] [18625] [ERROR] [error:161]	got error busi back: 5a52949b-4c9e-4d4f-9371-195de7f401af, code: 1007 
+[19:12:40.882] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 5a52949b-4c9e-4d4f-9371-195de7f401af !  [THE user: test002] 
+[19:12:40.883] [18625] [ERROR] [error:161]	got error busi back: 014f8a36-3cfa-4605-b133-9ea0c8471e3c, code: 1007 
+[19:12:40.883] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 014f8a36-3cfa-4605-b133-9ea0c8471e3c !  [THE user: test002] 
+[19:12:40.883] [18625] [ERROR] [error:161]	got error busi back: 091b0d01-ffb3-485f-9b51-9c41da6cd70c, code: 1007 
+[19:12:40.883] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 091b0d01-ffb3-485f-9b51-9c41da6cd70c !  [THE user: test002] 
+[19:12:40.884] [18625] [ERROR] [error:161]	got error busi back: 4452d012-3425-499d-9f1f-fea0f036972f, code: 1007 
+[19:12:40.884] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 4452d012-3425-499d-9f1f-fea0f036972f !  [THE user: test002] 
+[19:12:40.885] [18625] [ERROR] [error:161]	got error busi back: 18fbf605-2c8f-41f6-ac8d-a849d006aee1, code: 1007 
+[19:12:40.885] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 18fbf605-2c8f-41f6-ac8d-a849d006aee1 !  [THE user: test002] 
+[19:12:40.886] [18625] [ERROR] [error:161]	got error busi back: 7ec9f453-86d0-4c08-9ef8-db504c3250ed, code: 1007 
+[19:12:40.886] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 7ec9f453-86d0-4c08-9ef8-db504c3250ed !  [THE user: test002] 
+[19:12:40.886] [18625] [ERROR] [error:161]	got error busi back: 18891c90-06df-4a9c-89ae-92b665d10bb8, code: 1007 
+[19:12:40.886] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 18891c90-06df-4a9c-89ae-92b665d10bb8 !  [THE user: test002] 
+[19:12:40.887] [18625] [ERROR] [error:161]	got error busi back: 8875d4e6-9d9d-4163-a7be-366519e67036, code: 1007 
+[19:12:40.887] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 8875d4e6-9d9d-4163-a7be-366519e67036 !  [THE user: test002] 
+[19:12:40.888] [18625] [ERROR] [error:161]	got error busi back: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83, code: 1007 
+[19:12:40.888] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83 !  [THE user: test002] 
+[19:12:40.889] [18625] [ERROR] [error:161]	got error busi back: 16ae256b-7d7b-436e-bf61-7184e8b47fa5, code: 1007 
+[19:12:40.889] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 16ae256b-7d7b-436e-bf61-7184e8b47fa5 !  [THE user: test002] 
+[19:12:40.889] [20433] [ERROR] [error:161]	got error busi back: 08cc42f0-636a-467c-b05a-8286e1653dc4, code: 1007 
+[19:12:40.889] [20433] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 08cc42f0-636a-467c-b05a-8286e1653dc4 !  [THE user: test002] 
+[20:45:19.228] [18625] [ERROR] [error:161]	got error busi back: c0366b40-c2a9-48b8-a033-09f63005f952, code: 1007 
+[20:45:19.228] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: c0366b40-c2a9-48b8-a033-09f63005f952 !  [THE user: test002] 
+[20:45:19.233] [25926] [ERROR] [error:161]	got error busi back: a758fb68-87dd-4ba8-aa73-28af56157c1e, code: 1007 
+[20:45:19.233] [25926] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: a758fb68-87dd-4ba8-aa73-28af56157c1e !  [THE user: test002] 
+[20:45:19.234] [18625] [ERROR] [error:161]	got error busi back: 47e65463-a686-401c-8faf-a2ee65631864, code: 1007 
+[20:45:19.234] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 47e65463-a686-401c-8faf-a2ee65631864 !  [THE user: test002] 
+[20:45:19.235] [25926] [ERROR] [error:161]	got error busi back: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3, code: 1007 
+[20:45:19.235] [25926] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3 !  [THE user: test002] 
+[20:45:19.236] [18625] [ERROR] [error:161]	got error busi back: 33648fc1-05bc-462b-9e61-2d6ee7263dba, code: 1007 
+[20:45:19.236] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 33648fc1-05bc-462b-9e61-2d6ee7263dba !  [THE user: test002] 
+[20:45:19.237] [18625] [ERROR] [error:161]	got error busi back: 10ab5684-74dc-4597-aa14-edb1912fff66, code: 1007 
+[20:45:19.237] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 10ab5684-74dc-4597-aa14-edb1912fff66 !  [THE user: test002] 
+[20:45:19.238] [18625] [ERROR] [error:161]	got error busi back: 244ef96d-8541-41e1-b5a3-028c73dad48a, code: 1007 
+[20:45:19.238] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 244ef96d-8541-41e1-b5a3-028c73dad48a !  [THE user: test002] 
+[20:45:19.238] [18625] [ERROR] [error:161]	got error busi back: f75aa62d-36f6-4864-bf77-dcb7f47f271a, code: 1007 
+[20:45:19.238] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: f75aa62d-36f6-4864-bf77-dcb7f47f271a !  [THE user: test002] 
+[20:45:19.239] [18625] [ERROR] [error:161]	got error busi back: b5564c12-1b7b-46a3-a977-fa0a1d942301, code: 1007 
+[20:45:19.239] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: b5564c12-1b7b-46a3-a977-fa0a1d942301 !  [THE user: test002] 
+[20:45:19.240] [18625] [ERROR] [error:161]	got error busi back: 3a6998e3-4d83-4b64-88a9-5863046b5ede, code: 1007 
+[20:45:19.240] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 3a6998e3-4d83-4b64-88a9-5863046b5ede !  [THE user: test002] 
+[20:45:19.240] [18625] [ERROR] [error:161]	got error busi back: 308037b6-4eff-4249-a707-abbabcabb8a8, code: 1007 
+[20:45:19.240] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 308037b6-4eff-4249-a707-abbabcabb8a8 !  [THE user: test002] 
+[20:45:19.241] [18625] [ERROR] [error:161]	got error busi back: aef17056-e04f-475d-8cc0-35f5e5e0a38a, code: 1007 
+[20:45:19.241] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: aef17056-e04f-475d-8cc0-35f5e5e0a38a !  [THE user: test002] 
+[20:45:19.242] [18625] [ERROR] [error:161]	got error busi back: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d, code: 1007 
+[20:45:19.242] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 689cc0f7-e07a-4045-9cf3-a572a0a2cf2d !  [THE user: test002] 
+[20:45:19.243] [25926] [ERROR] [error:161]	got error busi back: 5c033499-96fe-4184-908e-c4c3ccddb7f2, code: 1007 
+[20:45:19.243] [25926] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 5c033499-96fe-4184-908e-c4c3ccddb7f2 !  [THE user: test002] 
+[20:45:19.243] [18625] [ERROR] [error:161]	got error busi back: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e, code: 1007 
+[20:45:19.244] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 6d0f588d-3587-4c0f-848b-e7e25cd5ee6e !  [THE user: test002] 
+[20:45:19.244] [18625] [ERROR] [error:161]	got error busi back: df02463e-efd5-4d64-99aa-e09ff4662ef5, code: 1007 
+[20:45:19.244] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: df02463e-efd5-4d64-99aa-e09ff4662ef5 !  [THE user: test002] 
+[20:45:19.245] [18625] [ERROR] [error:161]	got error busi back: 5edb3deb-5679-45c4-af8e-7a766763231d, code: 1007 
+[20:45:19.245] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 5edb3deb-5679-45c4-af8e-7a766763231d !  [THE user: test002] 
+[20:45:19.246] [18625] [ERROR] [error:161]	got error busi back: 27aa2967-ea70-4656-99cd-3f8858454c9d, code: 1007 
+[20:45:19.246] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 27aa2967-ea70-4656-99cd-3f8858454c9d !  [THE user: test002] 
+[20:45:19.247] [18625] [ERROR] [error:161]	got error busi back: f48fbbca-b644-459e-b952-112a092e15b5, code: 1007 
+[20:45:19.247] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: f48fbbca-b644-459e-b952-112a092e15b5 !  [THE user: test002] 
+[20:45:19.251] [18625] [ERROR] [error:161]	got error busi back: 74d4c184-06af-40af-86b0-87b89c1ef06a, code: 1007 
+[20:45:19.251] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 74d4c184-06af-40af-86b0-87b89c1ef06a !  [THE user: test002] 
+[20:45:19.252] [18625] [ERROR] [error:161]	got error busi back: cf3f91b7-dd8d-4024-8737-52689f2aa5f8, code: 1007 
+[20:45:19.252] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: cf3f91b7-dd8d-4024-8737-52689f2aa5f8 !  [THE user: test002] 
+[20:45:19.253] [18625] [ERROR] [error:161]	got error busi back: 908007e8-a282-4bb3-9c3b-3b1417e19f3c, code: 1007 
+[20:45:19.253] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 908007e8-a282-4bb3-9c3b-3b1417e19f3c !  [THE user: test002] 
+[20:45:19.254] [18625] [ERROR] [error:161]	got error busi back: d72d3e2d-e106-488d-9300-843d0ba09797, code: 1007 
+[20:45:19.254] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: d72d3e2d-e106-488d-9300-843d0ba09797 !  [THE user: test002] 
+[20:45:19.255] [18625] [ERROR] [error:161]	got error busi back: a926fc2b-504d-4761-b0bf-47e08060e938, code: 1007 
+[20:45:19.255] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: a926fc2b-504d-4761-b0bf-47e08060e938 !  [THE user: test002] 
+[20:45:19.256] [18625] [ERROR] [error:161]	got error busi back: f1fac291-a6bb-46a7-8374-ba9371e64352, code: 1007 
+[20:45:19.256] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: f1fac291-a6bb-46a7-8374-ba9371e64352 !  [THE user: test002] 
+[20:45:19.257] [18625] [ERROR] [error:161]	got error busi back: e5bdd831-07e3-4a30-82ec-7c96609d8869, code: 1007 
+[20:45:19.257] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: e5bdd831-07e3-4a30-82ec-7c96609d8869 !  [THE user: test002] 
+[20:45:19.259] [18625] [ERROR] [error:161]	got error busi back: 086228cf-a771-4300-97ec-8376681ea113, code: 1007 
+[20:45:19.259] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 086228cf-a771-4300-97ec-8376681ea113 !  [THE user: test002] 
+[20:45:19.259] [18625] [ERROR] [error:161]	got error busi back: beb4f556-e2b2-473b-ad4e-7cb90d19264e, code: 1007 
+[20:45:19.259] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: beb4f556-e2b2-473b-ad4e-7cb90d19264e !  [THE user: test002] 
+[20:45:19.260] [18625] [ERROR] [error:161]	got error busi back: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a, code: 1007 
+[20:45:19.260] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 9fa4bbf2-6051-4165-89c2-d9f75ae2ff4a !  [THE user: test002] 
+[20:45:19.261] [18625] [ERROR] [error:161]	got error busi back: 60031659-e9ce-4092-8d4b-945df6385041, code: 1007 
+[20:45:19.261] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 60031659-e9ce-4092-8d4b-945df6385041 !  [THE user: test002] 
+[20:45:19.262] [18625] [ERROR] [error:161]	got error busi back: b736587d-9a3f-46a5-b380-5d2001483bf7, code: 1007 
+[20:45:19.262] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: b736587d-9a3f-46a5-b380-5d2001483bf7 !  [THE user: test002] 
+[20:45:19.262] [18625] [ERROR] [error:161]	got error busi back: 5a52949b-4c9e-4d4f-9371-195de7f401af, code: 1007 
+[20:45:19.262] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 5a52949b-4c9e-4d4f-9371-195de7f401af !  [THE user: test002] 
+[20:45:19.263] [18625] [ERROR] [error:161]	got error busi back: 014f8a36-3cfa-4605-b133-9ea0c8471e3c, code: 1007 
+[20:45:19.263] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 014f8a36-3cfa-4605-b133-9ea0c8471e3c !  [THE user: test002] 
+[20:45:19.264] [18625] [ERROR] [error:161]	got error busi back: 091b0d01-ffb3-485f-9b51-9c41da6cd70c, code: 1007 
+[20:45:19.264] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 091b0d01-ffb3-485f-9b51-9c41da6cd70c !  [THE user: test002] 
+[20:45:19.264] [18625] [ERROR] [error:161]	got error busi back: 18fbf605-2c8f-41f6-ac8d-a849d006aee1, code: 1007 
+[20:45:19.264] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 18fbf605-2c8f-41f6-ac8d-a849d006aee1 !  [THE user: test002] 
+[20:45:19.265] [18625] [ERROR] [error:161]	got error busi back: 4452d012-3425-499d-9f1f-fea0f036972f, code: 1007 
+[20:45:19.265] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 4452d012-3425-499d-9f1f-fea0f036972f !  [THE user: test002] 
+[20:45:19.265] [18625] [ERROR] [error:161]	got error busi back: 18891c90-06df-4a9c-89ae-92b665d10bb8, code: 1007 
+[20:45:19.266] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 18891c90-06df-4a9c-89ae-92b665d10bb8 !  [THE user: test002] 
+[20:45:19.266] [18625] [ERROR] [error:161]	got error busi back: 7ec9f453-86d0-4c08-9ef8-db504c3250ed, code: 1007 
+[20:45:19.266] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 7ec9f453-86d0-4c08-9ef8-db504c3250ed !  [THE user: test002] 
+[20:45:19.267] [18625] [ERROR] [error:161]	got error busi back: 8875d4e6-9d9d-4163-a7be-366519e67036, code: 1007 
+[20:45:19.267] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 8875d4e6-9d9d-4163-a7be-366519e67036 !  [THE user: test002] 
+[20:45:19.267] [18625] [ERROR] [error:161]	got error busi back: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83, code: 1007 
+[20:45:19.267] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: a8a7fb41-6eca-4f2a-ae5f-59e6983d5f83 !  [THE user: test002] 
+[20:45:19.268] [18625] [ERROR] [error:161]	got error busi back: 16ae256b-7d7b-436e-bf61-7184e8b47fa5, code: 1007 
+[20:45:19.268] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 16ae256b-7d7b-436e-bf61-7184e8b47fa5 !  [THE user: test002] 
+[20:45:19.269] [18625] [ERROR] [error:161]	got error busi back: 08cc42f0-636a-467c-b05a-8286e1653dc4, code: 1007 
+[20:45:19.269] [18625] [WARN ] [error:168]	busi err back, erase task failed, cannot find cache task: 08cc42f0-636a-467c-b05a-8286e1653dc4 !  [THE user: test002] 

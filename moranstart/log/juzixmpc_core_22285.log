@@ -1,0 +1,109 @@
+[20:31:55.535] [22285] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[20:31:55.536] [22285] [INFO ] [init:111]	JniNativeCallback init ok. 
+[20:31:55.536] [22285] [INFO ] [init:108]	to init engine, user: test002, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[20:31:55.536] [22285] [WARN ] [init:130]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[20:31:55.536] [22285] [INFO ] [init:156]	Not start node server ! use proxy forward ! 
+[20:31:55.536] [22285] [INFO ] [MpcTaskDispatcher:43]	construct task dispatcher, with 3 processor, load balence is: 6000 
+[20:31:55.536] [22285] [INFO ] [init:60]	INIT the processor: 0 ok 
+[20:31:55.536] [22295] [INFO ] [operator():51]	task processor: 0 is running... 
+[20:31:55.536] [22296] [INFO ] [operator():51]	task processor: 1 is running... 
+[20:31:55.536] [22296] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[20:31:55.536] [22285] [INFO ] [init:60]	INIT the processor: 1 ok 
+[20:31:55.536] [22295] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[20:31:55.536] [22285] [INFO ] [init:60]	INIT the processor: 2 ok 
+[20:31:55.536] [22297] [INFO ] [operator():51]	task processor: 2 is running... 
+[20:31:55.536] [22285] [INFO ] [init:177]	INIT task dispatcher done ! 
+[20:31:55.536] [22297] [DEBUG] [popReadyTask:166]	to POP a ready task from ready queue to processor, now read_num: 0 ... 
+[20:31:55.536] [22285] [INFO ] [init:40]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[20:31:55.548] [22303] [INFO ] [connected:34]	to get session... 
+[20:31:55.548] [22303] [INFO ] [connected:38]	to get create busi node callback... 
+[20:31:55.548] [22303] [INFO ] [connected:45]	to set node callback... 
+[20:31:55.550] [22303] [WARN ] [connected:54]	the busi session create success. 
+[20:31:56.043] [22285] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[20:31:56.043] [22285] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[20:31:56.043] [22285] [INFO ] [init:86]	INIT busi node client success. user: test002, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[20:31:56.043] [22285] [INFO ] [init:187]	INIT busi node client done ! 
+[20:31:56.043] [22285] [INFO ] [init:48]	ready process init ok. max request queue size: 3 
+[20:31:56.043] [22285] [INFO ] [init:202]	Mpc engine init success. 
+[20:31:56.043] [22373] [DEBUG] [popCommitTask:110]	to POP a commit task, task size: 0  ... 
+[20:31:56.044] [22285] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[20:31:56.047] [22285] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[20:32:02.591] [22302] [WARN ] [allReady:153]	busi allReady callback done,  task: 491cd3ed-3cff-4b15-84f3-1c5283580d78, user: test002, ready: 2 !  
+[20:32:22.852] [22296] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 491cd3ed-3cff-4b15-84f3-1c5283580d78 ! 
+[20:32:22.852] [22296] [WARN ] [processTask:130]	processor a MPC task: 491cd3ed-3cff-4b15-84f3-1c5283580d78 Failed ! 
+[20:58:46.825] [8285 ] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[20:58:46.836] [8289 ] [WARN ] [allReady:153]	busi allReady callback done,  task: d727eed4-dfea-4a11-a31e-3e7b1fd940a1, user: test002, ready: 2 !  
+[20:59:06.692] [22295] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: d727eed4-dfea-4a11-a31e-3e7b1fd940a1 ! 
+[20:59:06.692] [22295] [WARN ] [processTask:130]	processor a MPC task: d727eed4-dfea-4a11-a31e-3e7b1fd940a1 Failed ! 
+[21:02:44.144] [29047] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:02:44.151] [29048] [WARN ] [allReady:153]	busi allReady callback done,  task: d255ed88-b2b5-42d1-bc7e-60926247a07e, user: test002, ready: 2 !  
+[21:03:03.354] [22297] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: d255ed88-b2b5-42d1-bc7e-60926247a07e ! 
+[21:03:03.354] [22297] [WARN ] [processTask:130]	processor a MPC task: d255ed88-b2b5-42d1-bc7e-60926247a07e Failed ! 
+[21:03:58.392] [30034] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:03:58.397] [22302] [WARN ] [allReady:153]	busi allReady callback done,  task: 8087c7bf-3920-4068-8ae3-495903fb4b74, user: test002, ready: 2 !  
+[21:04:18.061] [22296] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 8087c7bf-3920-4068-8ae3-495903fb4b74 ! 
+[21:04:18.061] [22296] [WARN ] [processTask:130]	processor a MPC task: 8087c7bf-3920-4068-8ae3-495903fb4b74 Failed ! 
+[21:05:06.310] [11158] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:05:06.314] [29048] [WARN ] [allReady:153]	busi allReady callback done,  task: b5924827-f737-4942-bcd9-91beadfa1e89, user: test002, ready: 2 !  
+[21:05:26.129] [22295] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: b5924827-f737-4942-bcd9-91beadfa1e89 ! 
+[21:05:26.129] [22295] [WARN ] [processTask:130]	processor a MPC task: b5924827-f737-4942-bcd9-91beadfa1e89 Failed ! 
+[21:17:52.808] [23156] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:17:52.815] [14724] [WARN ] [allReady:153]	busi allReady callback done,  task: 2524a268-30a5-428f-8f96-cd3426d6329e, user: test002, ready: 2 !  
+[21:18:12.643] [22297] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 2524a268-30a5-428f-8f96-cd3426d6329e ! 
+[21:18:12.643] [22297] [WARN ] [processTask:130]	processor a MPC task: 2524a268-30a5-428f-8f96-cd3426d6329e Failed ! 
+[21:19:08.740] [9064 ] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:19:08.750] [29048] [WARN ] [allReady:153]	busi allReady callback done,  task: dc69e323-a68b-4ac9-bae0-3bd9977e1e6f, user: test002, ready: 2 !  
+[21:19:27.878] [22296] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: dc69e323-a68b-4ac9-bae0-3bd9977e1e6f ! 
+[21:19:27.878] [22296] [WARN ] [processTask:130]	processor a MPC task: dc69e323-a68b-4ac9-bae0-3bd9977e1e6f Failed ! 
+[21:20:15.997] [22285] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:20:16.003] [14724] [WARN ] [allReady:153]	busi allReady callback done,  task: 8c26b8b0-1b10-4b2f-9ad1-ce2f0cc70730, user: test002, ready: 2 !  
+[21:20:35.968] [22295] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 8c26b8b0-1b10-4b2f-9ad1-ce2f0cc70730 ! 
+[21:20:35.968] [22295] [WARN ] [processTask:130]	processor a MPC task: 8c26b8b0-1b10-4b2f-9ad1-ce2f0cc70730 Failed ! 
+[21:21:29.988] [8285 ] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:21:29.993] [29048] [WARN ] [allReady:153]	busi allReady callback done,  task: aa8fc074-762d-4e72-b785-4103b3c1b850, user: test002, ready: 2 !  
+[21:21:49.189] [22297] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: aa8fc074-762d-4e72-b785-4103b3c1b850 ! 
+[21:21:49.189] [22297] [WARN ] [processTask:130]	processor a MPC task: aa8fc074-762d-4e72-b785-4103b3c1b850 Failed ! 
+[21:22:04.020] [22283] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:22:04.026] [14724] [WARN ] [allReady:153]	busi allReady callback done,  task: c569dce6-af2b-4fc9-a188-495007b28eed, user: test002, ready: 2 !  
+[21:22:23.194] [22296] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: c569dce6-af2b-4fc9-a188-495007b28eed ! 
+[21:22:23.194] [22296] [WARN ] [processTask:130]	processor a MPC task: c569dce6-af2b-4fc9-a188-495007b28eed Failed ! 
+[21:22:51.747] [30034] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:22:51.753] [29048] [WARN ] [allReady:153]	busi allReady callback done,  task: 15275797-99d8-4b9c-a620-9104ef1b0312, user: test002, ready: 2 !  
+[21:23:11.599] [22295] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 15275797-99d8-4b9c-a620-9104ef1b0312 ! 
+[21:23:11.599] [22295] [WARN ] [processTask:130]	processor a MPC task: 15275797-99d8-4b9c-a620-9104ef1b0312 Failed ! 
+[21:35:17.362] [23156] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:35:17.371] [10995] [WARN ] [allReady:153]	busi allReady callback done,  task: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3, user: test002, ready: 2 !  
+[21:35:17.375] [22297] [WARN ] [run:151]	no data for input !!!! 
+[21:35:17.375] [22297] [ERROR] [processMpcBusi:201]	MPC run failed ! taskID: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3  
+[21:35:17.375] [22297] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3 ! 
+[21:35:17.375] [22297] [WARN ] [processTask:130]	processor a MPC task: 65e326cc-f11e-47e9-aa89-2dd07f0fc3d3 Failed ! 
+[21:35:48.337] [11158] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:35:48.343] [10995] [WARN ] [allReady:153]	busi allReady callback done,  task: 8875d4e6-9d9d-4163-a7be-366519e67036, user: test002, ready: 2 !  
+[21:35:48.346] [22296] [WARN ] [run:151]	no data for input !!!! 
+[21:35:48.346] [22296] [ERROR] [processMpcBusi:201]	MPC run failed ! taskID: 8875d4e6-9d9d-4163-a7be-366519e67036  
+[21:35:48.346] [22296] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 8875d4e6-9d9d-4163-a7be-366519e67036 ! 
+[21:35:48.346] [22296] [WARN ] [processTask:130]	processor a MPC task: 8875d4e6-9d9d-4163-a7be-366519e67036 Failed ! 
+[21:37:42.355] [8285 ] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:37:42.362] [23386] [WARN ] [allReady:153]	busi allReady callback done,  task: fab50f0d-919c-4897-98f0-fbfa9f5597dc, user: test002, ready: 2 !  
+[21:38:02.486] [22295] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: fab50f0d-919c-4897-98f0-fbfa9f5597dc ! 
+[21:38:02.486] [22295] [WARN ] [processTask:130]	processor a MPC task: fab50f0d-919c-4897-98f0-fbfa9f5597dc Failed ! 
+[21:38:13.154] [8283 ] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[21:38:13.160] [23386] [WARN ] [allReady:153]	busi allReady callback done,  task: 24c8a45f-7996-48a5-9e49-793d992d8e42, user: test002, ready: 2 !  
+[21:38:33.274] [22297] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 24c8a45f-7996-48a5-9e49-793d992d8e42 ! 
+[21:38:33.274] [22297] [WARN ] [processTask:130]	processor a MPC task: 24c8a45f-7996-48a5-9e49-793d992d8e42 Failed ! 
+[22:08:02.702] [9064 ] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:08:02.710] [27099] [WARN ] [allReady:153]	busi allReady callback done,  task: 1111f253-c6d2-4f64-a81c-1a3a255d6c16, user: test002, ready: 2 !  
+[22:08:22.070] [22296] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 1111f253-c6d2-4f64-a81c-1a3a255d6c16 ! 
+[22:08:22.070] [22296] [WARN ] [processTask:130]	processor a MPC task: 1111f253-c6d2-4f64-a81c-1a3a255d6c16 Failed ! 
+[22:08:58.415] [8285 ] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:08:58.420] [23386] [WARN ] [allReady:153]	busi allReady callback done,  task: bcebfab5-0a0d-4dd5-9639-343932052354, user: test002, ready: 2 !  
+[22:09:17.426] [22295] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: bcebfab5-0a0d-4dd5-9639-343932052354 ! 
+[22:09:17.426] [22295] [WARN ] [processTask:130]	processor a MPC task: bcebfab5-0a0d-4dd5-9639-343932052354 Failed ! 
+[22:10:23.193] [23156] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[22:10:23.197] [8142 ] [WARN ] [allReady:153]	busi allReady callback done,  task: daa81095-59e6-49c1-bfc1-3bf8637c14c4, user: test002, ready: 2 !  
+[22:10:43.047] [22297] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: daa81095-59e6-49c1-bfc1-3bf8637c14c4 ! 
+[22:10:43.047] [22297] [WARN ] [processTask:130]	processor a MPC task: daa81095-59e6-49c1-bfc1-3bf8637c14c4 Failed ! 
+[12:03:23.943] [8283 ] [ERROR] [Java_com_juzix_jugo_node_jni_NativeInterface_startTask:135]	commit a invite task to engine ok ! 
+[12:03:23.952] [8142 ] [WARN ] [allReady:153]	busi allReady callback done,  task: 87c162e1-42db-4e8c-be5c-ef1e119f8d2a, user: test002, ready: 2 !  
+[12:03:43.467] [22296] [WARN ] [processMpcBusi:237]	task processor cannot remove request task: 87c162e1-42db-4e8c-be5c-ef1e119f8d2a ! 
+[12:03:43.467] [22296] [WARN ] [processTask:130]	processor a MPC task: 87c162e1-42db-4e8c-be5c-ef1e119f8d2a Failed ! 

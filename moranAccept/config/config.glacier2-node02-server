@@ -1,0 +1,50 @@
+Glacier2.InstanceName=Node02Glacier2
+Glacier2.Client.Endpoints=tcp -h 10.10.8.20 -p 45011 -t 12000
+Glacier2.Server.Endpoints=tcp
+
+# 会话创建管理
+Glacier2.SessionManager=NodeSessionManager:tcp -h 10.10.8.119 -p 12002
+#Glacier2.SessionManager=NodeSessionManager:tcp -h 127.0.0.1 -p 12002
+
+Glacier2.PermissionsVerifier=NodePermissionsVerifier:tcp -h 10.10.8.119 -p 12002
+#Glacier2.PermissionsVerifier=NodePermissionsVerifier:tcp -h 127.0.0.1 -p 12002
+
+Glacier2.SessionTimeout=30
+Glacier2.Server.Buffered=0
+Glacier2.Client.Buffered=0
+
+#
+# Security Tracing
+#
+# 0 = no security tracing
+# 1 = trace messages
+#
+IceSSL.Trace.Security=1
+
+#
+# SSL Configuration
+#
+#Ice.Plugin.IceSSL=IceSSL:createIceSSL
+#IceSSL.DefaultDir=../../../certs
+#IceSSL.CAs=cacert.pem
+#IceSSL.CertFile=server.p12
+#IceSSL.Password=password
+#IceSSL.Keychain=../../../certs/glacier2.keychain
+#IceSSL.KeychainPassword=password
+#IceSSL.VerifyPeer=0
+
+#
+# Ice Tracing
+#
+Ice.Trace.Network=1
+Ice.Warn.Connections=1
+Ice.Trace.Protocol=1
+
+#
+# We configure the server thread pool as we want the glacier2router
+# to be multi threaded.
+#
+Ice.ThreadPool.Server.Size=10
+Ice.ThreadPool.Server.SizeMax=10
+Ice.ThreadPool.Client.Size=10
+Ice.ThreadPool.Client.SizeMax=10

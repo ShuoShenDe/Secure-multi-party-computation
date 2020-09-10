@@ -1,0 +1,147 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.1.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+
+
+version = '1.3'
+
+// JVM 版本号要求
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    maven { url 'http://maven.alfresco.com/nexus/content/groups/public' }
+    maven { url 'http://maven.aliyun.com/nexus/content/repositories/central' }
+    maven { url 'https://oss.sonatype.org/content/repositories/releases/' }
+    mavenCentral()
+}
+
+//build跳过测试代码
+test {
+    exclude 'com/juzix/jugo/developer/**', 'com/ju/web/security/**'
+}
+
+
+//定义版本号
+ext {
+    iceVersion = '3.6.3'
+}
+
+jar {
+    manifest {
+        attributes("Implementation-Title": "Gradle")
+    }
+}
+
+configurations {
+    // 所有需要忽略的包定义在此
+    all*.exclude group: 'commons-httpclient'
+    all*.exclude group: 'commons-logging'
+    all*.exclude group: 'commons-beanutils', module: 'commons-beanutils'
+    mybatisGenerator
+}
+
+[compileJava, compileTestJava, javadoc]*.options*.encoding = "UTF-8"
+dependencies {
+    compile("org.projectlombok:lombok:1.16.4")
+    compile fileTree(dir:'lib',include:['*.jar'])
+    compile("org.springframework.boot:spring-boot-starter-tomcat")
+    compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+    compile("org.springframework.boot:spring-boot-starter-web-services")
+    compile("org.springframework.boot:spring-boot-starter-aop")
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.apache.commons:commons-pool2:2.4.3")
+
+    //compile("org.apache.http:httpmime:4.3.1")
+    compile ("commons-lang:commons-lang:2.4")
+    compile("com.alibaba:fastjson:1.2.29")
+
+    compile("io.springfox:springfox-swagger2:2.6.1")
+    compile("io.springfox:springfox-swagger-ui:2.6.1")
+
+    compile("com.zeroc:ice:$iceVersion")
+    compile("com.zeroc:glacier2:$iceVersion")
+    compile("org.apache.commons:commons-lang3:3.5")
+    compile("commons-beanutils:commons-beanutils:1.9.3")
+    compile("commons-codec:commons-codec:1.10")
+    compile("commons-collections:commons-collections:3.2.2")
+    compile("commons-configuration:commons-configuration:1.10")
+    compile("org.apache.httpcomponents:httpclient:4.5.3")
+    compile("org.apache.httpcomponents:httpcore:4.4.9")
+    compile("com.typesafe:config:1.2.1")
+    compile("org.slf4j:slf4j-api:1.7.7")
+    compile("ch.qos.logback:logback-core:1.1.7")
+    compile("ch.qos.logback:logback-classic:1.1.7")
+    compile("org.slf4j:log4j-over-slf4j:1.7.7")
+    compile("org.slf4j:jul-to-slf4j:1.7.7")
+    compile("org.slf4j:jcl-over-slf4j:1.7.7")
+    compile("com.googlecode.concurrent-locks:concurrent-locks:1.0.0")
+    compile("com.google.guava:guava:16.0.1")
+    compile("org.mybatis.spring.boot:mybatis-spring-boot-starter:1.1.1")
+    compile("com.alibaba:druid:1.0.15")
+    compile("mysql:mysql-connector-java")
+    compile("com.github.pagehelper:pagehelper:4.1.6")
+    compile("tk.mybatis:mapper:3.3.7")
+    compile("org.mybatis.generator:mybatis-generator-core:1.3.2")
+    mybatisGenerator 'org.mybatis.generator:mybatis-generator-core:1.3.2'
+    mybatisGenerator 'mysql:mysql-connector-java:5.1.40'
+    mybatisGenerator 'tk.mybatis:mapper:3.3.7'
+
+    testCompile("junit:junit")
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '2.7.19'
+}
+
+def getDbProperties = {
+    def properties = new Properties()
+    file("src/main/resources/db/db-mysql.properties").withInputStream { inputStream ->
+        properties.load(inputStream)
+    }
+    properties
+}
+
+task mybatisGenerate doLast {
+    def properties = getDbProperties()
+    ant.properties['targetProject'] = projectDir.path
+    ant.properties['driverClass'] = properties.getProperty("jdbc.driverClassName")
+    ant.properties['connectionURL'] = properties.getProperty("jdbc.url")
+    ant.properties['userId'] = properties.getProperty("jdbc.user")
+    ant.properties['password'] = properties.getProperty("jdbc.pass")
+    ant.properties['src_main_java'] = sourceSets.main.java.srcDirs[0].path
+    ant.properties['src_main_resources'] = sourceSets.main.resources.srcDirs[0].path
+    ant.properties['modelPackage'] = properties.getProperty("modelPackage")
+    ant.properties['mapperPackage'] = properties.getProperty("mapperPackage")
+    ant.properties['sqlMapperPackage'] = properties.getProperty("sqlMapperPackage")
+    ant.taskdef(
+            name: 'mbgenerator',
+            classname: 'org.mybatis.generator.ant.GeneratorAntTask',
+            classpath: configurations.mybatisGenerator.asPath
+    )
+    ant.mbgenerator(overwrite: true,
+            configfile: 'D:/blockchain/workspace_mpc/MPCStartApp/src/main/resources/db/generatorConfig.xml', verbose: true) {
+        propertyset {
+            propertyref(name: 'targetProject')
+            propertyref(name: 'userId')
+            propertyref(name: 'driverClass')
+            propertyref(name: 'connectionURL')
+            propertyref(name: 'password')
+            propertyref(name: 'src_main_java')
+            propertyref(name: 'src_main_resources')
+            propertyref(name: 'modelPackage')
+            propertyref(name: 'mapperPackage')
+            propertyref(name: 'sqlMapperPackage')
+        }
+    }
+}

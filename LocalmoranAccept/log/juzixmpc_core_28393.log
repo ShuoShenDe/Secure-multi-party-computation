@@ -1,0 +1,526 @@
+[13:37:13.639] [28393] [INFO ] [JNI_OnLoad:24]	jvm onload success ! 
+[13:37:13.640] [28393] [INFO ] [init:111]	JniNativeCallback init ok. 
+[13:37:13.640] [28393] [INFO ] [init:136]	to init engine, user: test005, mode: 0, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[13:37:13.640] [28393] [WARN ] [init:158]	Cannot find the --Mpc.Data=xxxxx config item ! 
+[13:37:13.640] [28393] [INFO ] [parseCircuits:365]	** preload circuit:  /home/lmars/gc/localmoran.gc 
+[13:37:13.640] [28393] [INFO ] [init:172]	the --Mpc.Circuits=/home/lmars/gc/localmoran.gc is set ! 
+[13:37:15.005] [28393] [INFO ] [resolveCiruit:326]	** circuit resolve => circuit: /home/lmars/gc/localmoran.gc , gates: 3230476, andGate: 900086, wires: 3237068, cost time: 1.365265 seconds, speed: 2366189.305065 (gc / second) ** 
+[13:37:15.006] [28393] [INFO ] [CircuitFile:108]	circuit: /home/lmars/gc/localmoran.gc,  hash: 1AB21D8355CFA17F8E61194831E81A8F22BEC8C728FEFB747ED035EB5082AA2B 
+[13:37:15.006] [28393] [INFO ] [init:188]	preload circuits ok ! 
+[13:37:15.006] [28393] [INFO ] [init:212]	Not start node server ! use proxy forward ! 
+[13:37:15.006] [28393] [INFO ] [MpcTaskDispatcher:39]	construct task dispatcher, with 8 processor, load balence is: 16384 
+[13:37:15.006] [28393] [INFO ] [init:63]	INIT the processor: 0, type: 0 ok 
+[13:37:15.006] [28393] [INFO ] [init:63]	INIT the processor: 1, type: 0 ok 
+[13:37:15.006] [28561] [INFO ] [operator():54]	task processor: 0 is running... 
+[13:37:15.006] [28393] [INFO ] [init:63]	INIT the processor: 2, type: 0 ok 
+[13:37:15.006] [28562] [INFO ] [operator():54]	task processor: 1 is running... 
+[13:37:15.006] [28563] [INFO ] [operator():54]	task processor: 2 is running... 
+[13:37:15.006] [28561] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[13:37:15.006] [28393] [INFO ] [init:63]	INIT the processor: 3, type: 0 ok 
+[13:37:15.006] [28562] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[13:37:15.006] [28564] [INFO ] [operator():54]	task processor: 3 is running... 
+[13:37:15.006] [28565] [INFO ] [operator():54]	task processor: 4 is running... 
+[13:37:15.006] [28563] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[13:37:15.006] [28564] [INFO ] [popInvitorReadyTask:270]	to POP a ready task from ready invitor queue to processor, now read_num: 0 ... 
+[13:37:15.006] [28393] [INFO ] [init:63]	INIT the processor: 4, type: 1 ok 
+[13:37:15.006] [28565] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[13:37:15.007] [28393] [INFO ] [init:63]	INIT the processor: 5, type: 1 ok 
+[13:37:15.007] [28566] [INFO ] [operator():54]	task processor: 5 is running... 
+[13:37:15.007] [28566] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[13:37:15.007] [28393] [INFO ] [init:63]	INIT the processor: 6, type: 1 ok 
+[13:37:15.007] [28393] [INFO ] [init:63]	INIT the processor: 7, type: 1 ok 
+[13:37:15.007] [28393] [INFO ] [init:234]	INIT task dispatcher done ! 
+[13:37:15.007] [28568] [INFO ] [operator():54]	task processor: 7 is running... 
+[13:37:15.007] [28568] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[13:37:15.007] [28567] [INFO ] [operator():54]	task processor: 6 is running... 
+[13:37:15.007] [28567] [INFO ] [popInviteeReadyTask:208]	to POP a ready task from ready invitee queue to processor, now read_num: 0 ... 
+[13:37:15.008] [28393] [INFO ] [init:64]	connect to busi proxy server endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[13:37:15.023] [28575] [INFO ] [connected:34]	to get session... 
+[13:37:15.023] [28575] [INFO ] [connected:38]	to get create busi node callback... 
+[13:37:15.023] [28575] [INFO ] [connected:46]	to set node callback, public endpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000, user: test005 ... 
+[13:37:15.024] [28575] [WARN ] [connected:55]	the busi session create success. 
+[13:37:15.514] [28393] [INFO ] [init:69]	waiting for node busi client inited ... timeout 1s.. 
+[13:37:15.514] [28393] [INFO ] [init:74]	the busi node communicator is prepared !!!! 
+[13:37:15.514] [28393] [INFO ] [init:86]	INIT busi node client success. user: test005, proxyEndpoint: ProxyGlacier2/router:tcp -h 202.114.114.46 -p 4502 -t 11000 
+[13:37:15.514] [28393] [INFO ] [init:244]	INIT busi node client done ! 
+[13:37:15.515] [28393] [INFO ] [init:48]	input ready process init ok. 
+[13:37:15.515] [28393] [INFO ] [init:253]	INIT input ready processor done ! 
+[13:37:15.515] [28393] [INFO ] [init:48]	ready process init ok. max request queue size: 4 
+[13:37:15.515] [28393] [INFO ] [init:263]	INIT ready processor done ! 
+[13:37:15.515] [28393] [INFO ] [init:269]	Mpc engine init success. 
+[13:37:15.515] [28393] [INFO ] [Java_com_juzix_jugo_node_jni_NativeInterface_setDataLogLevel:155]	init the log to level: 3, data log state: 0 
+[13:37:45.828] [28574] [WARN ] [MpcMemPool:42]	the mempool construction, size: 134217728, mem: 0x7f59a1f2d010 
+[13:37:45.903] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:45.904] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:45.912] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:45.916] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:46.814] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:46.987] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:47.057] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:47.068] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:47.686] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:47.848] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:48.030] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:48.063] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:48.590] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:48.735] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:49.024] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:49.053] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:49.491] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:49.614] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:49.919] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:49.952] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:50.427] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:50.473] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:50.740] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:50.845] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:51.323] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:51.336] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:51.560] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:51.790] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:52.110] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:52.239] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:52.431] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:52.680] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:53.103] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:53.198] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:53.267] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:53.614] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:53.943] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:54.152] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:54.226] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:54.453] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:54.864] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:54.991] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:55.094] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:55.354] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:55.746] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:55.848] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:55.988] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:56.183] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:56.667] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:56.795] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:56.847] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:57.127] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:57.550] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:57.737] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:57.738] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:57.971] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:58.398] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:58.615] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:58.685] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:58.820] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:59.290] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:59.508] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:59.542] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:37:59.668] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:00.142] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:00.328] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:00.458] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:00.553] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:01.007] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:01.264] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:01.266] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:01.389] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:02.025] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:02.151] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:02.176] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:02.251] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:02.930] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:02.970] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:03.063] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:03.114] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:03.817] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:03.828] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:03.929] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:03.987] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:04.650] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:04.714] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:04.751] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:04.823] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:05.438] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:05.567] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:05.568] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:05.714] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:06.281] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:06.387] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:06.459] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:06.601] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:07.090] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:07.344] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:07.399] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:38:07.484] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:42:51.620] [28567] [WARN ] [run:156]	no data for input !!!! 
+[13:42:51.620] [28567] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: bff59ebd-b135-4da0-adb4-f970de6a166a  
+[13:42:51.621] [28566] [WARN ] [run:156]	no data for input !!!! 
+[13:42:51.621] [28566] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: c351379a-f5c5-4025-b2d6-e7db381bcdf4  
+[13:42:51.626] [28565] [WARN ] [run:156]	no data for input !!!! 
+[13:42:51.626] [28565] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: d20086cf-c7d2-41a5-a1ea-dcc78c91f9fa  
+[13:42:51.631] [28568] [WARN ] [run:156]	no data for input !!!! 
+[13:42:51.631] [28568] [ERROR] [processMpcBusi:231]	MPC run failed ! taskID: 2ba3bfc7-7b29-44ff-9e06-c7a00a978981  
+[13:42:53.630] [28567] [WARN ] [processTask:148]	processor a MPC task: bff59ebd-b135-4da0-adb4-f970de6a166a Failed ! 
+[13:42:53.630] [28566] [WARN ] [processTask:148]	processor a MPC task: c351379a-f5c5-4025-b2d6-e7db381bcdf4 Failed ! 
+[13:42:53.635] [28565] [WARN ] [processTask:148]	processor a MPC task: d20086cf-c7d2-41a5-a1ea-dcc78c91f9fa Failed ! 
+[13:42:53.640] [28568] [WARN ] [processTask:148]	processor a MPC task: 2ba3bfc7-7b29-44ff-9e06-c7a00a978981 Failed ! 
+[13:47:21.185] [24225] [ERROR] [error:157]	got error busi back: 22349ea0-2335-4cd9-b7a5-b94599a04f33, code: 1007 
+[13:48:26.904] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:26.907] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:26.909] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:26.925] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:27.986] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:28.159] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:28.176] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:28.218] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:29.256] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:29.332] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:29.498] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:29.629] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:30.213] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:30.351] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:30.401] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:30.615] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:31.336] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:31.338] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:31.363] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:31.496] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:32.191] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:32.249] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:32.309] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:32.374] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:33.156] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:33.162] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:33.242] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:33.512] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:33.000] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:34.164] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:34.272] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:34.440] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:34.879] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:35.074] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:35.246] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:35.344] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:35.731] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:36.069] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:36.165] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:36.304] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:36.707] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:37.096] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:37.120] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:37.435] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:37.631] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:38.034] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:38.135] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:38.332] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:38.595] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:38.989] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:39.077] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:39.297] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:39.520] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:39.851] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:39.997] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:40.232] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:40.382] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:40.817] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:40.893] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:41.201] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:41.346] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:41.786] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:41.812] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:42.166] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:42.234] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:42.769] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:42.778] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:43.145] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:43.234] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:43.836] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:43.935] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:44.025] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:44.281] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:44.791] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:44.847] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:44.947] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:45.174] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:45.601] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:45.834] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:45.907] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:46.069] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:46.508] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:46.819] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:46.899] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:46.943] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:47.486] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:47.844] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:47.894] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:47.897] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:48.458] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:48.869] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:48.881] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:48.953] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:49.418] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:49.803] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:49.884] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:49.943] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:50.341] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:50.743] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:48:50.867] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:53:48.641] [26193] [ERROR] [error:157]	got error busi back: 6b2e6ac5-26cb-4cd7-95f3-8f3ad793c479, code: 1007 
+[13:53:48.647] [30758] [ERROR] [error:157]	got error busi back: 70330a65-d93a-43db-8237-0a56485612ed, code: 1007 
+[13:53:48.654] [26193] [ERROR] [error:157]	got error busi back: fb9a4c69-b2d5-4b90-b7e4-c5b2350767af, code: 1007 
+[13:53:48.660] [30758] [ERROR] [error:157]	got error busi back: a8767e9d-87e2-4457-ad09-82c1359f3c7a, code: 1007 
+[13:53:48.666] [26193] [ERROR] [error:157]	got error busi back: b80cf794-5363-43b3-bf30-68c0abecc682, code: 1007 
+[13:53:48.673] [30758] [ERROR] [error:157]	got error busi back: 8febf2bb-614e-4e04-8b57-38e602c7a2a9, code: 1007 
+[13:53:48.679] [26193] [ERROR] [error:157]	got error busi back: 6f1c8279-019e-4b43-8172-67d733408c80, code: 1007 
+[13:53:48.686] [30758] [ERROR] [error:157]	got error busi back: e8ba73c7-7bfb-498e-9e39-013a57932832, code: 1007 
+[13:53:48.692] [26193] [ERROR] [error:157]	got error busi back: a0d14dec-680b-41bb-9022-011f427a7eaa, code: 1007 
+[13:53:48.698] [30758] [ERROR] [error:157]	got error busi back: 954c35e6-5c58-45ea-a150-390ff8b0f0fc, code: 1007 
+[13:53:48.703] [26193] [ERROR] [error:157]	got error busi back: 65d0cd7d-315f-4819-9d44-2f2d1f0b8679, code: 1007 
+[13:53:48.709] [30758] [ERROR] [error:157]	got error busi back: 0515b4f5-108b-44cc-9cec-a3d84f0a1239, code: 1007 
+[13:53:48.715] [26193] [ERROR] [error:157]	got error busi back: ae69f4f5-3052-4d75-8e1f-e6d5e378e201, code: 1007 
+[13:53:48.720] [30758] [ERROR] [error:157]	got error busi back: 5a3adc1c-4c0f-4e66-98ca-3485c195f5f7, code: 1007 
+[13:53:48.726] [26193] [ERROR] [error:157]	got error busi back: 3c70d5ac-3389-4177-9db1-84363c0e106b, code: 1007 
+[13:53:48.731] [30758] [ERROR] [error:157]	got error busi back: bf39589f-839f-49d1-a2d9-a079547d5f56, code: 1007 
+[13:53:48.737] [26193] [ERROR] [error:157]	got error busi back: 8b9b3112-03e2-4fa4-9fd8-a6b300434329, code: 1007 
+[13:53:48.742] [30758] [ERROR] [error:157]	got error busi back: 0aaca994-5d32-443c-a312-a54e5ba0c191, code: 1007 
+[13:53:48.748] [26193] [ERROR] [error:157]	got error busi back: f4657242-4696-4d7a-9115-9072a94354e2, code: 1007 
+[13:53:48.756] [30758] [ERROR] [error:157]	got error busi back: 2764e135-52ff-40ca-99f4-bd448e612948, code: 1007 
+[13:53:48.763] [26193] [ERROR] [error:157]	got error busi back: 7c4d57ac-6d96-4c7f-8843-4d877c7107d4, code: 1007 
+[13:53:48.769] [30758] [ERROR] [error:157]	got error busi back: 09899fee-0c0c-4d40-a080-803011ac71fc, code: 1007 
+[13:53:48.774] [26193] [ERROR] [error:157]	got error busi back: 2652b7b5-3d25-4d7d-9914-31882369bade, code: 1007 
+[13:53:48.780] [30758] [ERROR] [error:157]	got error busi back: cf9f8857-cb75-4011-8214-9dc101597c85, code: 1007 
+[13:53:48.786] [26193] [ERROR] [error:157]	got error busi back: b8a2ab1f-45fc-4922-87b8-1ccd7cd889e7, code: 1007 
+[13:53:48.792] [30758] [ERROR] [error:157]	got error busi back: 8b9f8970-4cbc-486a-ba3c-3fab0c1ce464, code: 1007 
+[13:53:48.798] [26193] [ERROR] [error:157]	got error busi back: 68a7d0d1-64aa-475b-b41d-89956eedf026, code: 1007 
+[13:53:48.803] [30758] [ERROR] [error:157]	got error busi back: c4f2d409-26fd-4af8-b43f-13d534b22a60, code: 1007 
+[13:53:48.809] [26193] [ERROR] [error:157]	got error busi back: ec623c08-c951-49a7-a317-ada5e9b923e5, code: 1007 
+[13:53:48.814] [30758] [ERROR] [error:157]	got error busi back: ecb0cba0-ff2a-47b9-a8b6-b3ab0a4c5acf, code: 1007 
+[13:53:48.820] [26193] [ERROR] [error:157]	got error busi back: 65067876-29a3-47d3-81ac-eda2771e8aec, code: 1007 
+[13:53:48.824] [30758] [ERROR] [error:157]	got error busi back: 427d1883-8527-4985-bbcc-4ac757382c36, code: 1007 
+[13:53:48.829] [26193] [ERROR] [error:157]	got error busi back: d9d56a04-9915-4d2f-b400-eceab046ff24, code: 1007 
+[13:53:48.834] [30758] [ERROR] [error:157]	got error busi back: 7ce52cc0-4bda-4d43-9476-86ac639b4062, code: 1007 
+[13:53:48.839] [26193] [ERROR] [error:157]	got error busi back: f4be1b3e-71a1-437f-b900-625a3c9e3209, code: 1007 
+[13:53:48.846] [30758] [ERROR] [error:157]	got error busi back: 1b2fc0de-14a2-4f4c-84e5-c6459b35ccea, code: 1007 
+[13:53:48.851] [26193] [ERROR] [error:157]	got error busi back: 7f81e4c1-9c24-4689-9391-7d35a354f916, code: 1007 
+[13:53:48.856] [30758] [ERROR] [error:157]	got error busi back: 95fe8a18-7b14-4e32-8124-77d8e66be2be, code: 1007 
+[13:53:48.861] [26193] [ERROR] [error:157]	got error busi back: ad15134e-2fb8-4d72-9161-d22158d5f4be, code: 1007 
+[13:53:48.868] [30758] [ERROR] [error:157]	got error busi back: f151e78d-5c47-491c-8eec-31555937e04f, code: 1007 
+[13:53:48.873] [26193] [ERROR] [error:157]	got error busi back: 475754ca-ad72-44f8-b208-2ce3deb7a6b0, code: 1007 
+[13:53:48.880] [30758] [ERROR] [error:157]	got error busi back: a2ff0e37-02a7-4ae8-8a9c-47ccc4e59d5f, code: 1007 
+[13:53:48.886] [26193] [ERROR] [error:157]	got error busi back: 38b38a40-e957-4d86-863b-077c454df5cd, code: 1007 
+[13:53:48.892] [30758] [ERROR] [error:157]	got error busi back: 72c9fccb-5327-40f0-846a-ecd5e094cf65, code: 1007 
+[13:53:48.897] [26193] [ERROR] [error:157]	got error busi back: d557cf0b-a143-4282-9078-46b1237c36e5, code: 1007 
+[13:53:48.903] [30758] [ERROR] [error:157]	got error busi back: 6ef63bae-05df-4063-aff0-17dc6e16bc0f, code: 1007 
+[13:53:48.909] [26193] [ERROR] [error:157]	got error busi back: a519d831-821b-4bd8-bd17-deb938d634f7, code: 1007 
+[13:53:48.917] [30758] [ERROR] [error:157]	got error busi back: 648767ba-672c-48b7-a98f-6f44b5459a51, code: 1007 
+[13:53:48.923] [26193] [ERROR] [error:157]	got error busi back: 67cbc25d-5129-4925-841e-60b62761455b, code: 1007 
+[13:53:48.931] [30758] [ERROR] [error:157]	got error busi back: 938839f0-27a9-4d38-8ec3-66edbc98d52c, code: 1007 
+[13:53:48.938] [26193] [ERROR] [error:157]	got error busi back: 0eb18384-8338-412f-b04f-82f7aeafb9b0, code: 1007 
+[13:53:48.943] [30758] [ERROR] [error:157]	got error busi back: 8f269e76-9007-4461-8059-fb0f518784a4, code: 1007 
+[13:53:48.948] [26193] [ERROR] [error:157]	got error busi back: 05f09f01-154a-4abd-b119-44c188b10efe, code: 1007 
+[13:53:48.958] [30758] [ERROR] [error:157]	got error busi back: 32d1920c-0179-4f71-8ba7-37c68824c8b8, code: 1007 
+[13:53:48.962] [26193] [ERROR] [error:157]	got error busi back: 916d8d5c-6e6a-46d3-9441-ee7971104f4c, code: 1007 
+[13:53:48.967] [30758] [ERROR] [error:157]	got error busi back: b75ce889-1aee-4a47-965c-84821696d56e, code: 1007 
+[13:53:48.973] [26193] [ERROR] [error:157]	got error busi back: de6bd23f-af51-4210-ab62-77f259fce197, code: 1007 
+[13:53:48.977] [30758] [ERROR] [error:157]	got error busi back: 43ed7316-30c5-483c-a8fc-42fabd15a75d, code: 1007 
+[13:53:48.981] [26193] [ERROR] [error:157]	got error busi back: 1634c36e-70d9-43bb-b160-9df4a7f9dc06, code: 1007 
+[13:53:48.986] [30758] [ERROR] [error:157]	got error busi back: 896de05b-1068-4f9c-b2a1-2064119c36fd, code: 1007 
+[13:58:46.699] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:46.709] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:46.711] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:46.729] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:47.588] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:47.726] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:47.788] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:47.813] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:48.491] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:48.562] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:48.784] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:48.789] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:49.395] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:49.467] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:49.640] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:49.732] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:50.235] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:50.336] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:50.595] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:50.635] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:51.174] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:51.295] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:51.618] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:51.640] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:52.049] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:52.195] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:52.513] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:52.598] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:52.904] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:53.098] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:53.537] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:53.540] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:53.893] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:54.030] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:54.550] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:54.610] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:54.819] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:54.952] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:55.376] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:55.509] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:55.722] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:55.901] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:56.338] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:56.399] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:56.607] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:56.827] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:57.243] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:57.368] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:57.520] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:57.685] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:58.116] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:58.449] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:58.488] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:58.574] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:58.990] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:59.337] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:59.496] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:59.520] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:58:59.936] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:00.256] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:00.463] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:00.579] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:00.879] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:01.158] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:01.435] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:01.575] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:01.841] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:02.111] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:02.349] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:02.577] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:02.685] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:03.014] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:03.254] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:03.407] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:03.583] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:03.944] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:04.129] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:04.315] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:04.555] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:04.902] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:04.963] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:05.297] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:05.426] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:05.860] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:05.872] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:06.193] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:06.315] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:06.747] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:06.798] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:07.067] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:07.227] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:07.674] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:07.735] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:07.898] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:08.189] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:08.566] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:08.702] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:08.929] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:09.021] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[13:59:09.462] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:26.772] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:26.773] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:26.786] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:26.791] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:26.929] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:27.608] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:27.644] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:27.708] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:27.817] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:28.497] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:28.523] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:28.569] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:28.635] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:29.301] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:29.387] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:29.411] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:29.534] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:30.088] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:30.207] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:30.334] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:30.446] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:30.958] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:31.016] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:31.240] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:31.328] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:31.815] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:31.880] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:32.160] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:32.195] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:32.732] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:32.762] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:33.169] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:33.190] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:33.596] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:33.622] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:34.020] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:34.081] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:34.486] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:34.526] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:34.842] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:34.990] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:35.422] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:35.487] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:35.845] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:35.942] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:36.345] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:36.432] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:36.765] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:36.918] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:37.197] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:37.345] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:37.670] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:37.809] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:38.052] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:38.266] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:38.633] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:38.727] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:38.962] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:39.170] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:39.557] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:39.588] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:39.803] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:40.107] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:40.457] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:40.539] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:40.620] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:41.026] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:41.298] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:41.516] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:41.550] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:41.928] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:42.190] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:42.391] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:42.549] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:42.752] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:43.092] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:43.287] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:43.446] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:43.859] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:44.165] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:44.539] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:44.679] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:44.967] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:45.272] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:45.529] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:45.693] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:45.950] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:46.543] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:46.664] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:46.668] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:47.046] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:47.639] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:47.874] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:47.987] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:48.001] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:48.720] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:49.009] [28565] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:49.405] [28567] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:49.477] [28568] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:11:50.042] [28566] [ERROR] [consumeBuffer:363]	====> the first buffer seq: 1 
+[14:12:45.309] [3584 ] [WARN ] [~MpcMemPool:48]	the mempool is freed! 
